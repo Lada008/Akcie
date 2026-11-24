@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T12:34:32Z",
+  "updatedAt": "2026-11-24T13:41:13Z",
   "source": "Yahoo Finance + RSS zprávy (denní aktualizace)",
   "marketNews": [
     {
@@ -33,6 +33,7 @@
       "name": "Apple Inc.",
       "currency": "USD",
       "sector": "Technologie",
+      "assetType": "STOCK",
       "history": [
         {
           "date": "2026-05-26",
@@ -545,23 +546,23 @@
       ],
       "news": [
         {
+          "title": "Jensen Huang's return revives an old Wall Street trade: Bet on the comeback CEO",
+          "link": "https://finance.yahoo.com/markets/article/jensen-huangs-return-revives-an-old-wall-street-trade-bet-on-the-comeback-ceo-124308005.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T12:43:08Z",
+          "source": "Yahoo Finance",
+          "symbol": "AAPL"
+        },
+        {
+          "title": "Can Wearables & Mac Revenues Add Fresh Momentum to Apple Stock Ahead?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/wearables-mac-revenues-add-fresh-122900624.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T12:29:00Z",
+          "source": "Yahoo Finance",
+          "symbol": "AAPL"
+        },
+        {
           "title": "Nvidia Regains Nearly $1 Trillion in Value -- Apple Still Holds the Top Spot",
           "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-regains-nearly-1-trillion-120207012.html?.tsrc=rss",
           "publishedAt": "2026-11-24T12:02:07Z",
-          "source": "Yahoo Finance",
-          "symbol": "AAPL"
-        },
-        {
-          "title": "Invesco NASDAQ 100 ETF (QQQM) Adds Apple and Microsoft on Friday",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-nasdaq-100-etf-qqqm-110444816.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T11:04:44Z",
-          "source": "Yahoo Finance",
-          "symbol": "AAPL"
-        },
-        {
-          "title": "iShares Russell 1000 Growth (IWF) Buys $22.7 Million More Apple on Nov. 20",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-1000-growth-iwf-110440903.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T11:04:40Z",
           "source": "Yahoo Finance",
           "symbol": "AAPL"
         }
@@ -572,6 +573,7 @@
       "name": "Microsoft Corp.",
       "currency": "USD",
       "sector": "Technologie",
+      "assetType": "STOCK",
       "history": [
         {
           "date": "2026-05-26",
@@ -1084,23 +1086,23 @@
       ],
       "news": [
         {
-          "title": "Anthropic’s Frenemy Squeeze: Pledging Up to $49B to Microsoft While Building Its Own Landlord Escape Hatch",
-          "link": "https://247wallst.com/investing/2026/11/24/anthropics-frenemy-squeeze-pledging-up-to-49b-to-microsoft-while-building-its-own-landlord-escape-hatch/?.tsrc=rss",
-          "publishedAt": "2026-11-24T12:15:31Z",
+          "title": "Microsoft Stock Jumps In Nvidia-Fueled Tech Surge; Is Microsoft A Buy Now?",
+          "link": "https://finance.yahoo.com/m/47e21d96-b242-3f68-9ea6-fbc095bafba1/microsoft-stock-jumps-in.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T13:01:35Z",
           "source": "Yahoo Finance",
           "symbol": "MSFT"
         },
         {
-          "title": "Not Apple. Not Microsoft. This Is the \"Magnificent Seven\" Stock I’d Buy for a 10-Year Hold.",
-          "link": "https://www.fool.com/investing/2026/11/24/not-apple-not-microsoft-this-is-the-magnificent-seven-stock-id-buy-for-a-10-year-hold/?.tsrc=rss",
-          "publishedAt": "2026-11-24T12:02:01Z",
+          "title": "RAAPID Recognized in the 2026 Microsoft Partner of the Year Awards for Microsoft for Startups",
+          "link": "https://finance.yahoo.com/technology/ai/articles/raapid-recognized-2026-microsoft-partner-130000464.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T13:00:00Z",
           "source": "Yahoo Finance",
           "symbol": "MSFT"
         },
         {
-          "title": "Invesco NASDAQ 100 ETF (QQQM) Adds Apple and Microsoft on Friday",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-nasdaq-100-etf-qqqm-110444816.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T11:04:44Z",
+          "title": "Cloud AI Update - Audi Integrates Cutting-Edge AI for In-Car Microsoft Access",
+          "link": "https://finance.yahoo.com/technology/ai/articles/cloud-ai-audi-integrates-cutting-123730181.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T12:37:30Z",
           "source": "Yahoo Finance",
           "symbol": "MSFT"
         }
@@ -1111,6 +1113,7 @@
       "name": "NVIDIA Corp.",
       "currency": "USD",
       "sector": "Polovodiče",
+      "assetType": "STOCK",
       "history": [
         {
           "date": "2026-05-26",
@@ -1623,23 +1626,23 @@
       ],
       "news": [
         {
-          "title": "Anthropic Falls Below IPO Price. The Threat Wasn’t Nvidia, It Came From Inside",
-          "link": "https://beincrypto.com/anthropic-stock-below-ipo-price-employees/?.tsrc=rss",
-          "publishedAt": "2026-11-24T12:28:10Z",
+          "title": "Huang's return at Nvidia puts spotlight on chipmaker's board",
+          "link": "https://www.cbsnews.com/news/nvidia-board-reinstates-ceo-jensen-huang/?.tsrc=rss",
+          "publishedAt": "2026-11-24T13:35:58Z",
           "source": "Yahoo Finance",
           "symbol": "NVDA"
         },
         {
-          "title": "Premarket movers: Nvidia slips; HPE, Semtech fall",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-nvidia-slips-hpe-122424595.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T12:24:24Z",
+          "title": "Nasdaq Futures Fall as Questions Linger Over AI Trade",
+          "link": "https://www.wsj.com/finance/stocks/nasdaq-futures-fall-as-questions-linger-over-ai-trade-68ba6d71?.tsrc=rss",
+          "publishedAt": "2026-11-24T13:28:00Z",
           "source": "Yahoo Finance",
           "symbol": "NVDA"
         },
         {
-          "title": "NVIDIA Added About $1 Trillion in Minutes on Huang’s Return. Where Does the Price Target Go Now?",
-          "link": "https://247wallst.com/investing/2026/11/24/nvidia-added-about-1-trillion-in-minutes-on-huangs-return-where-does-the-price-target-go-now/?.tsrc=rss",
-          "publishedAt": "2026-11-24T12:17:32Z",
+          "title": "Nvidia Fuels Crypto Relief Rally as SUI and HBAR Jump 6%",
+          "link": "https://www.ccn.com/news/crypto/nvidia-crypto-relief-rally-sui-hbar/?.tsrc=rss",
+          "publishedAt": "2026-11-24T13:27:15Z",
           "source": "Yahoo Finance",
           "symbol": "NVDA"
         }
@@ -1650,6 +1653,7 @@
       "name": "Alphabet Inc.",
       "currency": "USD",
       "sector": "Technologie",
+      "assetType": "STOCK",
       "history": [
         {
           "date": "2026-05-26",
@@ -2169,16 +2173,16 @@
           "symbol": "GOOGL"
         },
         {
-          "title": "Elon Musk Reportedly Told Staff SpaceX Is Falling Behind in AI",
-          "link": "https://247wallst.com/investing/2026/11/24/elon-musk-reportedly-told-staff-spacex-is-falling-behind-in-ai/?.tsrc=rss",
-          "publishedAt": "2026-11-24T12:22:13Z",
+          "title": "Fortune Announces Speakers and Partners for Brainstorm AI 2026 in San Francisco Dec. 7 and 8",
+          "link": "https://finance.yahoo.com/technology/ai/articles/fortune-announces-speakers-partners-brainstorm-130000069.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T13:00:00Z",
           "source": "Yahoo Finance",
           "symbol": "GOOGL"
         },
         {
-          "title": "OpenAI’s Greg Brockman: “The World Is Not Building Enough Compute.” Wall Street Just Stopped Raising Capex Forecasts",
-          "link": "https://www.tikr.com/blog/openais-greg-brockman-the-world-is-not-building-enough-compute-wall-street-just-stopped-raising-capex-forecasts?ref=yahoofinance&tlnk=yf-261124-777pg8fq&.tsrc=rss",
-          "publishedAt": "2026-11-24T12:05:04Z",
+          "title": "Cloud AI Update - Audi Integrates Cutting-Edge AI for In-Car Microsoft Access",
+          "link": "https://finance.yahoo.com/technology/ai/articles/cloud-ai-audi-integrates-cutting-123730181.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T12:37:30Z",
           "source": "Yahoo Finance",
           "symbol": "GOOGL"
         }
@@ -2189,6 +2193,7 @@
       "name": "Amazon.com Inc.",
       "currency": "USD",
       "sector": "E-commerce",
+      "assetType": "STOCK",
       "history": [
         {
           "date": "2026-05-26",
@@ -2701,6 +2706,13 @@
       ],
       "news": [
         {
+          "title": "Amazon To Pull Unauthorized Victoria's Secret Listings On Thanksgiving",
+          "link": "https://www.mediapost.com/publications/article/419642/amazon-to-pull-unauthorized-victorias-secret-list.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T13:00:00Z",
+          "source": "Yahoo Finance",
+          "symbol": "AMZN"
+        },
+        {
           "title": "ZonPrep Announces Las Vegas Facility, Expanding Its Amazon Supply Chain Network West",
           "link": "https://finance.yahoo.com/small-business/articles/zonprep-announces-las-vegas-facility-122000834.html?.tsrc=rss",
           "publishedAt": "2026-11-24T12:20:00Z",
@@ -2713,13 +2725,6 @@
           "publishedAt": "2026-11-24T12:15:31Z",
           "source": "Yahoo Finance",
           "symbol": "AMZN"
-        },
-        {
-          "title": "ARK Autonomous Tech & Robotics (ARKQ) Buys $214.9 Million More Tesla on Nov. 20",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ark-autonomous-tech-robotics-arkq-110308252.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T11:03:08Z",
-          "source": "Yahoo Finance",
-          "symbol": "AMZN"
         }
       ]
     },
@@ -2728,6 +2733,7 @@
       "name": "Meta Platforms Inc.",
       "currency": "USD",
       "sector": "Technologie",
+      "assetType": "STOCK",
       "history": [
         {
           "date": "2026-05-26",
@@ -3267,6 +3273,7 @@
       "name": "Tesla Inc.",
       "currency": "USD",
       "sector": "Automobilový průmysl",
+      "assetType": "STOCK",
       "history": [
         {
           "date": "2026-05-26",
@@ -3779,23 +3786,23 @@
       ],
       "news": [
         {
+          "title": "What Made Tesla Stock Jump On Monday?",
+          "link": "https://www.trefis.com/stock/tsla/articles/628598/what-made-tesla-stock-jump-on-monday/2026-11-24?.tsrc=rss",
+          "publishedAt": "2026-11-24T13:12:42Z",
+          "source": "Yahoo Finance",
+          "symbol": "TSLA"
+        },
+        {
+          "title": "Musk Targets Starlink in All Tesla Models “Towards the End of Next Year.” China Is the Catch",
+          "link": "https://www.tikr.com/blog/musk-targets-starlink-in-all-tesla-models-towards-the-end-of-next-year-china-is-the-catch?ref=yahoofinance&tlnk=yf-261124-6mvwx5h6&.tsrc=rss",
+          "publishedAt": "2026-11-24T12:20:33Z",
+          "source": "Yahoo Finance",
+          "symbol": "TSLA"
+        },
+        {
           "title": "Tesla, SpaceX Name Five Directors for Potential $3.5 Trillion Merger",
           "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-spacex-name-five-directors-120918069.html?.tsrc=rss",
           "publishedAt": "2026-11-24T12:09:18Z",
-          "source": "Yahoo Finance",
-          "symbol": "TSLA"
-        },
-        {
-          "title": "Tesla Jumped 11% on FSD v15. Wall Street Still Sees $418",
-          "link": "https://www.tikr.com/blog/tesla-jumped-11-on-fsd-v15-wall-street-still-sees-418?ref=yahoofinance&tlnk=yf-261124-55wvcq4q&.tsrc=rss",
-          "publishedAt": "2026-11-24T11:55:56Z",
-          "source": "Yahoo Finance",
-          "symbol": "TSLA"
-        },
-        {
-          "title": "SpaceX and Tesla Directors Hold Talks Over Potential US$3.5 Trillion Merger",
-          "link": "https://investorshub.advfn.com/market-news/article/40597/spacex-and-tesla-directors-hold-talks-over-potential-us3-5-trillion-merger?.tsrc=rss",
-          "publishedAt": "2026-11-24T11:19:30Z",
           "source": "Yahoo Finance",
           "symbol": "TSLA"
         }
@@ -3806,6 +3813,7 @@
       "name": "Advanced Micro Devices",
       "currency": "USD",
       "sector": "Polovodiče",
+      "assetType": "STOCK",
       "history": [
         {
           "date": "2026-05-26",
@@ -4318,23 +4326,23 @@
       ],
       "news": [
         {
-          "title": "A 337 Million Reason Why AMD Stock In Focus Today",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/337-million-reason-why-amd-120802014.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T12:08:02Z",
+          "title": "Jensen Huang is back at Nvidia. Should AMD be worried?",
+          "link": "https://finance.yahoo.com/markets/stocks/article/jensen-huang-is-back-at-nvidia-should-amd-be-worried-130012666.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T13:00:12Z",
           "source": "Yahoo Finance",
           "symbol": "AMD"
         },
         {
-          "title": "iShares PHLX SOX Semiconductor (SOXX) Adds AMD and AVGO on Nov. 20",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-phlx-sox-semiconductor-soxx-110302788.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T11:03:02Z",
+          "title": "Stock Market Today: Tech Futures Sell Off After Big Market Surge; AMD, Anthropic, Nvidia Dive (Live Coverage)",
+          "link": "https://finance.yahoo.com/m/4aa4ff31-269f-346e-80c4-e681510af7ae/stock-market-today%3A-tech.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T13:07:59Z",
           "source": "Yahoo Finance",
           "symbol": "AMD"
         },
         {
-          "title": "ETFs Are Buying Advanced Micro Devices (AMD) on Friday",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-advanced-micro-devices-110118985.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T11:01:18Z",
+          "title": "Billionaire Philippe Laffont of Coatue Management Sent AMD Shares Packing and Loaded Up on This Hot AI IPO Instead",
+          "link": "https://www.fool.com/investing/2026/11/24/billionaire-philippe-laffont-coatue-sent-amd-shares-packing-loaded-up-hot-ai-ipo-instead/?.tsrc=rss",
+          "publishedAt": "2026-11-24T12:26:02Z",
           "source": "Yahoo Finance",
           "symbol": "AMD"
         }
@@ -4345,6 +4353,7 @@
       "name": "Intel Corp.",
       "currency": "USD",
       "sector": "Polovodiče",
+      "assetType": "STOCK",
       "history": [
         {
           "date": "2026-05-26",
@@ -4864,16 +4873,16 @@
           "symbol": "INTC"
         },
         {
-          "title": "Intel Is Up 73% in a Year Despite Its October Crash. CEO Lip-Bu Tan: “I Just Cannot Supply Enough”",
-          "link": "https://www.tikr.com/blog/intel-is-up-70-in-a-year-despite-its-october-crash-ceo-lip-bu-tan-i-just-cannot-supply-enough?ref=yahoofinance&tlnk=yf-261124-43mcc74v&.tsrc=rss",
-          "publishedAt": "2026-11-24T11:35:46Z",
+          "title": "Intel Gains From Strong Operating Margin Growth: Will it Last?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-gains-strong-operating-margin-121100195.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T12:11:00Z",
           "source": "Yahoo Finance",
           "symbol": "INTC"
         },
         {
-          "title": "Nvidia, Anthropic, Intel, HPE, Sanofi, and More Stocks That Explain Today’s Market",
-          "link": "https://finance.yahoo.com/m/f7fa0ed2-2c68-3b80-9261-c35639090d03/nvidia%2C-anthropic%2C-intel%2C.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T11:21:00Z",
+          "title": "Intel Is Up 73% in a Year Despite Its October Crash. CEO Lip-Bu Tan: “I Just Cannot Supply Enough”",
+          "link": "https://www.tikr.com/blog/intel-is-up-70-in-a-year-despite-its-october-crash-ceo-lip-bu-tan-i-just-cannot-supply-enough?ref=yahoofinance&tlnk=yf-261124-43mcc74v&.tsrc=rss",
+          "publishedAt": "2026-11-24T11:35:46Z",
           "source": "Yahoo Finance",
           "symbol": "INTC"
         }
@@ -4884,6 +4893,7 @@
       "name": "Netflix Inc.",
       "currency": "USD",
       "sector": "Média a streaming",
+      "assetType": "STOCK",
       "history": [
         {
           "date": "2026-05-26",
@@ -5423,6 +5433,7 @@
       "name": "JPMorgan Chase & Co.",
       "currency": "USD",
       "sector": "Finance",
+      "assetType": "STOCK",
       "history": [
         {
           "date": "2026-05-26",
@@ -5942,16 +5953,16 @@
           "symbol": "JPM"
         },
         {
-          "title": "META Stock Is Down 24% From Peak: JPMorgan Sees ‘Attractive Buying Opportunity’ — But 2027 Spending, Capex Remain An Overhang",
-          "link": "https://stocktwits.com/news-articles/markets/equity/meta-stock-is-down-24-from-peak-jp-morgan-sees-attractive-buying-opportunity-but-2027-spending-capex-remain-an-overhang/cNbsIWZR9ki?.tsrc=rss",
-          "publishedAt": "2026-11-24T12:08:52Z",
+          "title": "JPMorgan Treasury survey shows neutral positioning ahead of PCE data",
+          "link": "https://finance.yahoo.com/markets/options/articles/jpmorgan-treasury-survey-shows-neutral-132259516.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T13:22:59Z",
           "source": "Yahoo Finance",
           "symbol": "JPM"
         },
         {
-          "title": "JPMorgan Announces Cash Distributions for the JPMorgan ETFs",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-announces-cash-distributions-jpmorgan-120000539.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T12:00:00Z",
+          "title": "JPMorgan and Bank of America Just Sold Off. One Looks Better for Retirees",
+          "link": "https://247wallst.com/investing/2026/11/24/jpmorgan-and-bank-of-america-just-sold-off-one-looks-better-for-retirees/?.tsrc=rss",
+          "publishedAt": "2026-11-24T13:17:50Z",
           "source": "Yahoo Finance",
           "symbol": "JPM"
         }
@@ -5962,6 +5973,7 @@
       "name": "Visa Inc.",
       "currency": "USD",
       "sector": "Finance",
+      "assetType": "STOCK",
       "history": [
         {
           "date": "2026-05-26",
@@ -6501,6 +6513,7 @@
       "name": "Berkshire Hathaway B",
       "currency": "USD",
       "sector": "Konglomerát",
+      "assetType": "STOCK",
       "history": [
         {
           "date": "2026-05-26",
@@ -7040,6 +7053,7 @@
       "name": "Johnson & Johnson",
       "currency": "USD",
       "sector": "Zdravotnictví",
+      "assetType": "STOCK",
       "history": [
         {
           "date": "2026-05-26",
@@ -7552,6 +7566,13 @@
       ],
       "news": [
         {
+          "title": "Can Tremfya, Icotyde and Imaavy Drive J&J's Immunology Turnaround?",
+          "link": "https://finance.yahoo.com/healthcare/articles/tremfya-icotyde-imaavy-drive-j-123200215.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T12:32:00Z",
+          "source": "Yahoo Finance",
+          "symbol": "JNJ"
+        },
+        {
           "title": "State Street Health Care SPDR (XLV) Sells Eli Lilly and J&J on Friday",
           "link": "https://finance.yahoo.com/healthcare/articles/state-street-health-care-spdr-110402940.html?.tsrc=rss",
           "publishedAt": "2026-11-24T11:04:02Z",
@@ -7564,13 +7585,6 @@
           "publishedAt": "2026-11-23T22:02:04Z",
           "source": "Yahoo Finance",
           "symbol": "JNJ"
-        },
-        {
-          "title": "Here's the 1 Stock I'd Most Want to Buy If the Market Crashes",
-          "link": "https://www.fool.com/investing/2026/11/23/heres-the-1-stock-id-most-want-to-buy-if-the-market-crashes/?.tsrc=rss",
-          "publishedAt": "2026-11-23T19:20:02Z",
-          "source": "Yahoo Finance",
-          "symbol": "JNJ"
         }
       ]
     },
@@ -7579,6 +7593,7 @@
       "name": "UnitedHealth Group",
       "currency": "USD",
       "sector": "Zdravotnictví",
+      "assetType": "STOCK",
       "history": [
         {
           "date": "2026-05-26",
@@ -8091,6 +8106,13 @@
       ],
       "news": [
         {
+          "title": "Own Humana Stock? Its Profit Cushion Is The Thinnest",
+          "link": "https://www.trefis.com/stock/unh/articles/628256/own-humana-stock-its-profit-cushion-is-the-thinnest/2026-11-24?.tsrc=rss",
+          "publishedAt": "2026-11-24T13:03:08Z",
+          "source": "Yahoo Finance",
+          "symbol": "UNH"
+        },
+        {
           "title": "UnitedHealth Sues Trump’s Medicare Agency Over Star Ratings. Stephanie Link Calls It “Number One on Sale”",
           "link": "https://www.tikr.com/blog/unitedhealth-sues-trumps-medicare-agency-over-star-ratings-stephanie-link-calls-it-number-one-on-sale?ref=yahoofinance&tlnk=yf-261124-v443284m&.tsrc=rss",
           "publishedAt": "2026-11-24T09:20:45Z",
@@ -8103,13 +8125,6 @@
           "publishedAt": "2026-11-23T23:23:28Z",
           "source": "Yahoo Finance",
           "symbol": "UNH"
-        },
-        {
-          "title": "Not Good: Medicare Proposes $107 Billion in Bonus Cuts. That’s a Big Risk for UnitedHealth and Humana",
-          "link": "https://www.tikr.com/blog/not-good-medicare-proposes-107-billion-in-bonus-cuts-thats-a-big-risk-for-unitedhealth-and-humana?ref=yahoofinance&tlnk=yf-261123-2phpfq43&.tsrc=rss",
-          "publishedAt": "2026-11-23T21:35:40Z",
-          "source": "Yahoo Finance",
-          "symbol": "UNH"
         }
       ]
     },
@@ -8118,6 +8133,7 @@
       "name": "The Coca-Cola Co.",
       "currency": "USD",
       "sector": "Spotřební zboží",
+      "assetType": "STOCK",
       "history": [
         {
           "date": "2026-05-26",
@@ -8657,6 +8673,7 @@
       "name": "Walmart Inc.",
       "currency": "USD",
       "sector": "Maloobchod",
+      "assetType": "STOCK",
       "history": [
         {
           "date": "2026-05-26",
@@ -9169,23 +9186,23 @@
       ],
       "news": [
         {
-          "title": "First Trust Alerian NextGen Infra (FTQI) Buys $22 Million More Walmart on Nov. 20",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/first-trust-alerian-nextgen-infra-110348918.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T11:03:48Z",
+          "title": "Walmart Raised Its Outlook and the Stock Fell Anyway. Here’s the New Price Target",
+          "link": "https://247wallst.com/investing/2026/11/24/walmart-raised-its-outlook-and-the-stock-fell-anyway-heres-the-new-price-target/?.tsrc=rss",
+          "publishedAt": "2026-11-24T13:17:42Z",
           "source": "Yahoo Finance",
           "symbol": "WMT"
         },
         {
-          "title": "ETFs Are Buying Walmart (WMT) on Nov. 20",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-walmart-wmt-nov-110151407.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T11:01:51Z",
+          "title": "Walmart Leadership to Participate in Upcoming Investor Events",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-leadership-participate-upcoming-investor-130000815.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T13:00:00Z",
           "source": "Yahoo Finance",
           "symbol": "WMT"
         },
         {
-          "title": "Walmart Just Raised Its Outlook Again. 3 Numbers Show Why Its Scale Advantage Keeps Growing.",
-          "link": "https://www.fool.com/investing/2026/11/24/walmart-raised-its-outlook-again-3-numbers-show-why-its-scale-advantage-keeps-growing/?.tsrc=rss",
-          "publishedAt": "2026-11-24T10:40:02Z",
+          "title": "Walmart Is Near Its High. Guggenheim Sees More Upside",
+          "link": "https://www.tikr.com/blog/walmart-is-near-its-high-guggenheim-sees-more-upside?ref=yahoofinance&tlnk=yf-261124-hv8f3p23&.tsrc=rss",
+          "publishedAt": "2026-11-24T12:58:41Z",
           "source": "Yahoo Finance",
           "symbol": "WMT"
         }
@@ -9196,6 +9213,7 @@
       "name": "Exxon Mobil Corp.",
       "currency": "USD",
       "sector": "Energetika",
+      "assetType": "STOCK",
       "history": [
         {
           "date": "2026-05-26",
@@ -9735,6 +9753,7 @@
       "name": "ČEZ, a. s.",
       "currency": "CZK",
       "sector": "Energetika",
+      "assetType": "STOCK",
       "history": [
         {
           "date": "2026-05-25",
@@ -10246,28 +10265,28 @@
         },
         {
           "date": "2026-11-24",
-          "close": 1338.0
+          "close": 1339.0
         }
       ],
       "news": [
         {
+          "title": "Vicat shares rise as J.P. Morgan flags European cement pricing potential",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/vicat-shares-rise-j-p-131618301.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T13:16:18Z",
+          "source": "Yahoo Finance",
+          "symbol": "CEZ.PR"
+        },
+        {
+          "title": "European cement makers poised for price gains as costs climb, J.P. Morgan says",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/european-cement-makers-poised-price-131258529.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T13:12:58Z",
+          "source": "Yahoo Finance",
+          "symbol": "CEZ.PR"
+        },
+        {
           "title": "Nexi (BIT:NEXI) Stock May Be Near Fair Value On 65% Slump",
           "link": "https://finance.yahoo.com/markets/stocks/articles/nexi-bit-nexi-stock-may-121614648.html?.tsrc=rss",
           "publishedAt": "2026-11-24T12:16:14Z",
-          "source": "Yahoo Finance",
-          "symbol": "CEZ.PR"
-        },
-        {
-          "title": "Wienerberger (WBAG:WIE) Could Be 19% Undervalued As Earnings And CEO Change Reset Views",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/wienerberger-wbag-wie-could-19-121146535.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T12:11:46Z",
-          "source": "Yahoo Finance",
-          "symbol": "CEZ.PR"
-        },
-        {
-          "title": "Bekaert (ENXTBR:BEKB) Stock Still Looks Undervalued As Its 30% 5 Year Gain Continues",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/bekaert-enxtbr-bekb-stock-still-081317662.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T08:13:17Z",
           "source": "Yahoo Finance",
           "symbol": "CEZ.PR"
         }
@@ -10278,6 +10297,7 @@
       "name": "Komerční banka, a. s.",
       "currency": "CZK",
       "sector": "Finance",
+      "assetType": "STOCK",
       "history": [
         {
           "date": "2026-05-25",
@@ -10789,7 +10809,7 @@
         },
         {
           "date": "2026-11-24",
-          "close": 1005.0
+          "close": 1006.0
         }
       ],
       "news": [
@@ -10821,6 +10841,7 @@
       "name": "MONETA Money Bank",
       "currency": "CZK",
       "sector": "Finance",
+      "assetType": "STOCK",
       "history": [
         {
           "date": "2026-05-25",
@@ -11332,7 +11353,7 @@
         },
         {
           "date": "2026-11-24",
-          "close": 181.3
+          "close": 181.5
         }
       ],
       "news": [
@@ -11364,6 +11385,7 @@
       "name": "ASML Holding N.V.",
       "currency": "USD",
       "sector": "Polovodiče (EU)",
+      "assetType": "STOCK",
       "history": [
         {
           "date": "2026-05-26",
@@ -11903,6 +11925,7 @@
       "name": "SAP SE",
       "currency": "USD",
       "sector": "Technologie (EU)",
+      "assetType": "STOCK",
       "history": [
         {
           "date": "2026-05-26",
@@ -12437,11 +12460,1626 @@
         }
       ]
     },
+    "VWCE.DE": {
+      "symbol": "VWCE.DE",
+      "name": "Vanguard FTSE All-World UCITS ETF",
+      "currency": "EUR",
+      "sector": "ETF · Celý svět",
+      "assetType": "ETF",
+      "history": [
+        {
+          "date": "2026-05-25",
+          "close": 162.78
+        },
+        {
+          "date": "2026-05-26",
+          "close": 162.58
+        },
+        {
+          "date": "2026-05-27",
+          "close": 162.2
+        },
+        {
+          "date": "2026-05-28",
+          "close": 162.82
+        },
+        {
+          "date": "2026-05-29",
+          "close": 163.16
+        },
+        {
+          "date": "2026-06-01",
+          "close": 163.92
+        },
+        {
+          "date": "2026-06-02",
+          "close": 164.88
+        },
+        {
+          "date": "2026-06-03",
+          "close": 164.14
+        },
+        {
+          "date": "2026-06-04",
+          "close": 163.8
+        },
+        {
+          "date": "2026-06-05",
+          "close": 162.36
+        },
+        {
+          "date": "2026-06-08",
+          "close": 161.56
+        },
+        {
+          "date": "2026-06-09",
+          "close": 159.5
+        },
+        {
+          "date": "2026-06-10",
+          "close": 159.24
+        },
+        {
+          "date": "2026-06-11",
+          "close": 159.56
+        },
+        {
+          "date": "2026-06-12",
+          "close": 162.46
+        },
+        {
+          "date": "2026-06-15",
+          "close": 164.6
+        },
+        {
+          "date": "2026-06-16",
+          "close": 164.16
+        },
+        {
+          "date": "2026-06-17",
+          "close": 164.64
+        },
+        {
+          "date": "2026-06-18",
+          "close": 165.46
+        },
+        {
+          "date": "2026-06-19",
+          "close": 165.44
+        },
+        {
+          "date": "2026-06-22",
+          "close": 166.04
+        },
+        {
+          "date": "2026-06-23",
+          "close": 163.92
+        },
+        {
+          "date": "2026-06-24",
+          "close": 164.8
+        },
+        {
+          "date": "2026-06-25",
+          "close": 164.2
+        },
+        {
+          "date": "2026-06-26",
+          "close": 163.7
+        },
+        {
+          "date": "2026-06-29",
+          "close": 163.44
+        },
+        {
+          "date": "2026-06-30",
+          "close": 165.22
+        },
+        {
+          "date": "2026-07-01",
+          "close": 165.94
+        },
+        {
+          "date": "2026-07-02",
+          "close": 164.98
+        },
+        {
+          "date": "2026-07-03",
+          "close": 165.88
+        },
+        {
+          "date": "2026-07-06",
+          "close": 166.6
+        },
+        {
+          "date": "2026-07-07",
+          "close": 164.82
+        },
+        {
+          "date": "2026-07-08",
+          "close": 163.78
+        },
+        {
+          "date": "2026-07-09",
+          "close": 165.56
+        },
+        {
+          "date": "2026-07-10",
+          "close": 166.14
+        },
+        {
+          "date": "2026-07-13",
+          "close": 165.78
+        },
+        {
+          "date": "2026-07-14",
+          "close": 165.66
+        },
+        {
+          "date": "2026-07-15",
+          "close": 165.8
+        },
+        {
+          "date": "2026-07-16",
+          "close": 165.46
+        },
+        {
+          "date": "2026-07-17",
+          "close": 163.5
+        },
+        {
+          "date": "2026-07-20",
+          "close": 164.18
+        },
+        {
+          "date": "2026-07-21",
+          "close": 165.14
+        },
+        {
+          "date": "2026-07-22",
+          "close": 165.4
+        },
+        {
+          "date": "2026-07-23",
+          "close": 163.36
+        },
+        {
+          "date": "2026-07-24",
+          "close": 164.28
+        },
+        {
+          "date": "2026-07-27",
+          "close": 163.36
+        },
+        {
+          "date": "2026-07-28",
+          "close": 163.78
+        },
+        {
+          "date": "2026-07-29",
+          "close": 162.4
+        },
+        {
+          "date": "2026-07-30",
+          "close": 162.02
+        },
+        {
+          "date": "2026-07-31",
+          "close": 162.96
+        },
+        {
+          "date": "2026-08-03",
+          "close": 165.1
+        },
+        {
+          "date": "2026-08-04",
+          "close": 167.54
+        },
+        {
+          "date": "2026-08-05",
+          "close": 168.04
+        },
+        {
+          "date": "2026-08-06",
+          "close": 167.84
+        },
+        {
+          "date": "2026-08-07",
+          "close": 168.38
+        },
+        {
+          "date": "2026-08-10",
+          "close": 168.48
+        },
+        {
+          "date": "2026-08-11",
+          "close": 168.48
+        },
+        {
+          "date": "2026-08-12",
+          "close": 168.8
+        },
+        {
+          "date": "2026-08-13",
+          "close": 169.62
+        },
+        {
+          "date": "2026-08-14",
+          "close": 168.88
+        },
+        {
+          "date": "2026-08-17",
+          "close": 169.06
+        },
+        {
+          "date": "2026-08-18",
+          "close": 166.9
+        },
+        {
+          "date": "2026-08-19",
+          "close": 166.5
+        },
+        {
+          "date": "2026-08-20",
+          "close": 165.66
+        },
+        {
+          "date": "2026-08-21",
+          "close": 166.3
+        },
+        {
+          "date": "2026-08-24",
+          "close": 165.62
+        },
+        {
+          "date": "2026-08-25",
+          "close": 166.3
+        },
+        {
+          "date": "2026-08-26",
+          "close": 166.54
+        },
+        {
+          "date": "2026-08-27",
+          "close": 167.14
+        },
+        {
+          "date": "2026-08-28",
+          "close": 168.54
+        },
+        {
+          "date": "2026-08-31",
+          "close": 166.66
+        },
+        {
+          "date": "2026-09-01",
+          "close": 166.62
+        },
+        {
+          "date": "2026-09-02",
+          "close": 166.82
+        },
+        {
+          "date": "2026-09-03",
+          "close": 168.06
+        },
+        {
+          "date": "2026-09-04",
+          "close": 167.88
+        },
+        {
+          "date": "2026-09-07",
+          "close": 167.78
+        },
+        {
+          "date": "2026-09-08",
+          "close": 167.58
+        },
+        {
+          "date": "2026-09-09",
+          "close": 166.22
+        },
+        {
+          "date": "2026-09-10",
+          "close": 165.26
+        },
+        {
+          "date": "2026-09-11",
+          "close": 166.86
+        },
+        {
+          "date": "2026-09-14",
+          "close": 166.22
+        },
+        {
+          "date": "2026-09-15",
+          "close": 165.36
+        },
+        {
+          "date": "2026-09-16",
+          "close": 166.3
+        },
+        {
+          "date": "2026-09-17",
+          "close": 167.66
+        },
+        {
+          "date": "2026-09-18",
+          "close": 167.14
+        },
+        {
+          "date": "2026-09-21",
+          "close": 169.48
+        },
+        {
+          "date": "2026-09-22",
+          "close": 170.5
+        },
+        {
+          "date": "2026-09-23",
+          "close": 170.04
+        },
+        {
+          "date": "2026-09-24",
+          "close": 168.92
+        },
+        {
+          "date": "2026-09-25",
+          "close": 169.74
+        },
+        {
+          "date": "2026-09-28",
+          "close": 169.12
+        },
+        {
+          "date": "2026-09-29",
+          "close": 169.4
+        },
+        {
+          "date": "2026-09-30",
+          "close": 169.78
+        },
+        {
+          "date": "2026-10-01",
+          "close": 169.38
+        },
+        {
+          "date": "2026-10-02",
+          "close": 171.14
+        },
+        {
+          "date": "2026-10-05",
+          "close": 172.9
+        },
+        {
+          "date": "2026-10-06",
+          "close": 173.56
+        },
+        {
+          "date": "2026-10-07",
+          "close": 172.92
+        },
+        {
+          "date": "2026-10-08",
+          "close": 171.9
+        },
+        {
+          "date": "2026-10-09",
+          "close": 172.86
+        },
+        {
+          "date": "2026-10-12",
+          "close": 173.48
+        },
+        {
+          "date": "2026-10-13",
+          "close": 172.6
+        },
+        {
+          "date": "2026-10-14",
+          "close": 172.48
+        },
+        {
+          "date": "2026-10-15",
+          "close": 170.94
+        },
+        {
+          "date": "2026-10-16",
+          "close": 170.44
+        },
+        {
+          "date": "2026-10-19",
+          "close": 170.88
+        },
+        {
+          "date": "2026-10-20",
+          "close": 170.36
+        },
+        {
+          "date": "2026-10-21",
+          "close": 171.32
+        },
+        {
+          "date": "2026-10-22",
+          "close": 169.28
+        },
+        {
+          "date": "2026-10-23",
+          "close": 169.3
+        },
+        {
+          "date": "2026-10-26",
+          "close": 170.0
+        },
+        {
+          "date": "2026-10-27",
+          "close": 171.68
+        },
+        {
+          "date": "2026-10-28",
+          "close": 171.94
+        },
+        {
+          "date": "2026-10-29",
+          "close": 171.44
+        },
+        {
+          "date": "2026-10-30",
+          "close": 168.9
+        },
+        {
+          "date": "2026-11-02",
+          "close": 169.38
+        },
+        {
+          "date": "2026-11-03",
+          "close": 168.06
+        },
+        {
+          "date": "2026-11-04",
+          "close": 169.86
+        },
+        {
+          "date": "2026-11-05",
+          "close": 165.98
+        },
+        {
+          "date": "2026-11-06",
+          "close": 165.84
+        },
+        {
+          "date": "2026-11-09",
+          "close": 167.42
+        },
+        {
+          "date": "2026-11-10",
+          "close": 167.62
+        },
+        {
+          "date": "2026-11-11",
+          "close": 170.92
+        },
+        {
+          "date": "2026-11-12",
+          "close": 171.42
+        },
+        {
+          "date": "2026-11-13",
+          "close": 169.86
+        },
+        {
+          "date": "2026-11-16",
+          "close": 169.08
+        },
+        {
+          "date": "2026-11-17",
+          "close": 165.28
+        },
+        {
+          "date": "2026-11-18",
+          "close": 165.32
+        },
+        {
+          "date": "2026-11-19",
+          "close": 164.86
+        },
+        {
+          "date": "2026-11-20",
+          "close": 159.34
+        },
+        {
+          "date": "2026-11-23",
+          "close": 165.04
+        },
+        {
+          "date": "2026-11-24",
+          "close": 162.14
+        }
+      ],
+      "news": []
+    },
+    "SXR8.DE": {
+      "symbol": "SXR8.DE",
+      "name": "iShares Core S&P 500 UCITS ETF",
+      "currency": "EUR",
+      "sector": "ETF · USA (S&P 500)",
+      "assetType": "ETF",
+      "history": [
+        {
+          "date": "2026-05-25",
+          "close": 696.54
+        },
+        {
+          "date": "2026-05-26",
+          "close": 695.74
+        },
+        {
+          "date": "2026-05-27",
+          "close": 694.5
+        },
+        {
+          "date": "2026-05-28",
+          "close": 697.68
+        },
+        {
+          "date": "2026-05-29",
+          "close": 698.9
+        },
+        {
+          "date": "2026-06-01",
+          "close": 702.42
+        },
+        {
+          "date": "2026-06-02",
+          "close": 703.94
+        },
+        {
+          "date": "2026-06-03",
+          "close": 701.76
+        },
+        {
+          "date": "2026-06-04",
+          "close": 700.74
+        },
+        {
+          "date": "2026-06-05",
+          "close": 698.3
+        },
+        {
+          "date": "2026-06-08",
+          "close": 693.26
+        },
+        {
+          "date": "2026-06-09",
+          "close": 682.52
+        },
+        {
+          "date": "2026-06-10",
+          "close": 681.7
+        },
+        {
+          "date": "2026-06-11",
+          "close": 681.24
+        },
+        {
+          "date": "2026-06-12",
+          "close": 691.86
+        },
+        {
+          "date": "2026-06-15",
+          "close": 701.6
+        },
+        {
+          "date": "2026-06-16",
+          "close": 699.68
+        },
+        {
+          "date": "2026-06-17",
+          "close": 698.02
+        },
+        {
+          "date": "2026-06-18",
+          "close": 701.66
+        },
+        {
+          "date": "2026-06-19",
+          "close": 703.54
+        },
+        {
+          "date": "2026-06-22",
+          "close": 703.6
+        },
+        {
+          "date": "2026-06-23",
+          "close": 698.06
+        },
+        {
+          "date": "2026-06-24",
+          "close": 703.98
+        },
+        {
+          "date": "2026-06-25",
+          "close": 697.56
+        },
+        {
+          "date": "2026-06-26",
+          "close": 696.42
+        },
+        {
+          "date": "2026-06-29",
+          "close": 697.76
+        },
+        {
+          "date": "2026-06-30",
+          "close": 704.98
+        },
+        {
+          "date": "2026-07-01",
+          "close": 710.42
+        },
+        {
+          "date": "2026-07-02",
+          "close": 704.54
+        },
+        {
+          "date": "2026-07-03",
+          "close": 706.12
+        },
+        {
+          "date": "2026-07-06",
+          "close": 710.36
+        },
+        {
+          "date": "2026-07-07",
+          "close": 705.44
+        },
+        {
+          "date": "2026-07-08",
+          "close": 702.24
+        },
+        {
+          "date": "2026-07-09",
+          "close": 708.8
+        },
+        {
+          "date": "2026-07-10",
+          "close": 711.48
+        },
+        {
+          "date": "2026-07-13",
+          "close": 712.88
+        },
+        {
+          "date": "2026-07-14",
+          "close": 710.0
+        },
+        {
+          "date": "2026-07-15",
+          "close": 711.62
+        },
+        {
+          "date": "2026-07-16",
+          "close": 711.96
+        },
+        {
+          "date": "2026-07-17",
+          "close": 703.46
+        },
+        {
+          "date": "2026-07-20",
+          "close": 706.24
+        },
+        {
+          "date": "2026-07-21",
+          "close": 707.96
+        },
+        {
+          "date": "2026-07-22",
+          "close": 709.42
+        },
+        {
+          "date": "2026-07-23",
+          "close": 700.42
+        },
+        {
+          "date": "2026-07-24",
+          "close": 704.6
+        },
+        {
+          "date": "2026-07-27",
+          "close": 700.18
+        },
+        {
+          "date": "2026-07-28",
+          "close": 703.06
+        },
+        {
+          "date": "2026-07-29",
+          "close": 697.7
+        },
+        {
+          "date": "2026-07-30",
+          "close": 690.52
+        },
+        {
+          "date": "2026-07-31",
+          "close": 696.24
+        },
+        {
+          "date": "2026-08-03",
+          "close": 709.52
+        },
+        {
+          "date": "2026-08-04",
+          "close": 719.96
+        },
+        {
+          "date": "2026-08-05",
+          "close": 722.42
+        },
+        {
+          "date": "2026-08-06",
+          "close": 721.0
+        },
+        {
+          "date": "2026-08-07",
+          "close": 723.04
+        },
+        {
+          "date": "2026-08-10",
+          "close": 723.82
+        },
+        {
+          "date": "2026-08-11",
+          "close": 722.94
+        },
+        {
+          "date": "2026-08-12",
+          "close": 722.78
+        },
+        {
+          "date": "2026-08-13",
+          "close": 727.18
+        },
+        {
+          "date": "2026-08-14",
+          "close": 724.18
+        },
+        {
+          "date": "2026-08-17",
+          "close": 723.0
+        },
+        {
+          "date": "2026-08-18",
+          "close": 716.4
+        },
+        {
+          "date": "2026-08-19",
+          "close": 714.0
+        },
+        {
+          "date": "2026-08-20",
+          "close": 708.64
+        },
+        {
+          "date": "2026-08-21",
+          "close": 709.16
+        },
+        {
+          "date": "2026-08-24",
+          "close": 707.24
+        },
+        {
+          "date": "2026-08-25",
+          "close": 708.24
+        },
+        {
+          "date": "2026-08-26",
+          "close": 709.68
+        },
+        {
+          "date": "2026-08-27",
+          "close": 714.26
+        },
+        {
+          "date": "2026-08-28",
+          "close": 721.06
+        },
+        {
+          "date": "2026-08-31",
+          "close": 712.1
+        },
+        {
+          "date": "2026-09-01",
+          "close": 711.72
+        },
+        {
+          "date": "2026-09-02",
+          "close": 713.8
+        },
+        {
+          "date": "2026-09-03",
+          "close": 718.6
+        },
+        {
+          "date": "2026-09-04",
+          "close": 715.3
+        },
+        {
+          "date": "2026-09-07",
+          "close": 714.02
+        },
+        {
+          "date": "2026-09-08",
+          "close": 713.04
+        },
+        {
+          "date": "2026-09-09",
+          "close": 708.08
+        },
+        {
+          "date": "2026-09-10",
+          "close": 705.82
+        },
+        {
+          "date": "2026-09-11",
+          "close": 712.94
+        },
+        {
+          "date": "2026-09-14",
+          "close": 711.62
+        },
+        {
+          "date": "2026-09-15",
+          "close": 708.78
+        },
+        {
+          "date": "2026-09-16",
+          "close": 711.84
+        },
+        {
+          "date": "2026-09-17",
+          "close": 717.1
+        },
+        {
+          "date": "2026-09-18",
+          "close": 717.34
+        },
+        {
+          "date": "2026-09-21",
+          "close": 726.94
+        },
+        {
+          "date": "2026-09-22",
+          "close": 731.94
+        },
+        {
+          "date": "2026-09-23",
+          "close": 731.04
+        },
+        {
+          "date": "2026-09-24",
+          "close": 727.76
+        },
+        {
+          "date": "2026-09-25",
+          "close": 730.44
+        },
+        {
+          "date": "2026-09-28",
+          "close": 728.68
+        },
+        {
+          "date": "2026-09-29",
+          "close": 729.82
+        },
+        {
+          "date": "2026-09-30",
+          "close": 732.78
+        },
+        {
+          "date": "2026-10-01",
+          "close": 732.5
+        },
+        {
+          "date": "2026-10-02",
+          "close": 739.48
+        },
+        {
+          "date": "2026-10-05",
+          "close": 746.66
+        },
+        {
+          "date": "2026-10-06",
+          "close": 750.7
+        },
+        {
+          "date": "2026-10-07",
+          "close": 750.62
+        },
+        {
+          "date": "2026-10-08",
+          "close": 749.02
+        },
+        {
+          "date": "2026-10-09",
+          "close": 751.32
+        },
+        {
+          "date": "2026-10-12",
+          "close": 754.68
+        },
+        {
+          "date": "2026-10-13",
+          "close": 751.08
+        },
+        {
+          "date": "2026-10-14",
+          "close": 751.5
+        },
+        {
+          "date": "2026-10-15",
+          "close": 744.48
+        },
+        {
+          "date": "2026-10-16",
+          "close": 740.78
+        },
+        {
+          "date": "2026-10-19",
+          "close": 743.44
+        },
+        {
+          "date": "2026-10-20",
+          "close": 741.34
+        },
+        {
+          "date": "2026-10-21",
+          "close": 745.02
+        },
+        {
+          "date": "2026-10-22",
+          "close": 738.22
+        },
+        {
+          "date": "2026-10-23",
+          "close": 738.04
+        },
+        {
+          "date": "2026-10-26",
+          "close": 740.94
+        },
+        {
+          "date": "2026-10-27",
+          "close": 748.22
+        },
+        {
+          "date": "2026-10-28",
+          "close": 749.4
+        },
+        {
+          "date": "2026-10-29",
+          "close": 746.06
+        },
+        {
+          "date": "2026-10-30",
+          "close": 734.62
+        },
+        {
+          "date": "2026-11-02",
+          "close": 735.36
+        },
+        {
+          "date": "2026-11-03",
+          "close": 730.28
+        },
+        {
+          "date": "2026-11-04",
+          "close": 738.44
+        },
+        {
+          "date": "2026-11-05",
+          "close": 719.88
+        },
+        {
+          "date": "2026-11-06",
+          "close": 719.16
+        },
+        {
+          "date": "2026-11-09",
+          "close": 724.52
+        },
+        {
+          "date": "2026-11-10",
+          "close": 726.06
+        },
+        {
+          "date": "2026-11-11",
+          "close": 740.56
+        },
+        {
+          "date": "2026-11-12",
+          "close": 745.44
+        },
+        {
+          "date": "2026-11-13",
+          "close": 736.84
+        },
+        {
+          "date": "2026-11-16",
+          "close": 734.48
+        },
+        {
+          "date": "2026-11-17",
+          "close": 717.54
+        },
+        {
+          "date": "2026-11-18",
+          "close": 719.86
+        },
+        {
+          "date": "2026-11-19",
+          "close": 719.28
+        },
+        {
+          "date": "2026-11-20",
+          "close": 694.06
+        },
+        {
+          "date": "2026-11-23",
+          "close": 718.66
+        },
+        {
+          "date": "2026-11-24",
+          "close": 705.0
+        }
+      ],
+      "news": []
+    },
+    "EUNL.DE": {
+      "symbol": "EUNL.DE",
+      "name": "iShares Core MSCI World UCITS ETF",
+      "currency": "EUR",
+      "sector": "ETF · Vyspělý svět",
+      "assetType": "ETF",
+      "history": [
+        {
+          "date": "2026-05-25",
+          "close": 123.5
+        },
+        {
+          "date": "2026-05-26",
+          "close": 123.11
+        },
+        {
+          "date": "2026-05-27",
+          "close": 122.82
+        },
+        {
+          "date": "2026-05-28",
+          "close": 123.18
+        },
+        {
+          "date": "2026-05-29",
+          "close": 123.42
+        },
+        {
+          "date": "2026-06-01",
+          "close": 123.77
+        },
+        {
+          "date": "2026-06-02",
+          "close": 124.3
+        },
+        {
+          "date": "2026-06-03",
+          "close": 123.89
+        },
+        {
+          "date": "2026-06-04",
+          "close": 123.91
+        },
+        {
+          "date": "2026-06-05",
+          "close": 123.33
+        },
+        {
+          "date": "2026-06-08",
+          "close": 122.62
+        },
+        {
+          "date": "2026-06-09",
+          "close": 120.93
+        },
+        {
+          "date": "2026-06-10",
+          "close": 120.69
+        },
+        {
+          "date": "2026-06-11",
+          "close": 120.89
+        },
+        {
+          "date": "2026-06-12",
+          "close": 122.9
+        },
+        {
+          "date": "2026-06-15",
+          "close": 124.27
+        },
+        {
+          "date": "2026-06-16",
+          "close": 124.12
+        },
+        {
+          "date": "2026-06-17",
+          "close": 124.21
+        },
+        {
+          "date": "2026-06-18",
+          "close": 124.64
+        },
+        {
+          "date": "2026-06-19",
+          "close": 124.81
+        },
+        {
+          "date": "2026-06-22",
+          "close": 125.06
+        },
+        {
+          "date": "2026-06-23",
+          "close": 123.98
+        },
+        {
+          "date": "2026-06-24",
+          "close": 124.79
+        },
+        {
+          "date": "2026-06-25",
+          "close": 124.1
+        },
+        {
+          "date": "2026-06-26",
+          "close": 123.75
+        },
+        {
+          "date": "2026-06-29",
+          "close": 123.89
+        },
+        {
+          "date": "2026-06-30",
+          "close": 125.04
+        },
+        {
+          "date": "2026-07-01",
+          "close": 125.88
+        },
+        {
+          "date": "2026-07-02",
+          "close": 125.3
+        },
+        {
+          "date": "2026-07-03",
+          "close": 125.76
+        },
+        {
+          "date": "2026-07-06",
+          "close": 126.35
+        },
+        {
+          "date": "2026-07-07",
+          "close": 125.4
+        },
+        {
+          "date": "2026-07-08",
+          "close": 124.5
+        },
+        {
+          "date": "2026-07-09",
+          "close": 125.71
+        },
+        {
+          "date": "2026-07-10",
+          "close": 126.14
+        },
+        {
+          "date": "2026-07-13",
+          "close": 126.3
+        },
+        {
+          "date": "2026-07-14",
+          "close": 126.06
+        },
+        {
+          "date": "2026-07-15",
+          "close": 126.3
+        },
+        {
+          "date": "2026-07-16",
+          "close": 126.25
+        },
+        {
+          "date": "2026-07-17",
+          "close": 124.88
+        },
+        {
+          "date": "2026-07-20",
+          "close": 125.24
+        },
+        {
+          "date": "2026-07-21",
+          "close": 125.73
+        },
+        {
+          "date": "2026-07-22",
+          "close": 126.0
+        },
+        {
+          "date": "2026-07-23",
+          "close": 124.45
+        },
+        {
+          "date": "2026-07-24",
+          "close": 125.31
+        },
+        {
+          "date": "2026-07-27",
+          "close": 124.71
+        },
+        {
+          "date": "2026-07-28",
+          "close": 125.21
+        },
+        {
+          "date": "2026-07-29",
+          "close": 124.36
+        },
+        {
+          "date": "2026-07-30",
+          "close": 123.65
+        },
+        {
+          "date": "2026-07-31",
+          "close": 124.29
+        },
+        {
+          "date": "2026-08-03",
+          "close": 126.18
+        },
+        {
+          "date": "2026-08-04",
+          "close": 127.79
+        },
+        {
+          "date": "2026-08-05",
+          "close": 128.24
+        },
+        {
+          "date": "2026-08-06",
+          "close": 128.15
+        },
+        {
+          "date": "2026-08-07",
+          "close": 128.65
+        },
+        {
+          "date": "2026-08-10",
+          "close": 128.76
+        },
+        {
+          "date": "2026-08-11",
+          "close": 128.71
+        },
+        {
+          "date": "2026-08-12",
+          "close": 128.79
+        },
+        {
+          "date": "2026-08-13",
+          "close": 129.4
+        },
+        {
+          "date": "2026-08-14",
+          "close": 128.87
+        },
+        {
+          "date": "2026-08-17",
+          "close": 128.7
+        },
+        {
+          "date": "2026-08-18",
+          "close": 127.43
+        },
+        {
+          "date": "2026-08-19",
+          "close": 126.97
+        },
+        {
+          "date": "2026-08-20",
+          "close": 126.14
+        },
+        {
+          "date": "2026-08-21",
+          "close": 126.5
+        },
+        {
+          "date": "2026-08-24",
+          "close": 126.23
+        },
+        {
+          "date": "2026-08-25",
+          "close": 126.54
+        },
+        {
+          "date": "2026-08-26",
+          "close": 126.68
+        },
+        {
+          "date": "2026-08-27",
+          "close": 127.13
+        },
+        {
+          "date": "2026-08-28",
+          "close": 128.21
+        },
+        {
+          "date": "2026-08-31",
+          "close": 126.76
+        },
+        {
+          "date": "2026-09-01",
+          "close": 126.59
+        },
+        {
+          "date": "2026-09-02",
+          "close": 126.82
+        },
+        {
+          "date": "2026-09-03",
+          "close": 127.86
+        },
+        {
+          "date": "2026-09-04",
+          "close": 127.46
+        },
+        {
+          "date": "2026-09-07",
+          "close": 127.33
+        },
+        {
+          "date": "2026-09-08",
+          "close": 127.14
+        },
+        {
+          "date": "2026-09-09",
+          "close": 126.02
+        },
+        {
+          "date": "2026-09-10",
+          "close": 125.45
+        },
+        {
+          "date": "2026-09-11",
+          "close": 126.64
+        },
+        {
+          "date": "2026-09-14",
+          "close": 126.39
+        },
+        {
+          "date": "2026-09-15",
+          "close": 125.8
+        },
+        {
+          "date": "2026-09-16",
+          "close": 126.43
+        },
+        {
+          "date": "2026-09-17",
+          "close": 127.4
+        },
+        {
+          "date": "2026-09-18",
+          "close": 127.04
+        },
+        {
+          "date": "2026-09-21",
+          "close": 128.57
+        },
+        {
+          "date": "2026-09-22",
+          "close": 129.37
+        },
+        {
+          "date": "2026-09-23",
+          "close": 129.11
+        },
+        {
+          "date": "2026-09-24",
+          "close": 128.35
+        },
+        {
+          "date": "2026-09-25",
+          "close": 128.88
+        },
+        {
+          "date": "2026-09-28",
+          "close": 128.56
+        },
+        {
+          "date": "2026-09-29",
+          "close": 128.71
+        },
+        {
+          "date": "2026-09-30",
+          "close": 129.13
+        },
+        {
+          "date": "2026-10-01",
+          "close": 128.81
+        },
+        {
+          "date": "2026-10-02",
+          "close": 130.04
+        },
+        {
+          "date": "2026-10-05",
+          "close": 131.2
+        },
+        {
+          "date": "2026-10-06",
+          "close": 131.84
+        },
+        {
+          "date": "2026-10-07",
+          "close": 131.49
+        },
+        {
+          "date": "2026-10-08",
+          "close": 130.97
+        },
+        {
+          "date": "2026-10-09",
+          "close": 131.64
+        },
+        {
+          "date": "2026-10-12",
+          "close": 132.25
+        },
+        {
+          "date": "2026-10-13",
+          "close": 131.74
+        },
+        {
+          "date": "2026-10-14",
+          "close": 131.79
+        },
+        {
+          "date": "2026-10-15",
+          "close": 130.79
+        },
+        {
+          "date": "2026-10-16",
+          "close": 130.54
+        },
+        {
+          "date": "2026-10-19",
+          "close": 130.72
+        },
+        {
+          "date": "2026-10-20",
+          "close": 130.43
+        },
+        {
+          "date": "2026-10-21",
+          "close": 131.23
+        },
+        {
+          "date": "2026-10-22",
+          "close": 129.93
+        },
+        {
+          "date": "2026-10-23",
+          "close": 129.84
+        },
+        {
+          "date": "2026-10-26",
+          "close": 130.47
+        },
+        {
+          "date": "2026-10-27",
+          "close": 131.6
+        },
+        {
+          "date": "2026-10-28",
+          "close": 131.72
+        },
+        {
+          "date": "2026-10-29",
+          "close": 131.46
+        },
+        {
+          "date": "2026-10-30",
+          "close": 129.68
+        },
+        {
+          "date": "2026-11-02",
+          "close": 129.93
+        },
+        {
+          "date": "2026-11-03",
+          "close": 128.98
+        },
+        {
+          "date": "2026-11-04",
+          "close": 130.48
+        },
+        {
+          "date": "2026-11-05",
+          "close": 127.79
+        },
+        {
+          "date": "2026-11-06",
+          "close": 127.32
+        },
+        {
+          "date": "2026-11-09",
+          "close": 128.45
+        },
+        {
+          "date": "2026-11-10",
+          "close": 128.65
+        },
+        {
+          "date": "2026-11-11",
+          "close": 130.96
+        },
+        {
+          "date": "2026-11-12",
+          "close": 131.63
+        },
+        {
+          "date": "2026-11-13",
+          "close": 130.44
+        },
+        {
+          "date": "2026-11-16",
+          "close": 129.98
+        },
+        {
+          "date": "2026-11-17",
+          "close": 127.08
+        },
+        {
+          "date": "2026-11-18",
+          "close": 127.11
+        },
+        {
+          "date": "2026-11-19",
+          "close": 126.79
+        },
+        {
+          "date": "2026-11-20",
+          "close": 122.71
+        },
+        {
+          "date": "2026-11-23",
+          "close": 126.64
+        },
+        {
+          "date": "2026-11-24",
+          "close": 124.59
+        }
+      ],
+      "news": []
+    },
     "SPY": {
       "symbol": "SPY",
       "name": "SPDR S&P 500 ETF Trust",
       "currency": "USD",
-      "sector": "Indexové ETF (USA)",
+      "sector": "ETF · USA (S&P 500)",
+      "assetType": "ETF",
       "history": [
         {
           "date": "2026-05-26",
@@ -12954,6 +14592,13 @@
       ],
       "news": [
         {
+          "title": "Own Humana Stock? Its Profit Cushion Is The Thinnest",
+          "link": "https://www.trefis.com/stock/unh/articles/628256/own-humana-stock-its-profit-cushion-is-the-thinnest/2026-11-24?.tsrc=rss",
+          "publishedAt": "2026-11-24T13:03:08Z",
+          "source": "Yahoo Finance",
+          "symbol": "SPY"
+        },
+        {
           "title": "What SPDR S&P 500 ETF Trust (SPY) Bought: Apple Leads on Friday",
           "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-trust-110254690.html?.tsrc=rss",
           "publishedAt": "2026-11-24T11:02:54Z",
@@ -12966,13 +14611,6 @@
           "publishedAt": "2026-11-24T11:00:12Z",
           "source": "Yahoo Finance",
           "symbol": "SPY"
-        },
-        {
-          "title": "ETFs Bought $120 Million of Mastercard (MA) on Friday",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-120-million-mastercard-110212516.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T11:02:12Z",
-          "source": "Yahoo Finance",
-          "symbol": "SPY"
         }
       ]
     },
@@ -12980,7 +14618,8 @@
       "symbol": "QQQ",
       "name": "Invesco QQQ Trust (Nasdaq-100)",
       "currency": "USD",
-      "sector": "Indexové ETF (Tech)",
+      "sector": "ETF · Technologie",
+      "assetType": "ETF",
       "history": [
         {
           "date": "2026-05-26",
@@ -13512,6 +15151,2166 @@
           "publishedAt": "2026-11-24T02:01:04Z",
           "source": "Yahoo Finance",
           "symbol": "QQQ"
+        }
+      ]
+    },
+    "VTI": {
+      "symbol": "VTI",
+      "name": "Vanguard Total Stock Market ETF",
+      "currency": "USD",
+      "sector": "ETF · Celý trh USA",
+      "assetType": "ETF",
+      "history": [
+        {
+          "date": "2026-05-26",
+          "close": 369.46
+        },
+        {
+          "date": "2026-05-27",
+          "close": 369.36
+        },
+        {
+          "date": "2026-05-28",
+          "close": 371.66
+        },
+        {
+          "date": "2026-05-29",
+          "close": 372.54
+        },
+        {
+          "date": "2026-06-01",
+          "close": 373.4
+        },
+        {
+          "date": "2026-06-02",
+          "close": 374.36
+        },
+        {
+          "date": "2026-06-03",
+          "close": 371.65
+        },
+        {
+          "date": "2026-06-04",
+          "close": 373.38
+        },
+        {
+          "date": "2026-06-05",
+          "close": 363.38
+        },
+        {
+          "date": "2026-06-08",
+          "close": 364.47
+        },
+        {
+          "date": "2026-06-09",
+          "close": 363.67
+        },
+        {
+          "date": "2026-06-10",
+          "close": 358.04
+        },
+        {
+          "date": "2026-06-11",
+          "close": 364.3
+        },
+        {
+          "date": "2026-06-12",
+          "close": 366.36
+        },
+        {
+          "date": "2026-06-15",
+          "close": 372.53
+        },
+        {
+          "date": "2026-06-16",
+          "close": 370.37
+        },
+        {
+          "date": "2026-06-17",
+          "close": 365.76
+        },
+        {
+          "date": "2026-06-18",
+          "close": 369.99
+        },
+        {
+          "date": "2026-06-22",
+          "close": 368.81
+        },
+        {
+          "date": "2026-06-23",
+          "close": 363.7
+        },
+        {
+          "date": "2026-06-24",
+          "close": 363.65
+        },
+        {
+          "date": "2026-06-25",
+          "close": 363.98
+        },
+        {
+          "date": "2026-06-26",
+          "close": 362.22
+        },
+        {
+          "date": "2026-06-29",
+          "close": 367.12
+        },
+        {
+          "date": "2026-06-30",
+          "close": 370.04
+        },
+        {
+          "date": "2026-07-01",
+          "close": 369.27
+        },
+        {
+          "date": "2026-07-02",
+          "close": 368.76
+        },
+        {
+          "date": "2026-07-06",
+          "close": 371.67
+        },
+        {
+          "date": "2026-07-07",
+          "close": 369.61
+        },
+        {
+          "date": "2026-07-08",
+          "close": 368.25
+        },
+        {
+          "date": "2026-07-09",
+          "close": 371.45
+        },
+        {
+          "date": "2026-07-10",
+          "close": 372.69
+        },
+        {
+          "date": "2026-07-13",
+          "close": 369.78
+        },
+        {
+          "date": "2026-07-14",
+          "close": 371.16
+        },
+        {
+          "date": "2026-07-15",
+          "close": 372.42
+        },
+        {
+          "date": "2026-07-16",
+          "close": 370.58
+        },
+        {
+          "date": "2026-07-17",
+          "close": 367.01
+        },
+        {
+          "date": "2026-07-20",
+          "close": 366.25
+        },
+        {
+          "date": "2026-07-21",
+          "close": 369.45
+        },
+        {
+          "date": "2026-07-22",
+          "close": 368.87
+        },
+        {
+          "date": "2026-07-23",
+          "close": 364.69
+        },
+        {
+          "date": "2026-07-24",
+          "close": 364.8
+        },
+        {
+          "date": "2026-07-27",
+          "close": 365.18
+        },
+        {
+          "date": "2026-07-28",
+          "close": 365.99
+        },
+        {
+          "date": "2026-07-29",
+          "close": 360.42
+        },
+        {
+          "date": "2026-07-30",
+          "close": 366.27
+        },
+        {
+          "date": "2026-07-31",
+          "close": 368.21
+        },
+        {
+          "date": "2026-08-03",
+          "close": 373.84
+        },
+        {
+          "date": "2026-08-04",
+          "close": 380.82
+        },
+        {
+          "date": "2026-08-05",
+          "close": 379.65
+        },
+        {
+          "date": "2026-08-06",
+          "close": 379.07
+        },
+        {
+          "date": "2026-08-07",
+          "close": 381.78
+        },
+        {
+          "date": "2026-08-10",
+          "close": 381.63
+        },
+        {
+          "date": "2026-08-11",
+          "close": 380.65
+        },
+        {
+          "date": "2026-08-12",
+          "close": 381.83
+        },
+        {
+          "date": "2026-08-13",
+          "close": 384.3
+        },
+        {
+          "date": "2026-08-14",
+          "close": 383.85
+        },
+        {
+          "date": "2026-08-17",
+          "close": 382.13
+        },
+        {
+          "date": "2026-08-18",
+          "close": 379.04
+        },
+        {
+          "date": "2026-08-19",
+          "close": 379.99
+        },
+        {
+          "date": "2026-08-20",
+          "close": 376.58
+        },
+        {
+          "date": "2026-08-21",
+          "close": 378.24
+        },
+        {
+          "date": "2026-08-24",
+          "close": 377.07
+        },
+        {
+          "date": "2026-08-25",
+          "close": 378.15
+        },
+        {
+          "date": "2026-08-26",
+          "close": 378.23
+        },
+        {
+          "date": "2026-08-27",
+          "close": 380.63
+        },
+        {
+          "date": "2026-08-28",
+          "close": 379.36
+        },
+        {
+          "date": "2026-08-31",
+          "close": 378.15
+        },
+        {
+          "date": "2026-09-01",
+          "close": 375.17
+        },
+        {
+          "date": "2026-09-02",
+          "close": 376.88
+        },
+        {
+          "date": "2026-09-03",
+          "close": 380.93
+        },
+        {
+          "date": "2026-09-04",
+          "close": 379.73
+        },
+        {
+          "date": "2026-09-08",
+          "close": 377.6
+        },
+        {
+          "date": "2026-09-09",
+          "close": 375.56
+        },
+        {
+          "date": "2026-09-10",
+          "close": 373.24
+        },
+        {
+          "date": "2026-09-11",
+          "close": 376.31
+        },
+        {
+          "date": "2026-09-14",
+          "close": 374.68
+        },
+        {
+          "date": "2026-09-15",
+          "close": 372.84
+        },
+        {
+          "date": "2026-09-16",
+          "close": 371.26
+        },
+        {
+          "date": "2026-09-17",
+          "close": 375.34
+        },
+        {
+          "date": "2026-09-18",
+          "close": 375.43
+        },
+        {
+          "date": "2026-09-21",
+          "close": 381.1
+        },
+        {
+          "date": "2026-09-22",
+          "close": 381.27
+        },
+        {
+          "date": "2026-09-23",
+          "close": 378.23
+        },
+        {
+          "date": "2026-09-24",
+          "close": 378.08
+        },
+        {
+          "date": "2026-09-25",
+          "close": 379.77
+        },
+        {
+          "date": "2026-09-28",
+          "close": 375.84
+        },
+        {
+          "date": "2026-09-29",
+          "close": 375.26
+        },
+        {
+          "date": "2026-09-30",
+          "close": 374.24
+        },
+        {
+          "date": "2026-10-01",
+          "close": 375.18
+        },
+        {
+          "date": "2026-10-02",
+          "close": 377.99
+        },
+        {
+          "date": "2026-10-05",
+          "close": 380.6
+        },
+        {
+          "date": "2026-10-06",
+          "close": 382.54
+        },
+        {
+          "date": "2026-10-07",
+          "close": 381.03
+        },
+        {
+          "date": "2026-10-08",
+          "close": 379.56
+        },
+        {
+          "date": "2026-10-09",
+          "close": 381.94
+        },
+        {
+          "date": "2026-10-12",
+          "close": 381.57
+        },
+        {
+          "date": "2026-10-13",
+          "close": 381.32
+        },
+        {
+          "date": "2026-10-14",
+          "close": 376.88
+        },
+        {
+          "date": "2026-10-15",
+          "close": 378.42
+        },
+        {
+          "date": "2026-10-16",
+          "close": 374.07
+        },
+        {
+          "date": "2026-10-19",
+          "close": 375.54
+        },
+        {
+          "date": "2026-10-20",
+          "close": 377.09
+        },
+        {
+          "date": "2026-10-21",
+          "close": 379.15
+        },
+        {
+          "date": "2026-10-22",
+          "close": 374.9
+        },
+        {
+          "date": "2026-10-23",
+          "close": 373.01
+        },
+        {
+          "date": "2026-10-26",
+          "close": 375.59
+        },
+        {
+          "date": "2026-10-27",
+          "close": 377.92
+        },
+        {
+          "date": "2026-10-28",
+          "close": 379.17
+        },
+        {
+          "date": "2026-10-29",
+          "close": 378.24
+        },
+        {
+          "date": "2026-10-30",
+          "close": 371.57
+        },
+        {
+          "date": "2026-11-02",
+          "close": 370.0
+        },
+        {
+          "date": "2026-11-03",
+          "close": 371.21
+        },
+        {
+          "date": "2026-11-04",
+          "close": 376.92
+        },
+        {
+          "date": "2026-11-05",
+          "close": 360.52
+        },
+        {
+          "date": "2026-11-06",
+          "close": 361.93
+        },
+        {
+          "date": "2026-11-09",
+          "close": 370.9
+        },
+        {
+          "date": "2026-11-10",
+          "close": 369.55
+        },
+        {
+          "date": "2026-11-11",
+          "close": 374.25
+        },
+        {
+          "date": "2026-11-12",
+          "close": 372.62
+        },
+        {
+          "date": "2026-11-13",
+          "close": 371.11
+        },
+        {
+          "date": "2026-11-16",
+          "close": 364.3
+        },
+        {
+          "date": "2026-11-17",
+          "close": 360.19
+        },
+        {
+          "date": "2026-11-18",
+          "close": 359.48
+        },
+        {
+          "date": "2026-11-19",
+          "close": 352.41
+        },
+        {
+          "date": "2026-11-20",
+          "close": 340.02
+        },
+        {
+          "date": "2026-11-23",
+          "close": 355.27
+        }
+      ],
+      "news": [
+        {
+          "title": "VOO vs. VTI: Which Vanguard Fund Is the Better Buy Right Now?",
+          "link": "https://www.fool.com/investing/2026/11/02/voo-vs-vti-which-vanguard-fund-better-buy-now/?.tsrc=rss",
+          "publishedAt": "2026-11-02T13:44:00Z",
+          "source": "Yahoo Finance",
+          "symbol": "VTI"
+        },
+        {
+          "title": "Where Will VTI Be in 2046? Here's What 25 Years of History Suggests.",
+          "link": "https://www.fool.com/investing/2026/10/29/where-will-vti-be-2046-what-25-years-history-says/?.tsrc=rss",
+          "publishedAt": "2026-10-29T17:35:00Z",
+          "source": "Yahoo Finance",
+          "symbol": "VTI"
+        },
+        {
+          "title": "$25,000 Up Front or $250 More a Month? The Shortcut to a VTI Million Most Savers Overlook",
+          "link": "https://247wallst.com/investing/etf/2026/10/17/25000-up-front-or-250-more-a-month-the-shortcut-to-a-vti-million-most-savers-overlook/?.tsrc=rss",
+          "publishedAt": "2026-10-17T12:32:12Z",
+          "source": "Yahoo Finance",
+          "symbol": "VTI"
+        }
+      ]
+    },
+    "SCHD": {
+      "symbol": "SCHD",
+      "name": "Schwab US Dividend Equity ETF",
+      "currency": "USD",
+      "sector": "ETF · Dividendy",
+      "assetType": "ETF",
+      "history": [
+        {
+          "date": "2026-05-26",
+          "close": 32.67
+        },
+        {
+          "date": "2026-05-27",
+          "close": 32.55
+        },
+        {
+          "date": "2026-05-28",
+          "close": 32.63
+        },
+        {
+          "date": "2026-05-29",
+          "close": 32.5
+        },
+        {
+          "date": "2026-06-01",
+          "close": 32.18
+        },
+        {
+          "date": "2026-06-02",
+          "close": 32.37
+        },
+        {
+          "date": "2026-06-03",
+          "close": 32.37
+        },
+        {
+          "date": "2026-06-04",
+          "close": 32.59
+        },
+        {
+          "date": "2026-06-05",
+          "close": 32.3
+        },
+        {
+          "date": "2026-06-08",
+          "close": 32.29
+        },
+        {
+          "date": "2026-06-09",
+          "close": 32.39
+        },
+        {
+          "date": "2026-06-10",
+          "close": 32.26
+        },
+        {
+          "date": "2026-06-11",
+          "close": 32.53
+        },
+        {
+          "date": "2026-06-12",
+          "close": 32.82
+        },
+        {
+          "date": "2026-06-15",
+          "close": 32.63
+        },
+        {
+          "date": "2026-06-16",
+          "close": 32.53
+        },
+        {
+          "date": "2026-06-17",
+          "close": 31.93
+        },
+        {
+          "date": "2026-06-18",
+          "close": 31.86
+        },
+        {
+          "date": "2026-06-22",
+          "close": 31.89
+        },
+        {
+          "date": "2026-06-23",
+          "close": 32.02
+        },
+        {
+          "date": "2026-06-24",
+          "close": 31.72
+        },
+        {
+          "date": "2026-06-25",
+          "close": 31.96
+        },
+        {
+          "date": "2026-06-26",
+          "close": 32.09
+        },
+        {
+          "date": "2026-06-29",
+          "close": 31.93
+        },
+        {
+          "date": "2026-06-30",
+          "close": 31.71
+        },
+        {
+          "date": "2026-07-01",
+          "close": 31.85
+        },
+        {
+          "date": "2026-07-02",
+          "close": 32.39
+        },
+        {
+          "date": "2026-07-06",
+          "close": 32.24
+        },
+        {
+          "date": "2026-07-07",
+          "close": 32.54
+        },
+        {
+          "date": "2026-07-08",
+          "close": 32.34
+        },
+        {
+          "date": "2026-07-09",
+          "close": 32.26
+        },
+        {
+          "date": "2026-07-10",
+          "close": 32.4
+        },
+        {
+          "date": "2026-07-13",
+          "close": 32.56
+        },
+        {
+          "date": "2026-07-14",
+          "close": 32.2
+        },
+        {
+          "date": "2026-07-15",
+          "close": 32.34
+        },
+        {
+          "date": "2026-07-16",
+          "close": 33.04
+        },
+        {
+          "date": "2026-07-17",
+          "close": 32.91
+        },
+        {
+          "date": "2026-07-20",
+          "close": 32.75
+        },
+        {
+          "date": "2026-07-21",
+          "close": 32.82
+        },
+        {
+          "date": "2026-07-22",
+          "close": 32.9
+        },
+        {
+          "date": "2026-07-23",
+          "close": 32.8
+        },
+        {
+          "date": "2026-07-24",
+          "close": 33.29
+        },
+        {
+          "date": "2026-07-27",
+          "close": 33.43
+        },
+        {
+          "date": "2026-07-28",
+          "close": 33.89
+        },
+        {
+          "date": "2026-07-29",
+          "close": 33.83
+        },
+        {
+          "date": "2026-07-30",
+          "close": 33.41
+        },
+        {
+          "date": "2026-07-31",
+          "close": 33.47
+        },
+        {
+          "date": "2026-08-03",
+          "close": 33.56
+        },
+        {
+          "date": "2026-08-04",
+          "close": 33.85
+        },
+        {
+          "date": "2026-08-05",
+          "close": 33.64
+        },
+        {
+          "date": "2026-08-06",
+          "close": 33.7
+        },
+        {
+          "date": "2026-08-07",
+          "close": 33.9
+        },
+        {
+          "date": "2026-08-10",
+          "close": 34.19
+        },
+        {
+          "date": "2026-08-11",
+          "close": 34.27
+        },
+        {
+          "date": "2026-08-12",
+          "close": 34.26
+        },
+        {
+          "date": "2026-08-13",
+          "close": 34.43
+        },
+        {
+          "date": "2026-08-14",
+          "close": 34.52
+        },
+        {
+          "date": "2026-08-17",
+          "close": 34.29
+        },
+        {
+          "date": "2026-08-18",
+          "close": 34.51
+        },
+        {
+          "date": "2026-08-19",
+          "close": 35.09
+        },
+        {
+          "date": "2026-08-20",
+          "close": 34.83
+        },
+        {
+          "date": "2026-08-21",
+          "close": 35.11
+        },
+        {
+          "date": "2026-08-24",
+          "close": 35.21
+        },
+        {
+          "date": "2026-08-25",
+          "close": 35.11
+        },
+        {
+          "date": "2026-08-26",
+          "close": 35.05
+        },
+        {
+          "date": "2026-08-27",
+          "close": 34.83
+        },
+        {
+          "date": "2026-08-28",
+          "close": 34.9
+        },
+        {
+          "date": "2026-08-31",
+          "close": 34.89
+        },
+        {
+          "date": "2026-09-01",
+          "close": 34.81
+        },
+        {
+          "date": "2026-09-02",
+          "close": 35.01
+        },
+        {
+          "date": "2026-09-03",
+          "close": 35.08
+        },
+        {
+          "date": "2026-09-04",
+          "close": 34.8
+        },
+        {
+          "date": "2026-09-08",
+          "close": 34.41
+        },
+        {
+          "date": "2026-09-09",
+          "close": 34.09
+        },
+        {
+          "date": "2026-09-10",
+          "close": 33.99
+        },
+        {
+          "date": "2026-09-11",
+          "close": 34.12
+        },
+        {
+          "date": "2026-09-14",
+          "close": 34.34
+        },
+        {
+          "date": "2026-09-15",
+          "close": 34.33
+        },
+        {
+          "date": "2026-09-16",
+          "close": 33.84
+        },
+        {
+          "date": "2026-09-17",
+          "close": 33.89
+        },
+        {
+          "date": "2026-09-18",
+          "close": 33.68
+        },
+        {
+          "date": "2026-09-21",
+          "close": 33.72
+        },
+        {
+          "date": "2026-09-22",
+          "close": 33.74
+        },
+        {
+          "date": "2026-09-23",
+          "close": 33.28
+        },
+        {
+          "date": "2026-09-24",
+          "close": 33.1
+        },
+        {
+          "date": "2026-09-25",
+          "close": 33.21
+        },
+        {
+          "date": "2026-09-28",
+          "close": 33.01
+        },
+        {
+          "date": "2026-09-29",
+          "close": 32.85
+        },
+        {
+          "date": "2026-09-30",
+          "close": 32.53
+        },
+        {
+          "date": "2026-10-01",
+          "close": 32.66
+        },
+        {
+          "date": "2026-10-02",
+          "close": 32.72
+        },
+        {
+          "date": "2026-10-05",
+          "close": 32.72
+        },
+        {
+          "date": "2026-10-06",
+          "close": 32.85
+        },
+        {
+          "date": "2026-10-07",
+          "close": 32.65
+        },
+        {
+          "date": "2026-10-08",
+          "close": 33.15
+        },
+        {
+          "date": "2026-10-09",
+          "close": 33.04
+        },
+        {
+          "date": "2026-10-12",
+          "close": 33.26
+        },
+        {
+          "date": "2026-10-13",
+          "close": 33.37
+        },
+        {
+          "date": "2026-10-14",
+          "close": 33.71
+        },
+        {
+          "date": "2026-10-15",
+          "close": 34.1
+        },
+        {
+          "date": "2026-10-16",
+          "close": 34.35
+        },
+        {
+          "date": "2026-10-19",
+          "close": 34.24
+        },
+        {
+          "date": "2026-10-20",
+          "close": 34.69
+        },
+        {
+          "date": "2026-10-21",
+          "close": 34.66
+        },
+        {
+          "date": "2026-10-22",
+          "close": 35.4
+        },
+        {
+          "date": "2026-10-23",
+          "close": 35.27
+        },
+        {
+          "date": "2026-10-26",
+          "close": 35.3
+        },
+        {
+          "date": "2026-10-27",
+          "close": 35.12
+        },
+        {
+          "date": "2026-10-28",
+          "close": 35.09
+        },
+        {
+          "date": "2026-10-29",
+          "close": 35.61
+        },
+        {
+          "date": "2026-10-30",
+          "close": 35.78
+        },
+        {
+          "date": "2026-11-02",
+          "close": 35.9
+        },
+        {
+          "date": "2026-11-03",
+          "close": 35.55
+        },
+        {
+          "date": "2026-11-04",
+          "close": 36.21
+        },
+        {
+          "date": "2026-11-05",
+          "close": 35.42
+        },
+        {
+          "date": "2026-11-06",
+          "close": 35.17
+        },
+        {
+          "date": "2026-11-09",
+          "close": 35.65
+        },
+        {
+          "date": "2026-11-10",
+          "close": 35.83
+        },
+        {
+          "date": "2026-11-11",
+          "close": 36.02
+        },
+        {
+          "date": "2026-11-12",
+          "close": 35.93
+        },
+        {
+          "date": "2026-11-13",
+          "close": 36.12
+        },
+        {
+          "date": "2026-11-16",
+          "close": 35.86
+        },
+        {
+          "date": "2026-11-17",
+          "close": 35.31
+        },
+        {
+          "date": "2026-11-18",
+          "close": 34.7
+        },
+        {
+          "date": "2026-11-19",
+          "close": 34.2
+        },
+        {
+          "date": "2026-11-20",
+          "close": 33.94
+        },
+        {
+          "date": "2026-11-23",
+          "close": 34.39
+        }
+      ],
+      "news": [
+        {
+          "title": "I Own SCHD. Here’s Why I Also Own This 7%-Yielding Income ETF.",
+          "link": "https://www.fool.com/investing/2026/11/24/i-own-schd-here-s-why-i-also-own-this-7-yielding-income-etf/?.tsrc=rss",
+          "publishedAt": "2026-11-24T13:22:01Z",
+          "source": "Yahoo Finance",
+          "symbol": "SCHD"
+        },
+        {
+          "title": "3 Dividend ETFs Retirees Can Buy Before the End of November for Hands-Off Income",
+          "link": "https://247wallst.com/investing/etf/2026/11/23/3-dividend-etfs-retirees-can-buy-before-the-end-of-november-for-hands-off-income/?.tsrc=rss",
+          "publishedAt": "2026-11-23T14:27:30Z",
+          "source": "Yahoo Finance",
+          "symbol": "SCHD"
+        },
+        {
+          "title": "Week’s Best: Schwab Claims Dividend King Title",
+          "link": "https://finance.yahoo.com/m/fb6cd700-57ec-3d29-b04d-adcdf6882228/week%E2%80%99s-best%3A-schwab-claims.html?.tsrc=rss",
+          "publishedAt": "2026-11-20T19:12:00Z",
+          "source": "Yahoo Finance",
+          "symbol": "SCHD"
+        }
+      ]
+    },
+    "GLD": {
+      "symbol": "GLD",
+      "name": "SPDR Gold Shares (Zlato)",
+      "currency": "USD",
+      "sector": "ETF · Zlato",
+      "assetType": "ETF",
+      "history": [
+        {
+          "date": "2026-05-26",
+          "close": 414.0
+        },
+        {
+          "date": "2026-05-27",
+          "close": 408.49
+        },
+        {
+          "date": "2026-05-28",
+          "close": 412.77
+        },
+        {
+          "date": "2026-05-29",
+          "close": 417.12
+        },
+        {
+          "date": "2026-06-01",
+          "close": 411.26
+        },
+        {
+          "date": "2026-06-02",
+          "close": 411.95
+        },
+        {
+          "date": "2026-06-03",
+          "close": 407.87
+        },
+        {
+          "date": "2026-06-04",
+          "close": 411.27
+        },
+        {
+          "date": "2026-06-05",
+          "close": 396.24
+        },
+        {
+          "date": "2026-06-08",
+          "close": 397.27
+        },
+        {
+          "date": "2026-06-09",
+          "close": 390.78
+        },
+        {
+          "date": "2026-06-10",
+          "close": 374.58
+        },
+        {
+          "date": "2026-06-11",
+          "close": 386.32
+        },
+        {
+          "date": "2026-06-12",
+          "close": 386.54
+        },
+        {
+          "date": "2026-06-15",
+          "close": 396.55
+        },
+        {
+          "date": "2026-06-16",
+          "close": 397.63
+        },
+        {
+          "date": "2026-06-17",
+          "close": 388.6
+        },
+        {
+          "date": "2026-06-18",
+          "close": 387.12
+        },
+        {
+          "date": "2026-06-22",
+          "close": 384.59
+        },
+        {
+          "date": "2026-06-23",
+          "close": 377.32
+        },
+        {
+          "date": "2026-06-24",
+          "close": 365.92
+        },
+        {
+          "date": "2026-06-25",
+          "close": 369.46
+        },
+        {
+          "date": "2026-06-26",
+          "close": 373.63
+        },
+        {
+          "date": "2026-06-29",
+          "close": 368.58
+        },
+        {
+          "date": "2026-06-30",
+          "close": 368.38
+        },
+        {
+          "date": "2026-07-01",
+          "close": 370.6
+        },
+        {
+          "date": "2026-07-02",
+          "close": 378.13
+        },
+        {
+          "date": "2026-07-06",
+          "close": 382.13
+        },
+        {
+          "date": "2026-07-07",
+          "close": 377.49
+        },
+        {
+          "date": "2026-07-08",
+          "close": 374.45
+        },
+        {
+          "date": "2026-07-09",
+          "close": 378.18
+        },
+        {
+          "date": "2026-07-10",
+          "close": 377.01
+        },
+        {
+          "date": "2026-07-13",
+          "close": 367.13
+        },
+        {
+          "date": "2026-07-14",
+          "close": 372.15
+        },
+        {
+          "date": "2026-07-15",
+          "close": 372.35
+        },
+        {
+          "date": "2026-07-16",
+          "close": 364.96
+        },
+        {
+          "date": "2026-07-17",
+          "close": 368.41
+        },
+        {
+          "date": "2026-07-20",
+          "close": 367.6
+        },
+        {
+          "date": "2026-07-21",
+          "close": 374.81
+        },
+        {
+          "date": "2026-07-22",
+          "close": 379.12
+        },
+        {
+          "date": "2026-07-23",
+          "close": 371.52
+        },
+        {
+          "date": "2026-07-24",
+          "close": 371.9
+        },
+        {
+          "date": "2026-07-27",
+          "close": 374.63
+        },
+        {
+          "date": "2026-07-28",
+          "close": 369.37
+        },
+        {
+          "date": "2026-07-29",
+          "close": 371.08
+        },
+        {
+          "date": "2026-07-30",
+          "close": 377.16
+        },
+        {
+          "date": "2026-07-31",
+          "close": 371.54
+        },
+        {
+          "date": "2026-08-03",
+          "close": 371.71
+        },
+        {
+          "date": "2026-08-04",
+          "close": 374.16
+        },
+        {
+          "date": "2026-08-05",
+          "close": 389.64
+        },
+        {
+          "date": "2026-08-06",
+          "close": 389.67
+        },
+        {
+          "date": "2026-08-07",
+          "close": 398.47
+        },
+        {
+          "date": "2026-08-10",
+          "close": 402.54
+        },
+        {
+          "date": "2026-08-11",
+          "close": 400.96
+        },
+        {
+          "date": "2026-08-12",
+          "close": 404.92
+        },
+        {
+          "date": "2026-08-13",
+          "close": 398.96
+        },
+        {
+          "date": "2026-08-14",
+          "close": 401.48
+        },
+        {
+          "date": "2026-08-17",
+          "close": 405.49
+        },
+        {
+          "date": "2026-08-18",
+          "close": 398.55
+        },
+        {
+          "date": "2026-08-19",
+          "close": 413.84
+        },
+        {
+          "date": "2026-08-20",
+          "close": 415.26
+        },
+        {
+          "date": "2026-08-21",
+          "close": 423.36
+        },
+        {
+          "date": "2026-08-24",
+          "close": 426.69
+        },
+        {
+          "date": "2026-08-25",
+          "close": 428.07
+        },
+        {
+          "date": "2026-08-26",
+          "close": 421.32
+        },
+        {
+          "date": "2026-08-27",
+          "close": 422.6
+        },
+        {
+          "date": "2026-08-28",
+          "close": 408.89
+        },
+        {
+          "date": "2026-08-31",
+          "close": 408.42
+        },
+        {
+          "date": "2026-09-01",
+          "close": 396.75
+        },
+        {
+          "date": "2026-09-02",
+          "close": 402.78
+        },
+        {
+          "date": "2026-09-03",
+          "close": 410.22
+        },
+        {
+          "date": "2026-09-04",
+          "close": 406.77
+        },
+        {
+          "date": "2026-09-08",
+          "close": 399.72
+        },
+        {
+          "date": "2026-09-09",
+          "close": 403.35
+        },
+        {
+          "date": "2026-09-10",
+          "close": 396.36
+        },
+        {
+          "date": "2026-09-11",
+          "close": 398.77
+        },
+        {
+          "date": "2026-09-14",
+          "close": 392.84
+        },
+        {
+          "date": "2026-09-15",
+          "close": 394.15
+        },
+        {
+          "date": "2026-09-16",
+          "close": 391.74
+        },
+        {
+          "date": "2026-09-17",
+          "close": 398.36
+        },
+        {
+          "date": "2026-09-18",
+          "close": 401.17
+        },
+        {
+          "date": "2026-09-21",
+          "close": 398.38
+        },
+        {
+          "date": "2026-09-22",
+          "close": 400.07
+        },
+        {
+          "date": "2026-09-23",
+          "close": 392.88
+        },
+        {
+          "date": "2026-09-24",
+          "close": 391.69
+        },
+        {
+          "date": "2026-09-25",
+          "close": 393.41
+        },
+        {
+          "date": "2026-09-28",
+          "close": 377.91
+        },
+        {
+          "date": "2026-09-29",
+          "close": 382.89
+        },
+        {
+          "date": "2026-09-30",
+          "close": 380.84
+        },
+        {
+          "date": "2026-10-01",
+          "close": 382.76
+        },
+        {
+          "date": "2026-10-02",
+          "close": 380.14
+        },
+        {
+          "date": "2026-10-05",
+          "close": 379.55
+        },
+        {
+          "date": "2026-10-06",
+          "close": 382.27
+        },
+        {
+          "date": "2026-10-07",
+          "close": 375.88
+        },
+        {
+          "date": "2026-10-08",
+          "close": 378.62
+        },
+        {
+          "date": "2026-10-09",
+          "close": 384.58
+        },
+        {
+          "date": "2026-10-12",
+          "close": 382.15
+        },
+        {
+          "date": "2026-10-13",
+          "close": 381.67
+        },
+        {
+          "date": "2026-10-14",
+          "close": 375.99
+        },
+        {
+          "date": "2026-10-15",
+          "close": 382.71
+        },
+        {
+          "date": "2026-10-16",
+          "close": 382.01
+        },
+        {
+          "date": "2026-10-19",
+          "close": 379.69
+        },
+        {
+          "date": "2026-10-20",
+          "close": 377.65
+        },
+        {
+          "date": "2026-10-21",
+          "close": 378.95
+        },
+        {
+          "date": "2026-10-22",
+          "close": 369.0
+        },
+        {
+          "date": "2026-10-23",
+          "close": 366.61
+        },
+        {
+          "date": "2026-10-26",
+          "close": 367.82
+        },
+        {
+          "date": "2026-10-27",
+          "close": 372.28
+        },
+        {
+          "date": "2026-10-28",
+          "close": 373.51
+        },
+        {
+          "date": "2026-10-29",
+          "close": 368.57
+        },
+        {
+          "date": "2026-10-30",
+          "close": 355.78
+        },
+        {
+          "date": "2026-11-02",
+          "close": 361.65
+        },
+        {
+          "date": "2026-11-03",
+          "close": 359.26
+        },
+        {
+          "date": "2026-11-04",
+          "close": 372.49
+        },
+        {
+          "date": "2026-11-05",
+          "close": 375.49
+        },
+        {
+          "date": "2026-11-06",
+          "close": 372.52
+        },
+        {
+          "date": "2026-11-09",
+          "close": 379.53
+        },
+        {
+          "date": "2026-11-10",
+          "close": 369.36
+        },
+        {
+          "date": "2026-11-11",
+          "close": 365.17
+        },
+        {
+          "date": "2026-11-12",
+          "close": 354.89
+        },
+        {
+          "date": "2026-11-13",
+          "close": 355.45
+        },
+        {
+          "date": "2026-11-16",
+          "close": 352.93
+        },
+        {
+          "date": "2026-11-17",
+          "close": 352.48
+        },
+        {
+          "date": "2026-11-18",
+          "close": 341.19
+        },
+        {
+          "date": "2026-11-19",
+          "close": 335.18
+        },
+        {
+          "date": "2026-11-20",
+          "close": 322.87
+        },
+        {
+          "date": "2026-11-23",
+          "close": 333.02
+        }
+      ],
+      "news": [
+        {
+          "title": "Own Gold As A Hedge? BND Rose More Often",
+          "link": "https://www.trefis.com/stock/bnd/articles/627661/own-gold-as-a-hedge-bnd-rose-more-often/2026-11-23?.tsrc=rss",
+          "publishedAt": "2026-11-23T22:38:05Z",
+          "source": "Yahoo Finance",
+          "symbol": "GLD"
+        },
+        {
+          "title": "GLD, SLV Sink To Near 14-Month Lows – But This Commodities Expert Sees A ‘Relative Bright Spot’",
+          "link": "https://stocktwits.com/news-articles/markets/equity/gld-slv-sink-to-near-14-month-lows-gold-silver-prices/cNbXzasR9LJ?.tsrc=rss",
+          "publishedAt": "2026-11-18T10:46:32Z",
+          "source": "Yahoo Finance",
+          "symbol": "GLD"
+        },
+        {
+          "title": "Ray Dalio Keeps Telling Investors to Hold Gold. Gold Just Lost 28% From Its Record. Here’s His Rule for a 66-Year-Old With $800,000 in an IRA and $2,800 a Month in Social Security",
+          "link": "https://247wallst.com/investing/2026/11/14/ray-dalio-keeps-telling-investors-to-hold-gold-gold-just-lost-28-from-its-record-heres-his-rule-for-a-66-year-old-with-800000-in-an-ira-and-2800-a-month-in-social-security/?.tsrc=rss",
+          "publishedAt": "2026-11-14T19:43:00Z",
+          "source": "Yahoo Finance",
+          "symbol": "GLD"
+        }
+      ]
+    },
+    "TLT": {
+      "symbol": "TLT",
+      "name": "iShares 20+ Year Treasury Bond ETF",
+      "currency": "USD",
+      "sector": "ETF · Dluhopisy USA",
+      "assetType": "ETF",
+      "history": [
+        {
+          "date": "2026-05-26",
+          "close": 85.1
+        },
+        {
+          "date": "2026-05-27",
+          "close": 85.3
+        },
+        {
+          "date": "2026-05-28",
+          "close": 85.74
+        },
+        {
+          "date": "2026-05-29",
+          "close": 85.76
+        },
+        {
+          "date": "2026-06-01",
+          "close": 85.47
+        },
+        {
+          "date": "2026-06-02",
+          "close": 85.65
+        },
+        {
+          "date": "2026-06-03",
+          "close": 85.31
+        },
+        {
+          "date": "2026-06-04",
+          "close": 85.5
+        },
+        {
+          "date": "2026-06-05",
+          "close": 85.06
+        },
+        {
+          "date": "2026-06-08",
+          "close": 84.62
+        },
+        {
+          "date": "2026-06-09",
+          "close": 85.12
+        },
+        {
+          "date": "2026-06-10",
+          "close": 84.88
+        },
+        {
+          "date": "2026-06-11",
+          "close": 85.98
+        },
+        {
+          "date": "2026-06-12",
+          "close": 85.77
+        },
+        {
+          "date": "2026-06-15",
+          "close": 85.72
+        },
+        {
+          "date": "2026-06-16",
+          "close": 86.19
+        },
+        {
+          "date": "2026-06-17",
+          "close": 86.33
+        },
+        {
+          "date": "2026-06-18",
+          "close": 86.75
+        },
+        {
+          "date": "2026-06-22",
+          "close": 86.09
+        },
+        {
+          "date": "2026-06-23",
+          "close": 86.2
+        },
+        {
+          "date": "2026-06-24",
+          "close": 87.38
+        },
+        {
+          "date": "2026-06-25",
+          "close": 87.35
+        },
+        {
+          "date": "2026-06-26",
+          "close": 87.36
+        },
+        {
+          "date": "2026-06-29",
+          "close": 87.45
+        },
+        {
+          "date": "2026-06-30",
+          "close": 86.42
+        },
+        {
+          "date": "2026-07-01",
+          "close": 85.52
+        },
+        {
+          "date": "2026-07-02",
+          "close": 85.51
+        },
+        {
+          "date": "2026-07-06",
+          "close": 85.45
+        },
+        {
+          "date": "2026-07-07",
+          "close": 84.55
+        },
+        {
+          "date": "2026-07-08",
+          "close": 84.36
+        },
+        {
+          "date": "2026-07-09",
+          "close": 84.49
+        },
+        {
+          "date": "2026-07-10",
+          "close": 84.47
+        },
+        {
+          "date": "2026-07-13",
+          "close": 83.97
+        },
+        {
+          "date": "2026-07-14",
+          "close": 84.08
+        },
+        {
+          "date": "2026-07-15",
+          "close": 84.24
+        },
+        {
+          "date": "2026-07-16",
+          "close": 84.21
+        },
+        {
+          "date": "2026-07-17",
+          "close": 84.52
+        },
+        {
+          "date": "2026-07-20",
+          "close": 83.89
+        },
+        {
+          "date": "2026-07-21",
+          "close": 83.66
+        },
+        {
+          "date": "2026-07-22",
+          "close": 83.44
+        },
+        {
+          "date": "2026-07-23",
+          "close": 83.17
+        },
+        {
+          "date": "2026-07-24",
+          "close": 83.25
+        },
+        {
+          "date": "2026-07-27",
+          "close": 83.75
+        },
+        {
+          "date": "2026-07-28",
+          "close": 84.24
+        },
+        {
+          "date": "2026-07-29",
+          "close": 82.85
+        },
+        {
+          "date": "2026-07-30",
+          "close": 82.8
+        },
+        {
+          "date": "2026-07-31",
+          "close": 82.25
+        },
+        {
+          "date": "2026-08-03",
+          "close": 82.19
+        },
+        {
+          "date": "2026-08-04",
+          "close": 82.82
+        },
+        {
+          "date": "2026-08-05",
+          "close": 83.0
+        },
+        {
+          "date": "2026-08-06",
+          "close": 82.52
+        },
+        {
+          "date": "2026-08-07",
+          "close": 82.76
+        },
+        {
+          "date": "2026-08-10",
+          "close": 82.06
+        },
+        {
+          "date": "2026-08-11",
+          "close": 82.19
+        },
+        {
+          "date": "2026-08-12",
+          "close": 82.11
+        },
+        {
+          "date": "2026-08-13",
+          "close": 82.59
+        },
+        {
+          "date": "2026-08-14",
+          "close": 82.04
+        },
+        {
+          "date": "2026-08-17",
+          "close": 81.35
+        },
+        {
+          "date": "2026-08-18",
+          "close": 81.66
+        },
+        {
+          "date": "2026-08-19",
+          "close": 83.02
+        },
+        {
+          "date": "2026-08-20",
+          "close": 82.34
+        },
+        {
+          "date": "2026-08-21",
+          "close": 82.05
+        },
+        {
+          "date": "2026-08-24",
+          "close": 82.56
+        },
+        {
+          "date": "2026-08-25",
+          "close": 83.47
+        },
+        {
+          "date": "2026-08-26",
+          "close": 83.3
+        },
+        {
+          "date": "2026-08-27",
+          "close": 83.13
+        },
+        {
+          "date": "2026-08-28",
+          "close": 82.88
+        },
+        {
+          "date": "2026-08-31",
+          "close": 82.52
+        },
+        {
+          "date": "2026-09-01",
+          "close": 81.87
+        },
+        {
+          "date": "2026-09-02",
+          "close": 81.95
+        },
+        {
+          "date": "2026-09-03",
+          "close": 82.07
+        },
+        {
+          "date": "2026-09-04",
+          "close": 82.21
+        },
+        {
+          "date": "2026-09-08",
+          "close": 82.2
+        },
+        {
+          "date": "2026-09-09",
+          "close": 81.73
+        },
+        {
+          "date": "2026-09-10",
+          "close": 80.78
+        },
+        {
+          "date": "2026-09-11",
+          "close": 80.87
+        },
+        {
+          "date": "2026-09-14",
+          "close": 80.93
+        },
+        {
+          "date": "2026-09-15",
+          "close": 80.71
+        },
+        {
+          "date": "2026-09-16",
+          "close": 80.88
+        },
+        {
+          "date": "2026-09-17",
+          "close": 81.78
+        },
+        {
+          "date": "2026-09-18",
+          "close": 81.25
+        },
+        {
+          "date": "2026-09-21",
+          "close": 81.8
+        },
+        {
+          "date": "2026-09-22",
+          "close": 81.75
+        },
+        {
+          "date": "2026-09-23",
+          "close": 80.46
+        },
+        {
+          "date": "2026-09-24",
+          "close": 79.42
+        },
+        {
+          "date": "2026-09-25",
+          "close": 79.32
+        },
+        {
+          "date": "2026-09-28",
+          "close": 78.62
+        },
+        {
+          "date": "2026-09-29",
+          "close": 78.23
+        },
+        {
+          "date": "2026-09-30",
+          "close": 77.78
+        },
+        {
+          "date": "2026-10-01",
+          "close": 77.71
+        },
+        {
+          "date": "2026-10-02",
+          "close": 77.48
+        },
+        {
+          "date": "2026-10-05",
+          "close": 77.11
+        },
+        {
+          "date": "2026-10-06",
+          "close": 77.28
+        },
+        {
+          "date": "2026-10-07",
+          "close": 77.15
+        },
+        {
+          "date": "2026-10-08",
+          "close": 77.87
+        },
+        {
+          "date": "2026-10-09",
+          "close": 77.98
+        },
+        {
+          "date": "2026-10-12",
+          "close": 78.05
+        },
+        {
+          "date": "2026-10-13",
+          "close": 78.37
+        },
+        {
+          "date": "2026-10-14",
+          "close": 78.89
+        },
+        {
+          "date": "2026-10-15",
+          "close": 79.97
+        },
+        {
+          "date": "2026-10-16",
+          "close": 80.05
+        },
+        {
+          "date": "2026-10-19",
+          "close": 79.46
+        },
+        {
+          "date": "2026-10-20",
+          "close": 80.13
+        },
+        {
+          "date": "2026-10-21",
+          "close": 80.24
+        },
+        {
+          "date": "2026-10-22",
+          "close": 81.74
+        },
+        {
+          "date": "2026-10-23",
+          "close": 81.34
+        },
+        {
+          "date": "2026-10-26",
+          "close": 81.68
+        },
+        {
+          "date": "2026-10-27",
+          "close": 81.63
+        },
+        {
+          "date": "2026-10-28",
+          "close": 80.99
+        },
+        {
+          "date": "2026-10-29",
+          "close": 81.49
+        },
+        {
+          "date": "2026-10-30",
+          "close": 81.84
+        },
+        {
+          "date": "2026-11-02",
+          "close": 81.73
+        },
+        {
+          "date": "2026-11-03",
+          "close": 81.11
+        },
+        {
+          "date": "2026-11-04",
+          "close": 81.76
+        },
+        {
+          "date": "2026-11-05",
+          "close": 81.93
+        },
+        {
+          "date": "2026-11-06",
+          "close": 81.92
+        },
+        {
+          "date": "2026-11-09",
+          "close": 81.96
+        },
+        {
+          "date": "2026-11-10",
+          "close": 80.88
+        },
+        {
+          "date": "2026-11-11",
+          "close": 80.92
+        },
+        {
+          "date": "2026-11-12",
+          "close": 79.72
+        },
+        {
+          "date": "2026-11-13",
+          "close": 79.38
+        },
+        {
+          "date": "2026-11-16",
+          "close": 79.38
+        },
+        {
+          "date": "2026-11-17",
+          "close": 79.55
+        },
+        {
+          "date": "2026-11-18",
+          "close": 80.22
+        },
+        {
+          "date": "2026-11-19",
+          "close": 80.35
+        },
+        {
+          "date": "2026-11-20",
+          "close": 81.45
+        },
+        {
+          "date": "2026-11-23",
+          "close": 81.69
+        }
+      ],
+      "news": [
+        {
+          "title": "How Much Do You Really Need Invested to Replace a $195,000 Salary With Dividends?",
+          "link": "https://247wallst.com/personal-finance/2026/11/23/how-much-do-you-really-need-invested-to-replace-a-195000-salary-with-dividends/?.tsrc=rss",
+          "publishedAt": "2026-11-23T19:55:29Z",
+          "source": "Yahoo Finance",
+          "symbol": "TLT"
+        },
+        {
+          "title": "SPY And Gold Fell Together. Did Bonds Save 60/40?",
+          "link": "https://www.trefis.com/stock/spy/articles/627558/spy-and-gold-fell-together-did-bonds-save-60-40/2026-11-22?.tsrc=rss",
+          "publishedAt": "2026-11-23T12:05:47Z",
+          "source": "Yahoo Finance",
+          "symbol": "TLT"
+        },
+        {
+          "title": "The Fed’s Biggest Dove Sees No Clear Path Back to 2% Inflation",
+          "link": "https://247wallst.com/investing/2026/11/20/the-feds-biggest-dove-sees-no-clear-path-back-to-2-inflation/?.tsrc=rss",
+          "publishedAt": "2026-11-20T15:08:39Z",
+          "source": "Yahoo Finance",
+          "symbol": "TLT"
         }
       ]
     }
