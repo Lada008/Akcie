@@ -9,11 +9,51 @@
     { symbol: "AMZN", name: "Amazon.com Inc.", currency: "USD", sector: "E-commerce", seed: 205, start: 186, drift: 0.0009, vol: 0.013, mode: "sell" },
     { symbol: "META", name: "Meta Platforms Inc.", currency: "USD", sector: "Technologie", seed: 206, start: 520, drift: 0.0010, vol: 0.014, mode: "sell" },
     { symbol: "TSLA", name: "Tesla Inc.", currency: "USD", sector: "Automobilový průmysl", seed: 207, start: 258, drift: -0.0004, vol: 0.020, mode: "buy" },
+    { symbol: "AMD", name: "Advanced Micro Devices", currency: "USD", sector: "Polovodiče", seed: 213, start: 148, drift: -0.0003, vol: 0.019, mode: "buy" },
     { symbol: "INTC", name: "Intel Corp.", currency: "USD", sector: "Polovodiče", seed: 208, start: 31.5, drift: -0.0006, vol: 0.016, mode: "buy" },
-    { symbol: "KO", name: "The Coca-Cola Co.", currency: "USD", sector: "Spotřební zboží", seed: 109, start: 64, drift: 0.0002, vol: 0.007, mode: "hold_up" },
+    { symbol: "NFLX", name: "Netflix Inc.", currency: "USD", sector: "Média a streaming", seed: 214, start: 680, drift: 0.0010, vol: 0.014, mode: "sell" },
+    { symbol: "JPM", name: "JPMorgan Chase & Co.", currency: "USD", sector: "Finance", seed: 215, start: 208, drift: 0.0006, vol: 0.009, mode: "hold_up" },
+    { symbol: "V", name: "Visa Inc.", currency: "USD", sector: "Finance", seed: 216, start: 275, drift: 0.0004, vol: 0.008, mode: "hold_up" },
+    { symbol: "BRK-B", name: "Berkshire Hathaway B", currency: "USD", sector: "Konglomerát", seed: 217, start: 430, drift: 0.0004, vol: 0.007, mode: "hold_up" },
     { symbol: "JNJ", name: "Johnson & Johnson", currency: "USD", sector: "Zdravotnictví", seed: 210, start: 158, drift: -0.0002, vol: 0.009, mode: "buy" },
+    { symbol: "UNH", name: "UnitedHealth Group", currency: "USD", sector: "Zdravotnictví", seed: 218, start: 540, drift: -0.0003, vol: 0.011, mode: "buy" },
+    { symbol: "KO", name: "The Coca-Cola Co.", currency: "USD", sector: "Spotřební zboží", seed: 109, start: 64, drift: 0.0002, vol: 0.007, mode: "hold_up" },
+    { symbol: "WMT", name: "Walmart Inc.", currency: "USD", sector: "Maloobchod", seed: 219, start: 74, drift: 0.0008, vol: 0.008, mode: "sell" },
+    { symbol: "XOM", name: "Exxon Mobil Corp.", currency: "USD", sector: "Energetika", seed: 220, start: 114, drift: -0.0002, vol: 0.011, mode: "hold_down" },
     { symbol: "CEZ.PR", name: "ČEZ, a. s.", currency: "CZK", sector: "Energetika", seed: 111, start: 910, drift: 0.0005, vol: 0.009, mode: "hold_up" },
     { symbol: "KOMB.PR", name: "Komerční banka, a. s.", currency: "CZK", sector: "Finance", seed: 112, start: 785, drift: 0.0006, vol: 0.010, mode: "hold_down" },
+    { symbol: "MONET.PR", name: "MONETA Money Bank", currency: "CZK", sector: "Finance", seed: 221, start: 112, drift: 0.0005, vol: 0.008, mode: "hold_up" },
+    { symbol: "ASML", name: "ASML Holding N.V.", currency: "USD", sector: "Polovodiče (EU)", seed: 222, start: 820, drift: -0.0005, vol: 0.016, mode: "buy" },
+    { symbol: "SAP", name: "SAP SE", currency: "USD", sector: "Technologie (EU)", seed: 223, start: 210, drift: 0.0008, vol: 0.011, mode: "hold_up" },
+    { symbol: "SPY", name: "SPDR S&P 500 ETF Trust", currency: "USD", sector: "Indexové ETF (USA)", seed: 224, start: 560, drift: 0.0005, vol: 0.007, mode: "hold_up" },
+    { symbol: "QQQ", name: "Invesco QQQ Trust (Nasdaq-100)", currency: "USD", sector: "Indexové ETF (Tech)", seed: 225, start: 480, drift: 0.0007, vol: 0.009, mode: "hold_up" },
+  ];
+
+  const DEMO_NEWS = [
+    {
+      title: "Americké indexy S&P 500 a Nasdaq vyčkávají na další makrodata a výsledkovou sezónu",
+      link: "https://finance.yahoo.com/",
+      publishedAt: new Date(Date.now() - 2 * 3600 * 1000).toISOString(),
+      source: "Demo přehled",
+    },
+    {
+      title: "Polovodičový sektor vykazuje vysokou rozkolísanost — investoři rozlišují lídry v AI a tradiční výrobce",
+      link: "https://finance.yahoo.com/sectors/technology/",
+      publishedAt: new Date(Date.now() - 5 * 3600 * 1000).toISOString(),
+      source: "Demo přehled",
+    },
+    {
+      title: "Pražská burza: energetické a bankovní tituly (ČEZ, KB, Moneta) zůstávají pod drobnohledem dividendových investorů",
+      link: "https://www.patria.cz/",
+      publishedAt: new Date(Date.now() - 8 * 3600 * 1000).toISOString(),
+      source: "Demo přehled",
+    },
+    {
+      title: "Defenzivní sektory a zdravotnictví po nedávném oslabení lákají opatrnější investory",
+      link: "https://finance.yahoo.com/sectors/healthcare/",
+      publishedAt: new Date(Date.now() - 18 * 3600 * 1000).toISOString(),
+      source: "Demo přehled",
+    },
   ];
 
   function mulberry32(seed) {
@@ -102,18 +142,17 @@
         sector: spec.sector,
         isSimulated: true,
         history: generateSeries(spec, dates),
+        news: [],
       };
     }
     return {
       updatedAt: new Date().toISOString(),
-      source: "Ukázková demo data (lokální záložní režim)",
+      source: "Ukázková demo data (25 titulů — lokální záložní režim)",
+      marketNews: DEMO_NEWS,
       tickers,
     };
   }
 
-  /**
-   * Vygeneruje deterministickou ukázkovou řadu pro libovolný vlastní ticker v demo režimu.
-   */
   function buildSyntheticTicker(symbol) {
     const clean = symbol.toUpperCase().trim();
     const seed = hashSymbol(clean);
@@ -133,6 +172,7 @@
         { seed, start, drift: 0.0003, vol: 0.014, mode },
         dates
       ),
+      news: [],
     };
   }
 

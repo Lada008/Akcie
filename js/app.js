@@ -5,16 +5,23 @@
   const STORAGE_SETTINGS_KEY = "akcie_settings_v1";
 
   const DEFAULT_WATCHLIST = [
+    "SPY",
+    "QQQ",
     "AAPL",
     "MSFT",
     "NVDA",
     "AMZN",
     "META",
     "TSLA",
+    "AMD",
     "INTC",
+    "JPM",
     "JNJ",
+    "UNH",
+    "ASML",
     "CEZ.PR",
     "KOMB.PR",
+    "MONET.PR",
   ];
 
   const DEFAULT_SETTINGS = {
@@ -57,6 +64,7 @@
     tickerInput: document.getElementById("ticker-input"),
     datalist: document.getElementById("available-tickers-list"),
     searchInput: document.getElementById("search-input"),
+    btnLoadAllTickers: document.getElementById("btn-load-all-tickers"),
     btnResetWatchlist: document.getElementById("btn-reset-watchlist"),
     formFeedback: document.getElementById("form-feedback"),
 
@@ -95,6 +103,22 @@
     rsiCanvas: document.getElementById("rsi-chart"),
     legendBuyTh: document.getElementById("legend-buy-th"),
     legendSellTh: document.getElementById("legend-sell-th"),
+
+    detailOutlookBox: document.getElementById("detail-outlook-box"),
+    outlookShort: document.getElementById("outlook-short"),
+    outlookMedium: document.getElementById("outlook-medium"),
+    outlookVol: document.getElementById("outlook-vol"),
+    outlookRange: document.getElementById("outlook-range"),
+    detailNewsBox: document.getElementById("detail-news-box"),
+    detailNewsList: document.getElementById("detail-news-list"),
+
+    marketMoodBadge: document.getElementById("market-mood-badge"),
+    marketSpy: document.getElementById("market-spy"),
+    marketQqq: document.getElementById("market-qqq"),
+    marketUptrend: document.getElementById("market-uptrend"),
+    marketAvgRsi: document.getElementById("market-avgrsi"),
+    marketForecastText: document.getElementById("market-forecast-text"),
+    marketNewsList: document.getElementById("market-news-list"),
   };
 
   let chartController = null;
@@ -313,6 +337,7 @@
     const selectedAnalysis =
       analyses.find((a) => a.symbol === state.selectedSymbol) || null;
     renderDetail(selectedAnalysis);
+    renderMarketIntel();
   }
 
   function renderWatchlist(items) {
@@ -439,6 +464,8 @@
     if (!analysis.hasData) {
       els.detailNoData.hidden = false;
       els.chartsWrapper.hidden = true;
+      if (els.detailOutlookBox) els.detailOutlookBox.hidden = true;
+      if (els.detailNewsBox) els.detailNewsBox.hidden = true;
       return;
     }
 
@@ -455,6 +482,103 @@
       buyThreshold: state.settings.buyThreshold,
       sellThreshold: state.settings.sellThreshold,
     });
+
+    // Orientační technická prognóza v detailu akcie
+    if (els.detailOutlookBox && analysis.outlook) {
+      els.detailOutlookBox.hidden = false;
+      els.outlookShort.textContent = analysis.outlook.shortTerm;
+      els.outlookMedium.textContent = analysis.outlook.mediumTerm;
+      els.outlookVol.textContent = analysis.outlook.volatilityLabel;
+      const sup = formatPrice(analysis.outlook.support20, analysis.currency);
+      const res = formatPrice(analysis.outlook.resistance20, analysis.currency);
+      els.outlookRange.textContent = `${sup} – ${res}`;
+    }
+
+    // Zprávy k vybrané akcii
+    if (els.detailNewsBox && els.detailNewsList) {
+      if (analysis.news && analysis.news.length > 0) {
+        els.detailNewsBox.hidden = false;
+        renderNewsList(els.detailNewsList, analysis.news);
+      } else {
+        els.detailNewsBox.hidden = true;
+      }
+    }
+  }
+
+  function formatNewsDate(isoStr) {
+    if (!isoStr) return "";
+    const d = new Date(isoStr);
+    if (Number.isNaN(d.getTime())) return "";
+    return d.toLocaleString("cs-CZ", {
+      day: "2-digit",
+      month: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+    });
+  }
+
+  function renderNewsList(listEl, items) {
+    if (!listEl) return;
+    if (!Array.isArray(items) || items.length === 0) {
+      listEl.innerHTML =
+        '<li class="news-item"><span class="news-meta">Zatím nejsou k dispozici žádné zprávy. Spusťte denní aktualizaci dat přes GitHub Actions.</span></li>';
+      return;
+    }
+
+    listEl.innerHTML = items
+      .map((item) => {
+        const safeTitle = escapeHtml(item.title || "");
+        const safeLink = escapeHtml(item.link || "#");
+        const safeSource = escapeHtml(item.source || "Zprávy");
+        const dateStr = formatNewsDate(item.publishedAt);
+        return `
+          <li class="news-item">
+            <a class="news-link" href="${safeLink}" target="_blank" rel="noopener noreferrer">${safeTitle}</a>
+            <div class="news-meta">
+              <span>${safeSource}</span>
+              ${dateStr ? `<span>· ${escapeHtml(dateStr)}</span>` : ""}
+            </div>
+          </li>
+        `;
+      })
+      .join("");
+  }
+
+  function renderMarketIntel() {
+    if (!els.marketForecastText) return;
+    const { analyzeTicker, summarizeMarket, formatPercent, formatNumber } =
+      window.AkcieIndicators;
+    const dataset = getActiveDataset();
+    const allRaw = dataset?.tickers ? Object.values(dataset.tickers) : [];
+    const allAnalyses = allRaw.map((raw) => analyzeTicker(raw, state.settings));
+    const summary = summarizeMarket(allAnalyses);
+
+    els.marketMoodBadge.textContent = summary.mood;
+    els.marketMoodBadge.className = `mood-badge ${summary.moodClass}`;
+
+    if (summary.spy) {
+      els.marketSpy.textContent = `${formatPercent(summary.spy.percentChange)} (${periodLabel(state.settings.periodDays)})`;
+      els.marketSpy.className = `mono ${changeClass(summary.spy.percentChange)}`;
+    } else {
+      els.marketSpy.textContent = "—";
+      els.marketSpy.className = "mono";
+    }
+
+    if (summary.qqq) {
+      els.marketQqq.textContent = `${formatPercent(summary.qqq.percentChange)} (${periodLabel(state.settings.periodDays)})`;
+      els.marketQqq.className = `mono ${changeClass(summary.qqq.percentChange)}`;
+    } else {
+      els.marketQqq.textContent = "—";
+      els.marketQqq.className = "mono";
+    }
+
+    els.marketUptrend.textContent = `${summary.uptrendPct} %`;
+    els.marketAvgRsi.textContent =
+      summary.avgRsi !== null ? formatNumber(summary.avgRsi, 1) : "—";
+    els.marketForecastText.textContent = summary.forecastText;
+
+    const news = Array.isArray(dataset?.marketNews) ? dataset.marketNews : [];
+    renderNewsList(els.marketNewsList, news);
   }
 
   function periodLabel(days) {
@@ -552,6 +676,22 @@
       state.searchQuery = e.target.value;
       renderAll();
     });
+
+    if (els.btnLoadAllTickers) {
+      els.btnLoadAllTickers.addEventListener("click", () => {
+        const dataset = getActiveDataset();
+        const allSymbols = dataset?.tickers ? Object.keys(dataset.tickers) : [];
+        if (allSymbols.length === 0) return;
+        const merged = Array.from(new Set([...state.watchlist, ...allSymbols]));
+        state.watchlist = merged;
+        state.signalFilter = "ALL";
+        state.searchQuery = "";
+        els.searchInput.value = "";
+        saveWatchlist();
+        renderAll();
+        showFeedback(`Načteno všech ${allSymbols.length} dostupných akcií a ETF.`, "ok");
+      });
+    }
 
     els.btnResetWatchlist.addEventListener("click", () => {
       state.watchlist = [...DEFAULT_WATCHLIST];

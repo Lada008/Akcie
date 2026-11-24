@@ -195,15 +195,76 @@
       );
     }
 
+    // Orientační technická prognóza (výhled) na základě RSI, SMA a 20denní volatility
+    const recent20 = closes.slice(-20);
+    const support20 = recent20.length ? Math.min(...recent20) : null;
+    const resistance20 = recent20.length ? Math.max(...recent20) : null;
+
+    const dailyReturns = [];
+    for (let i = Math.max(1, closes.length - 20); i < closes.length; i++) {
+      if (closes[i - 1] > 0) {
+        dailyReturns.push((closes[i] - closes[i - 1]) / closes[i - 1]);
+      }
+    }
+    let volatilityLabel = "Střední";
+    let dailyVolPct = null;
+    if (dailyReturns.length >= 5) {
+      const mean = dailyReturns.reduce((a, b) => a + b, 0) / dailyReturns.length;
+      const variance =
+        dailyReturns.reduce((acc, r) => acc + (r - mean) ** 2, 0) /
+        dailyReturns.length;
+      dailyVolPct = Math.sqrt(variance) * 100;
+      if (dailyVolPct < 1.0) volatilityLabel = "Nízká (klidnější akcie)";
+      else if (dailyVolPct > 2.0) volatilityLabel = "Vyšší (větší výkyvy)";
+      else volatilityLabel = "Střední";
+    }
+
+    let shortTermOutlook = "";
+    if (signal === "KOUPIT") {
+      shortTermOutlook =
+        "Akcie je po prudším poklesu v přeprodaném pásmu. Často nastává krátkodobý technický odraz nahoru, ale bez potvrzení obratu hrozí i další pokles.";
+    } else if (signal === "PRODAT") {
+      shortTermOutlook =
+        "Po rychlém růstu roste pravděpodobnost krátkodobého ochlazení nebo výběru zisků. V silném trendu však může růst ještě chvíli pokračovat.";
+    } else if (latestSma20 !== null && latestPrice >= latestSma20) {
+      shortTermOutlook =
+        "Bez extrémního výkyvu — mírná převaha kupců nad měsíčním průměrem bez známek přehřátí.";
+    } else {
+      shortTermOutlook =
+        "Bez extrémního výkyvu — spíše vyčkávací fáze lehce pod měsíčním průměrem.";
+    }
+
+    let mediumTermTrend = "Boční / nerozhodný";
+    if (latestSma20 !== null && latestSma50 !== null) {
+      if (latestPrice >= latestSma20 && latestSma20 >= latestSma50) {
+        mediumTermTrend = "Rostoucí trend";
+      } else if (latestPrice < latestSma20 && latestSma20 < latestSma50) {
+        mediumTermTrend = "Klesající trend";
+      } else if (latestPrice >= latestSma20 && latestSma20 < latestSma50) {
+        mediumTermTrend = "Možný pokus o obrat nahoru";
+      } else {
+        mediumTermTrend = "Zpomalení rostoucího trendu";
+      }
+    }
+
     return {
       symbol: tickerData.symbol,
       name: tickerData.name || tickerData.symbol,
       currency: tickerData.currency || "USD",
       sector: tickerData.sector || "—",
       isSimulated: Boolean(tickerData.isSimulated),
+      news: Array.isArray(tickerData.news) ? tickerData.news : [],
       hasData: true,
       signal,
       reason: parts.join(" "),
+      outlook: {
+        shortTerm: shortTermOutlook,
+        mediumTerm: mediumTermTrend,
+        volatilityLabel,
+        dailyVolPct,
+        support20,
+        resistance20,
+      },
       latestPrice,
       latestDate,
       rsi: latestRsi,
@@ -220,11 +281,77 @@
     };
   }
 
+  /**
+   * Vytvoří souhrn vývoje celého trhu a orientační výhled na základě všech dostupných titulů.
+   */
+  function summarizeMarket(allAnalyses) {
+    const valid = allAnalyses.filter((a) => a.hasData && a.rsi !== null);
+    if (valid.length === 0) {
+      return {
+        mood: "Nedostatek dat",
+        moodClass: "is-flat",
+        uptrendPct: 0,
+        avgRsi: null,
+        spy: null,
+        qqq: null,
+        forecastText: "Pro vyhodnocení celkového stavu trhu zatím chybí dostatek historických dat.",
+      };
+    }
+
+    let uptrendCount = 0;
+    let rsiSum = 0;
+    let buyCount = 0;
+    let sellCount = 0;
+
+    for (const a of valid) {
+      rsiSum += a.rsi;
+      if (a.sma50 !== null && a.latestPrice >= a.sma50) uptrendCount++;
+      if (a.signal === "KOUPIT") buyCount++;
+      if (a.signal === "PRODAT") sellCount++;
+    }
+
+    const uptrendPct = Math.round((uptrendCount / valid.length) * 100);
+    const avgRsi = rsiSum / valid.length;
+    const spy = valid.find((a) => a.symbol === "SPY") || null;
+    const qqq = valid.find((a) => a.symbol === "QQQ") || null;
+
+    let mood = "Smíšená / neutrální";
+    let moodClass = "is-flat";
+    let forecastText = "";
+
+    if (uptrendPct >= 65 && avgRsi < 65) {
+      mood = "Převážně pozitivní";
+      moodClass = "is-pos";
+      forecastText = `Většina sledovaných titulů (${uptrendPct} %) se drží nad 50denním průměrem a průměrné RSI (${formatNumber(avgRsi, 1)}) zůstává mimo přehřáté pásmo. Technický výhled je spíše stabilní až mírně rostoucí.`;
+    } else if (avgRsi >= 65) {
+      mood = "Optimistická až přehřátá";
+      moodClass = "is-pos";
+      forecastText = `Průměrné RSI (${formatNumber(avgRsi, 1)}) je zvýšené a ${sellCount} titulů hlásí překoupenost. Po silnějším růstu roste riziko krátkodobého výběru zisků.`;
+    } else if (uptrendPct <= 35 || avgRsi <= 40) {
+      mood = "Opatrná / slabší";
+      moodClass = "is-neg";
+      forecastText = `Pouze ${uptrendPct} % sledovaných titulů je nad 50denním průměrem a ${buyCount} akcie jsou v přeprodaném pásmu. Trh je pod tlakem — vyplatí se zvýšená opatrnost a sledovat, zda se pokles stabilizuje.`;
+    } else {
+      forecastText = `Trh je rozdělený (${uptrendPct} % titulů nad 50denním průměrem, průměrné RSI ${formatNumber(avgRsi, 1)}). Část sektorů posiluje, zatímco jiné korigují — rozhoduje výběr konkrétních firem.`;
+    }
+
+    return {
+      mood,
+      moodClass,
+      uptrendPct,
+      avgRsi,
+      spy,
+      qqq,
+      forecastText,
+    };
+  }
+
   global.AkcieIndicators = {
     calculateSMA,
     calculateRSI,
     calculatePercentChange,
     analyzeTicker,
+    summarizeMarket,
     formatNumber,
     formatPrice,
     formatPercent,

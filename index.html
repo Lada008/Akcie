@@ -163,9 +163,14 @@
           />
         </div>
 
-        <button id="btn-reset-watchlist" type="button" class="btn btn-ghost btn-sm" title="Obnovit výchozí seznam akcií">
-          Výchozí seznam
-        </button>
+        <div class="watchlist-quick-actions">
+          <button id="btn-load-all-tickers" type="button" class="btn btn-secondary btn-sm" title="Přidat do seznamu všechny dostupné akcie a ETF">
+            Načíst vše (25)
+          </button>
+          <button id="btn-reset-watchlist" type="button" class="btn btn-ghost btn-sm" title="Obnovit výchozí seznam akcií">
+            Výchozí seznam
+          </button>
+        </div>
       </div>
 
       <p id="form-feedback" class="form-feedback" role="status" aria-live="polite" hidden></p>
@@ -342,8 +347,82 @@
               </div>
             </div>
           </div>
+
+          <div id="detail-outlook-box" class="outlook-box" hidden>
+            <div class="outlook-header">
+              <h3>Orientační technická prognóza</h3>
+              <span class="outlook-disclaimer">pouze z historických dat</span>
+            </div>
+            <p id="outlook-short" class="outlook-text">—</p>
+            <div class="outlook-meta">
+              <div>
+                <span>Střednědobý trend</span>
+                <strong id="outlook-medium">—</strong>
+              </div>
+              <div>
+                <span>Kolísavost ceny</span>
+                <strong id="outlook-vol">—</strong>
+              </div>
+              <div>
+                <span>20denní rozsah (podpora – rezistence)</span>
+                <strong id="outlook-range" class="mono">—</strong>
+              </div>
+            </div>
+          </div>
+
+          <div id="detail-news-box" class="ticker-news-box" hidden>
+            <h3>Zprávy k této akcii</h3>
+            <ul id="detail-news-list" class="news-list"></ul>
+          </div>
         </div>
       </aside>
+    </section>
+
+    <!-- Vývoj trhu, orientační výhled a zprávy -->
+    <section class="market-intel" aria-label="Vývoj trhu, výhled a zprávy">
+      <div class="intel-card">
+        <div class="intel-header">
+          <div>
+            <h2>Vývoj trhu a orientační výhled</h2>
+            <p class="intel-subtitle">Souhrn ze všech dostupných akcií a indexových ETF (S&amp;P 500, Nasdaq-100)</p>
+          </div>
+          <span id="market-mood-badge" class="mood-badge">—</span>
+        </div>
+
+        <div class="market-metrics-grid">
+          <div class="market-metric">
+            <span class="metric-label">S&amp;P 500 (SPY)</span>
+            <strong id="market-spy" class="mono">—</strong>
+          </div>
+          <div class="market-metric">
+            <span class="metric-label">Nasdaq-100 (QQQ)</span>
+            <strong id="market-qqq" class="mono">—</strong>
+          </div>
+          <div class="market-metric">
+            <span class="metric-label">Tituly v rostoucím trendu</span>
+            <strong id="market-uptrend" class="mono">—</strong>
+          </div>
+          <div class="market-metric">
+            <span class="metric-label">Průměrné RSI trhu</span>
+            <strong id="market-avgrsi" class="mono">—</strong>
+          </div>
+        </div>
+
+        <p id="market-forecast-text" class="market-forecast-text">—</p>
+        <p class="market-forecast-note">
+          Poznámka: Jde o automaticky generovaný technický výhled z denních cen, nikoliv o jistou předpověď budoucího vývoje ani investiční doporučení.
+        </p>
+      </div>
+
+      <div class="intel-card">
+        <div class="intel-header">
+          <div>
+            <h2>Zprávy z trhu</h2>
+            <p class="intel-subtitle">Denně aktualizovaný výběr tržních zpráv (Patria.cz, Yahoo Finance)</p>
+          </div>
+        </div>
+        <ul id="market-news-list" class="news-list"></ul>
+      </div>
     </section>
   </main>
 

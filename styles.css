@@ -1078,6 +1078,230 @@ select:focus {
   color: var(--text-muted);
 }
 
+/* Quick actions */
+.watchlist-quick-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+/* Detail Outlook & Ticker News */
+.outlook-box {
+  margin-top: 16px;
+  padding: 14px 16px;
+  border-radius: var(--radius-md);
+  background: var(--surface-subtle);
+  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.outlook-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.outlook-header h3 {
+  margin: 0;
+  font-size: 13.5px;
+  font-weight: 700;
+}
+
+.outlook-disclaimer {
+  font-size: 11px;
+  color: var(--text-muted);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 2px 7px;
+  border-radius: 999px;
+}
+
+.outlook-text {
+  margin: 0;
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.outlook-meta {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+
+.outlook-meta span {
+  display: block;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.outlook-meta strong {
+  font-size: 12.5px;
+  color: var(--text);
+}
+
+.ticker-news-box {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
+.ticker-news-box h3 {
+  margin: 0 0 10px;
+  font-size: 13.5px;
+  font-weight: 700;
+}
+
+/* Market Overview & News Section */
+.market-intel {
+  display: grid;
+  grid-template-columns: minmax(320px, 1fr) minmax(320px, 1.1fr);
+  gap: 18px;
+  align-items: start;
+}
+
+.intel-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 18px 20px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.intel-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.intel-header h2 {
+  margin: 0;
+  font-size: 15.5px;
+  font-weight: 700;
+}
+
+.intel-subtitle {
+  margin: 2px 0 0;
+  font-size: 12.5px;
+  color: var(--text-muted);
+}
+
+.mood-badge {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--hold-bg);
+  color: var(--hold-fg);
+  border: 1px solid var(--hold-border);
+  white-space: nowrap;
+}
+
+.mood-badge.is-pos {
+  background: var(--buy-bg);
+  color: var(--buy-fg);
+  border-color: var(--buy-border);
+}
+
+.mood-badge.is-neg {
+  background: var(--sell-bg);
+  color: var(--sell-fg);
+  border-color: var(--sell-border);
+}
+
+.market-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.market-metric {
+  background: var(--surface-subtle);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.metric-label {
+  font-size: 11.5px;
+  color: var(--text-muted);
+}
+
+.market-metric strong {
+  font-size: 14px;
+  color: var(--text);
+}
+
+.market-forecast-text {
+  margin: 0;
+  font-size: 13.5px;
+  color: var(--text);
+  line-height: 1.55;
+}
+
+.market-forecast-note {
+  margin: 0;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.news-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.news-item {
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.news-item:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.news-link {
+  display: block;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+  line-height: 1.4;
+}
+
+.news-link:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.news-meta {
+  margin-top: 3px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11.5px;
+  color: var(--text-muted);
+}
+
 /* Footer */
 .site-footer {
   border-top: 1px solid var(--border);
@@ -1121,7 +1345,8 @@ code {
 
 /* Responsive */
 @media (max-width: 980px) {
-  .workspace {
+  .workspace,
+  .market-intel {
     grid-template-columns: 1fr;
   }
 
@@ -1139,7 +1364,8 @@ code {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .kpi-grid {
+  .kpi-grid,
+  .outlook-meta {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
