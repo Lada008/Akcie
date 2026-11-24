@@ -136,6 +136,49 @@
       </div>
     </section>
 
+    <!-- Analytický asistent -->
+    <section id="assistant-section" class="assistant-panel" aria-label="Analytický asistent pro orientační doporučení">
+      <div class="assistant-header">
+        <div>
+          <h2>Analytický asistent</h2>
+          <p class="assistant-subtitle">Vybere orientační tipy podle vašeho stylu a zodpoví dotazy k jednotlivým akciím i celému trhu.</p>
+        </div>
+        <div class="profile-switcher" role="group" aria-label="Investiční styl asistenta">
+          <button type="button" class="profile-pill" data-profile="opatrny">Opatrný</button>
+          <button type="button" class="profile-pill is-active" data-profile="vyvazeny">Vyvážený</button>
+          <button type="button" class="profile-pill" data-profile="dynamicky">Dynamický</button>
+        </div>
+      </div>
+
+      <div class="assistant-quick-prompts" role="group" aria-label="Rychlé dotazy pro asistenta">
+        <button type="button" class="prompt-chip" data-prompt="Co dnes koupit?">Co dnes koupit?</button>
+        <button type="button" class="prompt-chip" data-prompt="Které akcie jsou přehřáté?">Přehřáté (PRODAT)</button>
+        <button type="button" class="prompt-chip" data-prompt="Hledám klidnější akcie">Klidnější akcie</button>
+        <button type="button" class="prompt-chip" data-prompt="Jaký je dnes stav trhu?">Stav trhu</button>
+        <button type="button" class="prompt-chip" data-prompt="Zhodnoť vybranou akcii">Zhodnoť vybranou akcii</button>
+      </div>
+
+      <form id="assistant-form" class="assistant-form" autocomplete="off">
+        <label for="assistant-input" class="sr-only">Dotaz pro asistenta</label>
+        <input
+          id="assistant-input"
+          type="text"
+          placeholder="Zeptejte se česky (např. „Jak je na tom ČEZ?“, „Co dnes koupit?“, „NVDA“)…"
+          maxlength="140"
+        />
+        <button type="submit" class="btn btn-primary">Zeptat se</button>
+      </form>
+
+      <div id="assistant-output" class="assistant-output" aria-live="polite">
+        <div class="assistant-reply-head">
+          <strong id="assistant-reply-title">Orientační výběr asistenta</strong>
+          <span class="assistant-risk-tag">Nejedná se o investiční poradenství · na vlastní riziko</span>
+        </div>
+        <div id="assistant-reply-body" class="assistant-reply-body"></div>
+        <div id="assistant-picks" class="assistant-picks"></div>
+      </div>
+    </section>
+
     <!-- Ovládací lišta -->
     <section class="controls-panel" aria-label="Správa seznamu a filtry">
       <div class="controls-row controls-row-top">
@@ -443,6 +486,7 @@
   <script src="js/indicators.js" defer></script>
   <script src="js/demo-data.js" defer></script>
   <script src="js/charts.js" defer></script>
+  <script src="js/assistant.js" defer></script>
   <script src="js/app.js" defer></script>
 </body>
 </html>

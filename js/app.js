@@ -39,6 +39,8 @@
     selectedSymbol: null,
     signalFilter: "ALL",
     searchQuery: "",
+    assistantProfile: "vyvazeny",
+    assistantQuestion: "Co dnes koupit?",
     settings: { ...DEFAULT_SETTINGS },
   };
 
@@ -59,6 +61,14 @@
     statBuy: document.getElementById("stat-buy"),
     statSell: document.getElementById("stat-sell"),
     statHold: document.getElementById("stat-hold"),
+
+    profileButtons: Array.from(document.querySelectorAll(".profile-pill")),
+    promptChips: Array.from(document.querySelectorAll(".prompt-chip")),
+    assistantForm: document.getElementById("assistant-form"),
+    assistantInput: document.getElementById("assistant-input"),
+    assistantReplyTitle: document.getElementById("assistant-reply-title"),
+    assistantReplyBody: document.getElementById("assistant-reply-body"),
+    assistantPicks: document.getElementById("assistant-picks"),
 
     addForm: document.getElementById("add-ticker-form"),
     tickerInput: document.getElementById("ticker-input"),
@@ -579,6 +589,53 @@
 
     const news = Array.isArray(dataset?.marketNews) ? dataset.marketNews : [];
     renderNewsList(els.marketNewsList, news);
+    renderAssistant(allAnalyses, summary);
+  }
+
+  function renderAssistant(allAnalyses, marketSummary) {
+    if (!els.assistantReplyTitle || !window.AkcieAssistant) return;
+
+    for (const btn of els.profileButtons) {
+      btn.classList.toggle("is-active", btn.dataset.profile === state.assistantProfile);
+    }
+
+    const selectedAnalysis =
+      allAnalyses.find((a) => a.symbol === state.selectedSymbol) || null;
+
+    const reply = window.AkcieAssistant.answerQuestion(state.assistantQuestion, {
+      allAnalyses,
+      selectedAnalysis,
+      marketSummary,
+      profile: state.assistantProfile,
+      settings: state.settings,
+    });
+
+    els.assistantReplyTitle.textContent = reply.title;
+    els.assistantReplyBody.innerHTML = (reply.paragraphs || [])
+      .map((p) => `<p>${escapeHtml(p)}</p>`)
+      .join("");
+
+    if (!reply.picks || reply.picks.length === 0) {
+      els.assistantPicks.innerHTML = "";
+      els.assistantPicks.hidden = true;
+      return;
+    }
+
+    els.assistantPicks.hidden = false;
+    els.assistantPicks.innerHTML = reply.picks
+      .map(
+        (pick) => `
+        <button type="button" class="pick-card" data-pick-symbol="${escapeHtml(pick.symbol)}">
+          <div class="pick-card-top">
+            <span class="pick-symbol mono">${escapeHtml(pick.symbol)} · ${escapeHtml(pick.name)}</span>
+            <span class="signal-badge ${signalClass(pick.signal)}">${escapeHtml(pick.signal)}</span>
+          </div>
+          <div class="pick-meta mono">${escapeHtml(pick.meta)}</div>
+          <div class="pick-note">${escapeHtml(pick.note)}</div>
+        </button>
+      `
+      )
+      .join("");
   }
 
   function periodLabel(days) {
@@ -820,6 +877,52 @@
       state.mode = "demo";
       renderAll();
     });
+
+    // Analytický asistent
+    for (const btn of els.profileButtons) {
+      btn.addEventListener("click", () => {
+        state.assistantProfile = btn.dataset.profile;
+        state.assistantQuestion = "Co dnes koupit?";
+        renderAll();
+      });
+    }
+
+    for (const chip of els.promptChips) {
+      chip.addEventListener("click", () => {
+        state.assistantQuestion = chip.dataset.prompt || "Co dnes koupit?";
+        if (els.assistantInput) els.assistantInput.value = "";
+        renderAll();
+      });
+    }
+
+    if (els.assistantForm) {
+      els.assistantForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const q = (els.assistantInput?.value || "").trim();
+        if (!q) return;
+        state.assistantQuestion = q;
+        renderAll();
+      });
+    }
+
+    if (els.assistantPicks) {
+      els.assistantPicks.addEventListener("click", (e) => {
+        const card = e.target.closest("[data-pick-symbol]");
+        if (!card) return;
+        const sym = card.dataset.pickSymbol;
+        if (!sym) return;
+        if (!state.watchlist.includes(sym)) {
+          state.watchlist.unshift(sym);
+          saveWatchlist();
+        }
+        state.signalFilter = "ALL";
+        state.searchQuery = "";
+        els.searchInput.value = "";
+        state.selectedSymbol = sym;
+        renderAll();
+        els.detailPane.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    }
   }
 
   async function init() {
