@@ -54,7 +54,7 @@
     const vol = a.outlook?.dailyVolPct ?? 1.5;
     const above20 = a.sma20 !== null && a.latestPrice >= a.sma20;
     const above50 = a.sma50 !== null && a.latestPrice >= a.sma50;
-    const isEtf = a.symbol === "SPY" || a.symbol === "QQQ";
+    const isEtf = a.assetType === "ETF";
 
     if (profile === "opatrny") {
       let s = 50;
@@ -261,6 +261,35 @@
     };
   }
 
+  function replyForEtfs(ctx) {
+    const { allAnalyses, profile, settings } = ctx;
+    const etfs = allAnalyses
+      .filter((a) => a.hasData && a.rsi !== null && a.assetType === "ETF")
+      .sort((a, b) => scoreForProfile(b, profile, settings) - scoreForProfile(a, profile, settings));
+
+    if (etfs.length === 0) {
+      return {
+        title: "ETF zatím nejsou načtená",
+        paragraphs: [
+          "V aktuálním datasetu nebyla nalezena žádná ETF. Zkuste kliknout na „Načíst vše“ nebo vyčkejte na aktualizaci dat.",
+        ],
+        picks: [],
+      };
+    }
+
+    const top = etfs.slice(0, 5);
+    return {
+      title: `Přehled ETF podle stylu: ${PROFILE_LABELS[profile]}`,
+      paragraphs: [
+        "ETF rozkládají riziko mezi stovky až tisíce firem (případně zlato či dluhopisy), takže bývají pro začátečníky klidnější než jednotlivé akcie. Pro české investory jsou oblíbená hlavně evropská UCITS ETF v eurech (VWCE.DE, SXR8.DE, EUNL.DE).",
+        "Kliknutím na libovolné ETF níže zobrazíte jeho graf a technické ukazatele (obchodování je vždy na vlastní riziko):",
+      ],
+      picks: top.map((a) =>
+        formatCandidateLine(a, `${a.sector} · ${a.outlook?.mediumTerm || ""}`)
+      ),
+    };
+  }
+
   function answerQuestion(question, ctx) {
     const norm = normalizeText(question);
 
@@ -276,6 +305,16 @@
     }
 
     // 2. Záměry v češtině
+    if (
+      norm.includes("etf") ||
+      norm.includes("index") ||
+      norm.includes("zlato") ||
+      norm.includes("dluhopis") ||
+      norm.includes("svet")
+    ) {
+      return replyForEtfs(ctx);
+    }
+
     if (
       norm.includes("prodat") ||
       norm.includes("prehrat") ||

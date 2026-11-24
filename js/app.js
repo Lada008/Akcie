@@ -5,8 +5,12 @@
   const STORAGE_SETTINGS_KEY = "akcie_settings_v1";
 
   const DEFAULT_WATCHLIST = [
+    "VWCE.DE",
+    "SXR8.DE",
+    "EUNL.DE",
     "SPY",
     "QQQ",
+    "GLD",
     "AAPL",
     "MSFT",
     "NVDA",
@@ -17,7 +21,6 @@
     "INTC",
     "JPM",
     "JNJ",
-    "UNH",
     "ASML",
     "CEZ.PR",
     "KOMB.PR",
@@ -37,6 +40,7 @@
     demoDataset: null,
     watchlist: [],
     selectedSymbol: null,
+    assetTypeFilter: "ALL", // "ALL" | "STOCK" | "ETF"
     signalFilter: "ALL",
     searchQuery: "",
     assistantProfile: "vyvazeny",
@@ -78,6 +82,7 @@
     btnResetWatchlist: document.getElementById("btn-reset-watchlist"),
     formFeedback: document.getElementById("form-feedback"),
 
+    typeButtons: Array.from(document.querySelectorAll(".type-pill")),
     filterButtons: Array.from(document.querySelectorAll(".filter-pill")),
     periodSelect: document.getElementById("period-select"),
     btnToggleAdvanced: document.getElementById("btn-toggle-advanced"),
@@ -319,14 +324,32 @@
       btn.classList.toggle("is-active", key === state.signalFilter);
     }
 
-    // Filtrování podle signálu a vyhledávání
+    for (const btn of els.typeButtons) {
+      btn.classList.toggle("is-active", btn.dataset.assetType === state.assetTypeFilter);
+    }
+
+    if (els.btnLoadAllTickers) {
+      const ds = getActiveDataset();
+      const totalAvail = ds?.tickers ? Object.keys(ds.tickers).length : 0;
+      if (totalAvail > 0) {
+        els.btnLoadAllTickers.textContent = `Načíst vše (${totalAvail})`;
+      }
+    }
+
+    // Filtrování podle typu (Akcie/ETF), signálu a vyhledávání
     const q = state.searchQuery.trim().toLowerCase();
     const filtered = analyses.filter((item) => {
+      if (
+        state.assetTypeFilter !== "ALL" &&
+        item.assetType !== state.assetTypeFilter
+      ) {
+        return false;
+      }
       if (state.signalFilter !== "ALL" && item.signal !== state.signalFilter) {
         return false;
       }
       if (q) {
-        const hay = `${item.symbol} ${item.name} ${item.sector}`.toLowerCase();
+        const hay = `${item.symbol} ${item.name} ${item.sector} ${item.assetType}`.toLowerCase();
         if (!hay.includes(q)) return false;
       }
       return true;
@@ -381,6 +404,7 @@
               <div class="ticker-identity">
                 <div class="ticker-symbol-line">
                   <span class="ticker-symbol mono">${escapeHtml(item.symbol)}</span>
+                  ${item.assetType === "ETF" ? '<span class="etf-badge">ETF</span>' : ""}
                   <span class="signal-badge ${signalClass(item.signal)}">${escapeHtml(item.signal)}</span>
                   ${item.isSimulated ? '<span class="sim-badge">Demo</span>' : ""}
                 </div>
@@ -760,6 +784,13 @@
       renderAll();
       showFeedback("Výchozí seznam tickerů byl obnoven.", "ok");
     });
+
+    for (const btn of els.typeButtons) {
+      btn.addEventListener("click", () => {
+        state.assetTypeFilter = btn.dataset.assetType || "ALL";
+        renderAll();
+      });
+    }
 
     for (const btn of els.filterButtons) {
       btn.addEventListener("click", () => {

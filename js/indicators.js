@@ -247,11 +247,17 @@
       }
     }
 
+    const isEtf =
+      tickerData.assetType === "ETF" ||
+      /\bETF\b/i.test(tickerData.sector || "") ||
+      /\bETF\b/i.test(tickerData.name || "");
+
     return {
       symbol: tickerData.symbol,
       name: tickerData.name || tickerData.symbol,
       currency: tickerData.currency || "USD",
       sector: tickerData.sector || "—",
+      assetType: isEtf ? "ETF" : "STOCK",
       isSimulated: Boolean(tickerData.isSimulated),
       news: Array.isArray(tickerData.news) ? tickerData.news : [],
       hasData: true,

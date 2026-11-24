@@ -25,8 +25,15 @@
     { symbol: "MONET.PR", name: "MONETA Money Bank", currency: "CZK", sector: "Finance", seed: 221, start: 112, drift: 0.0005, vol: 0.008, mode: "hold_up" },
     { symbol: "ASML", name: "ASML Holding N.V.", currency: "USD", sector: "Polovodiče (EU)", seed: 222, start: 820, drift: -0.0005, vol: 0.016, mode: "buy" },
     { symbol: "SAP", name: "SAP SE", currency: "USD", sector: "Technologie (EU)", seed: 223, start: 210, drift: 0.0008, vol: 0.011, mode: "hold_up" },
-    { symbol: "SPY", name: "SPDR S&P 500 ETF Trust", currency: "USD", sector: "Indexové ETF (USA)", seed: 224, start: 560, drift: 0.0005, vol: 0.007, mode: "hold_up" },
-    { symbol: "QQQ", name: "Invesco QQQ Trust (Nasdaq-100)", currency: "USD", sector: "Indexové ETF (Tech)", seed: 225, start: 480, drift: 0.0007, vol: 0.009, mode: "hold_up" },
+    { symbol: "VWCE.DE", name: "Vanguard FTSE All-World UCITS ETF", currency: "EUR", sector: "ETF · Celý svět", assetType: "ETF", seed: 226, start: 126, drift: 0.0005, vol: 0.007, mode: "hold_up" },
+    { symbol: "SXR8.DE", name: "iShares Core S&P 500 UCITS ETF", currency: "EUR", sector: "ETF · USA (S&P 500)", assetType: "ETF", seed: 227, start: 540, drift: 0.0005, vol: 0.008, mode: "hold_up" },
+    { symbol: "EUNL.DE", name: "iShares Core MSCI World UCITS ETF", currency: "EUR", sector: "ETF · Vyspělý svět", assetType: "ETF", seed: 228, start: 96, drift: 0.0005, vol: 0.007, mode: "hold_up" },
+    { symbol: "SPY", name: "SPDR S&P 500 ETF Trust", currency: "USD", sector: "ETF · USA (S&P 500)", assetType: "ETF", seed: 224, start: 560, drift: 0.0005, vol: 0.007, mode: "hold_up" },
+    { symbol: "QQQ", name: "Invesco QQQ Trust (Nasdaq-100)", currency: "USD", sector: "ETF · Technologie", assetType: "ETF", seed: 225, start: 480, drift: 0.0007, vol: 0.009, mode: "hold_up" },
+    { symbol: "VTI", name: "Vanguard Total Stock Market ETF", currency: "USD", sector: "ETF · Celý trh USA", assetType: "ETF", seed: 229, start: 278, drift: 0.0005, vol: 0.007, mode: "hold_up" },
+    { symbol: "SCHD", name: "Schwab US Dividend Equity ETF", currency: "USD", sector: "ETF · Dividendy", assetType: "ETF", seed: 230, start: 82, drift: 0.0003, vol: 0.006, mode: "hold_up" },
+    { symbol: "GLD", name: "SPDR Gold Shares (Zlato)", currency: "USD", sector: "ETF · Zlato", assetType: "ETF", seed: 231, start: 235, drift: 0.0006, vol: 0.008, mode: "sell" },
+    { symbol: "TLT", name: "iShares 20+ Year Treasury Bond ETF", currency: "USD", sector: "ETF · Dluhopisy USA", assetType: "ETF", seed: 232, start: 94, drift: -0.0003, vol: 0.009, mode: "buy" },
   ];
 
   const DEMO_NEWS = [
@@ -140,6 +147,7 @@
         name: spec.name,
         currency: spec.currency,
         sector: spec.sector,
+        assetType: spec.assetType || "STOCK",
         isSimulated: true,
         history: generateSeries(spec, dates),
         news: [],

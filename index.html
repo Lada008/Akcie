@@ -152,6 +152,7 @@
 
       <div class="assistant-quick-prompts" role="group" aria-label="Rychlé dotazy pro asistenta">
         <button type="button" class="prompt-chip" data-prompt="Co dnes koupit?">Co dnes koupit?</button>
+        <button type="button" class="prompt-chip" data-prompt="Jaká jsou nejlepší ETF?">Nejlepší ETF</button>
         <button type="button" class="prompt-chip" data-prompt="Které akcie jsou přehřáté?">Přehřáté (PRODAT)</button>
         <button type="button" class="prompt-chip" data-prompt="Hledám klidnější akcie">Klidnější akcie</button>
         <button type="button" class="prompt-chip" data-prompt="Jaký je dnes stav trhu?">Stav trhu</button>
@@ -163,7 +164,7 @@
         <input
           id="assistant-input"
           type="text"
-          placeholder="Zeptejte se česky (např. „Jak je na tom ČEZ?“, „Co dnes koupit?“, „NVDA“)…"
+          placeholder="Zeptejte se česky (např. „Jaká jsou nejlepší ETF?“, „VWCE“, „ČEZ“, „Co dnes koupit?“)…"
           maxlength="140"
         />
         <button type="submit" class="btn btn-primary">Zeptat se</button>
@@ -188,7 +189,7 @@
             id="ticker-input"
             type="text"
             list="available-tickers-list"
-            placeholder="Přidat akcii (např. AAPL, CEZ.PR)…"
+            placeholder="Přidat akcii nebo ETF (např. VWCE.DE, AAPL, CEZ.PR)…"
             maxlength="14"
             aria-label="Symbol tickeru k přidání"
           />
@@ -201,16 +202,16 @@
           <input
             id="search-input"
             type="search"
-            placeholder="Hledat v seznamu (název, ticker, obor)…"
+            placeholder="Hledat v seznamu (název, ticker, ETF, obor)…"
             aria-label="Vyhledávání v seznamu tickerů"
           />
         </div>
 
         <div class="watchlist-quick-actions">
           <button id="btn-load-all-tickers" type="button" class="btn btn-secondary btn-sm" title="Přidat do seznamu všechny dostupné akcie a ETF">
-            Načíst vše (25)
+            Načíst vše (32)
           </button>
-          <button id="btn-reset-watchlist" type="button" class="btn btn-ghost btn-sm" title="Obnovit výchozí seznam akcií">
+          <button id="btn-reset-watchlist" type="button" class="btn btn-ghost btn-sm" title="Obnovit výchozí seznam akcií a ETF">
             Výchozí seznam
           </button>
         </div>
@@ -219,19 +220,27 @@
       <p id="form-feedback" class="form-feedback" role="status" aria-live="polite" hidden></p>
 
       <div class="controls-row controls-row-bottom">
-        <div class="filter-group" role="group" aria-label="Filtrovat podle signálu">
-          <button type="button" class="filter-pill is-active" data-signal="ALL">
-            Vše <span class="pill-count" data-count="ALL">0</span>
-          </button>
-          <button type="button" class="filter-pill pill-buy" data-signal="KOUPIT">
-            KOUPIT <span class="pill-count" data-count="KOUPIT">0</span>
-          </button>
-          <button type="button" class="filter-pill pill-sell" data-signal="PRODAT">
-            PRODAT <span class="pill-count" data-count="PRODAT">0</span>
-          </button>
-          <button type="button" class="filter-pill pill-hold" data-signal="DRŽET">
-            DRŽET <span class="pill-count" data-count="DRŽET">0</span>
-          </button>
+        <div class="filters-stack">
+          <div class="filter-group" role="group" aria-label="Filtrovat podle typu">
+            <button type="button" class="type-pill is-active" data-asset-type="ALL">Vše</button>
+            <button type="button" class="type-pill" data-asset-type="STOCK">Akcie</button>
+            <button type="button" class="type-pill" data-asset-type="ETF">ETF</button>
+          </div>
+
+          <div class="filter-group" role="group" aria-label="Filtrovat podle signálu">
+            <button type="button" class="filter-pill is-active" data-signal="ALL">
+              Vše <span class="pill-count" data-count="ALL">0</span>
+            </button>
+            <button type="button" class="filter-pill pill-buy" data-signal="KOUPIT">
+              KOUPIT <span class="pill-count" data-count="KOUPIT">0</span>
+            </button>
+            <button type="button" class="filter-pill pill-sell" data-signal="PRODAT">
+              PRODAT <span class="pill-count" data-count="PRODAT">0</span>
+            </button>
+            <button type="button" class="filter-pill pill-hold" data-signal="DRŽET">
+              DRŽET <span class="pill-count" data-count="DRŽET">0</span>
+            </button>
+          </div>
         </div>
 
         <div class="params-group">

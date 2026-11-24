@@ -50,9 +50,16 @@ DEFAULT_TICKERS: list[dict[str, str]] = [
     {"symbol": "MONET.PR", "name": "MONETA Money Bank", "currency": "CZK", "sector": "Finance"},
     {"symbol": "ASML", "name": "ASML Holding N.V.", "currency": "USD", "sector": "Polovodiče (EU)"},
     {"symbol": "SAP", "name": "SAP SE", "currency": "USD", "sector": "Technologie (EU)"},
-    # Populární indexové ETF
-    {"symbol": "SPY", "name": "SPDR S&P 500 ETF Trust", "currency": "USD", "sector": "Indexové ETF (USA)"},
-    {"symbol": "QQQ", "name": "Invesco QQQ Trust (Nasdaq-100)", "currency": "USD", "sector": "Indexové ETF (Tech)"},
+    # Populární ETF (globální, evropské UCITS v EUR, americké, dividendové, zlato, dluhopisy)
+    {"symbol": "VWCE.DE", "name": "Vanguard FTSE All-World UCITS ETF", "currency": "EUR", "sector": "ETF · Celý svět", "type": "ETF"},
+    {"symbol": "SXR8.DE", "name": "iShares Core S&P 500 UCITS ETF", "currency": "EUR", "sector": "ETF · USA (S&P 500)", "type": "ETF"},
+    {"symbol": "EUNL.DE", "name": "iShares Core MSCI World UCITS ETF", "currency": "EUR", "sector": "ETF · Vyspělý svět", "type": "ETF"},
+    {"symbol": "SPY", "name": "SPDR S&P 500 ETF Trust", "currency": "USD", "sector": "ETF · USA (S&P 500)", "type": "ETF"},
+    {"symbol": "QQQ", "name": "Invesco QQQ Trust (Nasdaq-100)", "currency": "USD", "sector": "ETF · Technologie", "type": "ETF"},
+    {"symbol": "VTI", "name": "Vanguard Total Stock Market ETF", "currency": "USD", "sector": "ETF · Celý trh USA", "type": "ETF"},
+    {"symbol": "SCHD", "name": "Schwab US Dividend Equity ETF", "currency": "USD", "sector": "ETF · Dividendy", "type": "ETF"},
+    {"symbol": "GLD", "name": "SPDR Gold Shares (Zlato)", "currency": "USD", "sector": "ETF · Zlato", "type": "ETF"},
+    {"symbol": "TLT", "name": "iShares 20+ Year Treasury Bond ETF", "currency": "USD", "sector": "ETF · Dluhopisy USA", "type": "ETF"},
 ]
 
 MARKET_RSS_FEEDS: list[dict[str, str]] = [
@@ -206,6 +213,7 @@ def main() -> int:
                 "name": item["name"],
                 "currency": detected_currency or item["currency"],
                 "sector": item["sector"],
+                "assetType": item.get("type", "STOCK"),
                 "history": history,
                 "news": news,
             }
