@@ -39,6 +39,9 @@
   const els = {
     sourceBadge: document.getElementById("data-source-badge"),
     updatedAt: document.getElementById("data-updated-at"),
+    btnToggleHelp: document.getElementById("btn-toggle-help"),
+    btnCloseHelp: document.getElementById("btn-close-help"),
+    helpPanel: document.getElementById("help-panel"),
     btnToggleDemo: document.getElementById("btn-toggle-demo"),
     fallbackBanner: document.getElementById("fallback-banner"),
     fallbackTitle: document.getElementById("fallback-banner-title"),
@@ -59,6 +62,9 @@
 
     filterButtons: Array.from(document.querySelectorAll(".filter-pill")),
     periodSelect: document.getElementById("period-select"),
+    btnToggleAdvanced: document.getElementById("btn-toggle-advanced"),
+    advancedSettings: document.getElementById("advanced-settings"),
+    btnResetRsi: document.getElementById("btn-reset-rsi"),
     rsiBuyInput: document.getElementById("rsi-buy-input"),
     rsiSellInput: document.getElementById("rsi-sell-input"),
 
@@ -77,6 +83,7 @@
     detailChange: document.getElementById("detail-change"),
     detailReason: document.getElementById("detail-reason"),
     kpiRsi: document.getElementById("kpi-rsi"),
+    kpiRsiHint: document.getElementById("kpi-rsi-hint"),
     kpiSma20: document.getElementById("kpi-sma20"),
     kpiSma50: document.getElementById("kpi-sma50"),
     kpiDate: document.getElementById("kpi-date"),
@@ -405,6 +412,17 @@
     els.detailReason.textContent = analysis.reason;
     els.kpiRsi.textContent =
       analysis.rsi !== null ? formatNumber(analysis.rsi, 1) : "—";
+    if (els.kpiRsiHint) {
+      if (analysis.rsi === null) {
+        els.kpiRsiHint.textContent = "chybí data";
+      } else if (analysis.rsi < state.settings.buyThreshold) {
+        els.kpiRsiHint.textContent = "přeprodáno (KOUPIT)";
+      } else if (analysis.rsi > state.settings.sellThreshold) {
+        els.kpiRsiHint.textContent = "překoupeno (PRODAT)";
+      } else {
+        els.kpiRsiHint.textContent = "klidné pásmo";
+      }
+    }
     els.kpiSma20.textContent =
       analysis.sma20 !== null
         ? formatPrice(analysis.sma20, analysis.currency)
@@ -572,6 +590,45 @@
 
     els.rsiBuyInput.addEventListener("change", handleRsiChange);
     els.rsiSellInput.addEventListener("change", handleRsiChange);
+
+    if (els.btnToggleHelp && els.helpPanel) {
+      const setHelpOpen = (open) => {
+        els.helpPanel.hidden = !open;
+        els.btnToggleHelp.setAttribute("aria-expanded", String(open));
+        els.btnToggleHelp.textContent = open ? "Skrýt nápovědu" : "? Nápověda";
+      };
+
+      els.btnToggleHelp.addEventListener("click", () => {
+        setHelpOpen(els.helpPanel.hidden);
+      });
+
+      if (els.btnCloseHelp) {
+        els.btnCloseHelp.addEventListener("click", () => setHelpOpen(false));
+      }
+    }
+
+    if (els.btnToggleAdvanced && els.advancedSettings) {
+      els.btnToggleAdvanced.addEventListener("click", () => {
+        const open = els.advancedSettings.hidden;
+        els.advancedSettings.hidden = !open;
+        els.btnToggleAdvanced.setAttribute("aria-expanded", String(open));
+        els.btnToggleAdvanced.textContent = open
+          ? "Skrýt hranice RSI"
+          : "Upravit hranice RSI";
+      });
+    }
+
+    if (els.btnResetRsi) {
+      els.btnResetRsi.addEventListener("click", () => {
+        state.settings.buyThreshold = DEFAULT_SETTINGS.buyThreshold;
+        state.settings.sellThreshold = DEFAULT_SETTINGS.sellThreshold;
+        els.rsiBuyInput.value = String(DEFAULT_SETTINGS.buyThreshold);
+        els.rsiSellInput.value = String(DEFAULT_SETTINGS.sellThreshold);
+        saveSettings();
+        renderAll();
+        showFeedback("Hranice RSI byly vráceny na výchozích 30 / 70.", "ok");
+      });
+    }
 
     els.watchlistContainer.addEventListener("click", (e) => {
       const removeBtn = e.target.closest("[data-remove]");

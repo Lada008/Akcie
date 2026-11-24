@@ -159,19 +159,19 @@
       signal = "PRODAT";
     }
 
-    // Sestavení stručného a srozumitelného zdůvodnění signálu
+    // Sestavení stručného a srozumitelného zdůvodnění signálu i pro začátečníky
     const parts = [];
     if (signal === "KOUPIT") {
       parts.push(
-        `RSI(14) je ${formatNumber(latestRsi, 1)} (pod hranicí ${buyThreshold} — přeprodané pásmo).`
+        `RSI je ${formatNumber(latestRsi, 1)} (pod hranicí ${buyThreshold} — akcie v posledních dnech výrazně oslabila).`
       );
     } else if (signal === "PRODAT") {
       parts.push(
-        `RSI(14) je ${formatNumber(latestRsi, 1)} (nad hranicí ${sellThreshold} — překoupené pásmo).`
+        `RSI je ${formatNumber(latestRsi, 1)} (nad hranicí ${sellThreshold} — akcie rychle vyrostla a může být přehřátá).`
       );
     } else {
       parts.push(
-        `RSI(14) je ${formatNumber(latestRsi, 1)} v neutrálním pásmu (${buyThreshold}–${sellThreshold}).`
+        `RSI je ${formatNumber(latestRsi, 1)} (v klidném pásmu ${buyThreshold}–${sellThreshold}, bez extrému).`
       );
     }
 
@@ -179,19 +179,19 @@
       const above20 = latestPrice >= latestSma20;
       const trendUp = latestSma20 >= latestSma50;
       if (above20 && trendUp) {
-        parts.push("Cena je nad SMA 20 a SMA 20 nad SMA 50 (rostoucí trend).");
+        parts.push("Cena je nad měsíčním i dlouhodobějším průměrem (rostoucí trend).");
       } else if (!above20 && !trendUp) {
-        parts.push("Cena je pod SMA 20 i pod SMA 50 (klesající trend).");
+        parts.push("Cena je pod měsíčním i dlouhodobějším průměrem (klesající trend).");
       } else if (above20 && !trendUp) {
-        parts.push("Cena překonala SMA 20, ale SMA 20 zůstává pod SMA 50.");
+        parts.push("Cena se vrátila nad měsíční průměr, dlouhodobější průměr ale ještě klesá.");
       } else {
-        parts.push("Cena klesla pod SMA 20 při stále vyšším SMA 20 oproti SMA 50.");
+        parts.push("Cena krátkodobě klesla pod měsíční průměr, celkový trend je ale zatím rostoucí.");
       }
     } else if (latestSma20 !== null) {
       parts.push(
         latestPrice >= latestSma20
-          ? "Cena se drží nad klouzavým průměrem SMA 20."
-          : "Cena se pohybuje pod klouzavým průměrem SMA 20."
+          ? "Cena se drží nad měsíčním průměrem (SMA 20)."
+          : "Cena se pohybuje pod měsíčním průměrem (SMA 20)."
       );
     }
 

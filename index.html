@@ -6,7 +6,7 @@
   <title>Akciový rádce — Signály KOUPIT / PRODAT / DRŽET (RSI &amp; SMA)</title>
   <meta
     name="description"
-    content="Analytický nástroj pro sledování akciových tickerů s výpočtem RSI (14), klouzavých průměrů SMA 20 / SMA 50 a signály KOUPIT, PRODAT a DRŽET."
+    content="Přehledný analytický nástroj pro sledování akcií s výpočtem RSI (14), klouzavých průměrů SMA 20 / SMA 50 a signály KOUPIT, PRODAT a DRŽET."
   />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,7 +23,7 @@
         <div class="brand-mark" aria-hidden="true">AR</div>
         <div>
           <h1>Akciový rádce</h1>
-          <p class="brand-subtitle">Pravidlový přehled signálů RSI(14) &amp; klouzavých průměrů</p>
+          <p class="brand-subtitle">Jednoduchý přehled signálů KOUPIT / PRODAT / DRŽET</p>
         </div>
       </div>
 
@@ -32,7 +32,10 @@
           <span id="data-source-badge" class="source-pill">Načítání dat…</span>
           <span id="data-updated-at" class="updated-at"></span>
         </div>
-        <button id="btn-toggle-demo" type="button" class="btn btn-secondary btn-sm">
+        <button id="btn-toggle-help" type="button" class="btn btn-secondary btn-sm" aria-expanded="false" aria-controls="help-panel">
+          ? Nápověda
+        </button>
+        <button id="btn-toggle-demo" type="button" class="btn btn-ghost btn-sm">
           Přepnout na demo data
         </button>
       </div>
@@ -40,6 +43,66 @@
   </header>
 
   <main class="container main-content">
+    <!-- Nápověda pro začátečníky -->
+    <section id="help-panel" class="help-panel" aria-label="Nápověda k používání aplikace" hidden>
+      <div class="help-header">
+        <div>
+          <h2>Jak aplikaci používat (stručný průvodce)</h2>
+          <p class="help-lead">
+            Aplikace podle jednoduchých matematických pravidel vyhodnocuje vývoj ceny vybraných akcií a zobrazuje orientační signál.
+          </p>
+        </div>
+        <button id="btn-close-help" type="button" class="btn btn-ghost btn-sm" aria-label="Zavřít nápovědu">
+          Zavřít &times;
+        </button>
+      </div>
+
+      <div class="help-grid">
+        <div class="help-card">
+          <h3>Postup ve 3 krocích</h3>
+          <ol class="help-steps">
+            <li>
+              <strong>Vyberte nebo přidejte akcii:</strong> Do pole <em>Přidat ticker</em> napište zkratku firmy (např. <code>AAPL</code> pro Apple nebo <code>CEZ.PR</code> pro ČEZ). Váš seznam se automaticky uloží v prohlížeči.
+            </li>
+            <li>
+              <strong>Filtrujte signály:</strong> Kliknutím na tlačítka <strong>KOUPIT</strong>, <strong>PRODAT</strong> nebo <strong>DRŽET</strong> si rychle vyfiltrujete jen akcie, které vás zajímají.
+            </li>
+            <li>
+              <strong>Klikněte na akcii pro graf:</strong> Vpravo se zobrazí cenový graf, srozumitelné zdůvodnění signálu a ukazatel RSI. Najetím myší na graf uvidíte přesné hodnoty k danému dni.
+            </li>
+          </ol>
+        </div>
+
+        <div class="help-card">
+          <h3>Co znamenají ukazatele</h3>
+          <dl class="glossary-list">
+            <div>
+              <dt>RSI (14 dnů) — síla cenového pohybu</dt>
+              <dd>
+                Číslo od 0 do 100, které ukazuje, zda cena v posledních 14 dnech hodně klesla, nebo vyrostla.
+                <strong>Pod 30 = KOUPIT</strong> (akcie je po výrazném poklesu),
+                <strong>nad 70 = PRODAT</strong> (akcie rychle vyrostla),
+                <strong>30 až 70 = DRŽET</strong> (běžný vývoj).
+              </dd>
+            </div>
+            <div>
+              <dt>SMA 20 — měsíční průměr ceny</dt>
+              <dd>Průměrná cena za posledních 20 obchodních dnů (cca 1 měsíc). Pomáhá poznat krátkodobý směr.</dd>
+            </div>
+            <div>
+              <dt>SMA 50 — střednědobý průměr ceny</dt>
+              <dd>Průměrná cena za posledních 50 obchodních dnů (cca 2,5 měsíce). Když je cena i SMA 20 nad SMA 50, trend je rostoucí.</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+
+      <div class="help-risk-note">
+        <strong>Důležité upozornění:</strong> Veškeré investování a obchodování na burze je <strong>výhradně na vaše vlastní riziko</strong>.
+        Technické ukazatele vycházejí pouze z minulých cen a nikdy nezaručují budoucí vývoj. Aplikace neprovádí žádné automatické obchody a nenahrazuje investiční poradenství.
+      </div>
+    </section>
+
     <!-- Upozornění při záložním režimu / chybě načtení JSON -->
     <div id="fallback-banner" class="banner banner-warning" role="status" hidden>
       <div class="banner-text">
@@ -56,24 +119,24 @@
     <!-- Horní souhrn signálů -->
     <section class="summary-strip" aria-label="Přehled signálů ve sledovaném seznamu">
       <div class="summary-card">
-        <span class="summary-label">Sledováno tickerů</span>
+        <span class="summary-label">Sledováno akcií</span>
         <span id="stat-total" class="summary-value mono">0</span>
       </div>
       <div class="summary-card summary-buy">
-        <span class="summary-label">Signál KOUPIT</span>
+        <span class="summary-label">Signál KOUPIT <small>(RSI &lt; 30)</small></span>
         <span id="stat-buy" class="summary-value mono">0</span>
       </div>
       <div class="summary-card summary-sell">
-        <span class="summary-label">Signál PRODAT</span>
+        <span class="summary-label">Signál PRODAT <small>(RSI &gt; 70)</small></span>
         <span id="stat-sell" class="summary-value mono">0</span>
       </div>
       <div class="summary-card summary-hold">
-        <span class="summary-label">Signál DRŽET</span>
+        <span class="summary-label">Signál DRŽET <small>(neutrální)</small></span>
         <span id="stat-hold" class="summary-value mono">0</span>
       </div>
     </section>
 
-    <!-- Ovládací lišta: přidání tickeru, vyhledávání, filtry, období a hranice RSI -->
+    <!-- Ovládací lišta -->
     <section class="controls-panel" aria-label="Správa seznamu a filtry">
       <div class="controls-row controls-row-top">
         <form id="add-ticker-form" class="add-ticker-form" autocomplete="off">
@@ -82,12 +145,12 @@
             id="ticker-input"
             type="text"
             list="available-tickers-list"
-            placeholder="Přidat ticker (např. AAPL, CEZ.PR)…"
+            placeholder="Přidat akcii (např. AAPL, CEZ.PR)…"
             maxlength="14"
             aria-label="Symbol tickeru k přidání"
           />
           <datalist id="available-tickers-list"></datalist>
-          <button type="submit" class="btn btn-primary">Přidat ticker</button>
+          <button type="submit" class="btn btn-primary">Přidat</button>
         </form>
 
         <div class="search-box">
@@ -95,12 +158,12 @@
           <input
             id="search-input"
             type="search"
-            placeholder="Hledat v seznamu (ticker, název, sektor)…"
+            placeholder="Hledat v seznamu (název, ticker, obor)…"
             aria-label="Vyhledávání v seznamu tickerů"
           />
         </div>
 
-        <button id="btn-reset-watchlist" type="button" class="btn btn-ghost btn-sm" title="Obnovit výchozí seznam tickerů">
+        <button id="btn-reset-watchlist" type="button" class="btn btn-ghost btn-sm" title="Obnovit výchozí seznam akcií">
           Výchozí seznam
         </button>
       </div>
@@ -125,49 +188,73 @@
 
         <div class="params-group">
           <label class="param-field" for="period-select">
-            <span>Období</span>
+            <span>Období grafu a změny</span>
             <select id="period-select">
-              <option value="5">1 týden (5D)</option>
-              <option value="21" selected>1 měsíc (21D)</option>
-              <option value="63">3 měsíce (63D)</option>
-              <option value="126">6 měsíců (126D)</option>
+              <option value="5">1 týden</option>
+              <option value="21" selected>1 měsíc</option>
+              <option value="63">3 měsíce</option>
+              <option value="126">6 měsíců</option>
               <option value="0">Vše</option>
             </select>
           </label>
 
-          <label class="param-field" for="rsi-buy-input">
-            <span>RSI KOUPIT &lt;</span>
-            <input id="rsi-buy-input" type="number" min="5" max="45" step="1" value="30" />
-          </label>
+          <button
+            id="btn-toggle-advanced"
+            type="button"
+            class="btn btn-ghost btn-sm"
+            aria-expanded="false"
+            aria-controls="advanced-settings"
+          >
+            Upravit hranice RSI
+          </button>
+        </div>
+      </div>
 
-          <label class="param-field" for="rsi-sell-input">
-            <span>RSI PRODAT &gt;</span>
-            <input id="rsi-sell-input" type="number" min="55" max="95" step="1" value="70" />
-          </label>
+      <div id="advanced-settings" class="advanced-settings" hidden>
+        <div class="advanced-settings-inner">
+          <span class="advanced-note">Výchozí pravidla pro začátečníky jsou 30 (KOUPIT) a 70 (PRODAT).</span>
+          <div class="advanced-inputs">
+            <label class="param-field" for="rsi-buy-input">
+              <span>KOUPIT při RSI pod</span>
+              <input id="rsi-buy-input" type="number" min="5" max="45" step="1" value="30" />
+            </label>
+
+            <label class="param-field" for="rsi-sell-input">
+              <span>PRODAT při RSI nad</span>
+              <input id="rsi-sell-input" type="number" min="55" max="95" step="1" value="70" />
+            </label>
+
+            <button id="btn-reset-rsi" type="button" class="btn btn-secondary btn-sm">
+              Výchozí 30 / 70
+            </button>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Hlavní pracovní plocha: Seznam tickerů + Detail s grafy -->
+    <!-- Hlavní pracovní plocha: Seznam akcií + Detail s grafy -->
     <section class="workspace">
       <div class="watchlist-pane">
         <div class="pane-header">
-          <h2>Sledované tituly</h2>
+          <div>
+            <h2>Sledované akcie</h2>
+            <span class="pane-hint">Kliknutím na řádek zobrazíte podrobný graf vpravo</span>
+          </div>
           <span id="visible-count-label" class="pane-meta"></span>
         </div>
 
         <div id="watchlist-container" class="watchlist-list" role="list"></div>
 
         <div id="empty-state" class="empty-state" hidden>
-          <p class="empty-title">Žádný ticker neodpovídá zvoleným filtrům.</p>
+          <p class="empty-title">Žádná akcie neodpovídá zvoleným filtrům.</p>
           <p class="empty-desc">Upravte vyhledávání, přepněte filtr na „Vše“ nebo přidejte nový ticker výše.</p>
         </div>
       </div>
 
-      <aside id="detail-pane" class="detail-pane" aria-label="Detail vybraného tickeru a grafy">
+      <aside id="detail-pane" class="detail-pane" aria-label="Detail vybrané akcie a grafy">
         <div id="detail-placeholder" class="detail-placeholder">
-          <h2>Vyberte ticker ze seznamu</h2>
-          <p>Kliknutím na libovolnou položku vlevo zobrazíte cenový graf s SMA 20 / SMA 50 a vývoj indikátoru RSI(14).</p>
+          <h2>Vyberte akcii ze seznamu</h2>
+          <p>Kliknutím na libovolnou položku vlevo zobrazíte vývoj ceny, klouzavé průměry a ukazatel RSI.</p>
         </div>
 
         <div id="detail-content" class="detail-content" hidden>
@@ -187,26 +274,30 @@
           </div>
 
           <div class="detail-reason-box">
-            <span class="reason-label">Zdůvodnění signálu</span>
+            <span class="reason-label">Proč tento signál?</span>
             <p id="detail-reason" class="reason-text">—</p>
           </div>
 
           <div class="kpi-grid">
-            <div class="kpi-item">
-              <span class="kpi-label">RSI (14)</span>
+            <div class="kpi-item" title="RSI pod 30 značí přeprodanou akcii (KOUPIT), nad 70 překoupenou (PRODAT).">
+              <span class="kpi-label">RSI (14 dnů)</span>
               <strong id="kpi-rsi" class="kpi-value mono">—</strong>
+              <span id="kpi-rsi-hint" class="kpi-sub">—</span>
             </div>
-            <div class="kpi-item">
+            <div class="kpi-item" title="Průměrná uzavírací cena za posledních 20 obchodních dnů (cca 1 měsíc).">
               <span class="kpi-label">SMA 20</span>
               <strong id="kpi-sma20" class="kpi-value mono">—</strong>
+              <span class="kpi-sub">měsíční průměr</span>
             </div>
-            <div class="kpi-item">
+            <div class="kpi-item" title="Průměrná uzavírací cena za posledních 50 obchodních dnů (cca 2,5 měsíce).">
               <span class="kpi-label">SMA 50</span>
               <strong id="kpi-sma50" class="kpi-value mono">—</strong>
+              <span class="kpi-sub">2,5měs. průměr</span>
             </div>
             <div class="kpi-item">
-              <span class="kpi-label">Poslední datum</span>
+              <span class="kpi-label">Poslední data</span>
               <strong id="kpi-date" class="kpi-value mono">—</strong>
+              <span class="kpi-sub">uzavírací cena</span>
             </div>
           </div>
 
@@ -225,11 +316,11 @@
 
             <div class="chart-block">
               <div class="chart-header">
-                <h3>Vývoj ceny a klouzavých průměrů</h3>
+                <h3>Vývoj ceny a průměrů</h3>
                 <div class="chart-legend">
                   <span class="legend-item"><i class="swatch swatch-price"></i>Cena</span>
-                  <span class="legend-item"><i class="swatch swatch-sma20"></i>SMA 20</span>
-                  <span class="legend-item"><i class="swatch swatch-sma50"></i>SMA 50</span>
+                  <span class="legend-item"><i class="swatch swatch-sma20"></i>SMA 20 (1M)</span>
+                  <span class="legend-item"><i class="swatch swatch-sma50"></i>SMA 50 (2,5M)</span>
                 </div>
               </div>
               <div class="canvas-wrap canvas-wrap-price">
@@ -239,9 +330,9 @@
 
             <div class="chart-block">
               <div class="chart-header">
-                <h3>RSI (14 period)</h3>
+                <h3>Ukazatel RSI (14 dnů)</h3>
                 <div class="chart-legend">
-                  <span class="legend-item"><i class="swatch swatch-rsi"></i>RSI(14)</span>
+                  <span class="legend-item"><i class="swatch swatch-rsi"></i>RSI</span>
                   <span class="legend-item"><i class="swatch swatch-buy"></i>KOUPIT (&lt;<span id="legend-buy-th">30</span>)</span>
                   <span class="legend-item"><i class="swatch swatch-sell"></i>PRODAT (&gt;<span id="legend-sell-th">70</span>)</span>
                 </div>
@@ -258,13 +349,14 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p class="disclaimer">
-        <strong>Upozornění:</strong> Tato aplikace neprovádí žádné automatické obchodování ani nenapojí váš brokerský účet.
-        Slouží výhradně jako analytický pomůckový nástroj podle pevně nastavených technických pravidel (RSI 14, SMA 20, SMA 50)
-        a v žádném případě nepředstavuje investiční doporučení ani finanční poradenství.
-      </p>
+      <div class="risk-box">
+        <p class="disclaimer">
+          <strong>Upozornění — obchodování na vlastní riziko:</strong> Investování a obchodování s akciemi vždy nese riziko ztráty části nebo celého vloženého kapitálu a probíhá <strong>výhradně na vaše vlastní riziko</strong>.
+          Tato aplikace neprovádí žádné automatické obchodování ani není napojena na žádný brokerský účet. Slouží pouze jako analytický pomůckový nástroj podle nastavených pravidel (RSI 14, SMA 20, SMA 50), nikoliv jako investiční doporučení či finanční poradenství.
+        </p>
+      </div>
       <p class="footer-meta">
-        Čisté HTML, CSS &amp; JavaScript · Připraveno pro GitHub Pages · Vlastní seznam je ukládán lokálně v prohlížeči (<code>localStorage</code>).
+        Čisté HTML, CSS &amp; JavaScript · Připraveno pro GitHub Pages · Váš seznam akcií se ukládá pouze lokálně ve vašem prohlížeči (<code>localStorage</code>).
       </p>
     </div>
   </footer>
