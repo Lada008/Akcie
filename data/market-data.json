@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T13:41:13Z",
+  "updatedAt": "2026-11-25T04:54:25Z",
   "source": "Yahoo Finance + RSS zprávy (denní aktualizace)",
   "marketNews": [
     {
@@ -542,27 +542,31 @@
         {
           "date": "2026-11-23",
           "close": 349.08
+        },
+        {
+          "date": "2026-11-24",
+          "close": 354.07
         }
       ],
       "news": [
         {
-          "title": "Jensen Huang's return revives an old Wall Street trade: Bet on the comeback CEO",
-          "link": "https://finance.yahoo.com/markets/article/jensen-huangs-return-revives-an-old-wall-street-trade-bet-on-the-comeback-ceo-124308005.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T12:43:08Z",
+          "title": "Why the Jensen Huang rally faded so quickly",
+          "link": "https://finance.yahoo.com/video/why-the-jensen-huang-rally-faded-so-quickly-194511286.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T19:45:11Z",
           "source": "Yahoo Finance",
           "symbol": "AAPL"
         },
         {
-          "title": "Can Wearables & Mac Revenues Add Fresh Momentum to Apple Stock Ahead?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/wearables-mac-revenues-add-fresh-122900624.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T12:29:00Z",
+          "title": "Stocks give back gains as Anthropic dips below IPO price",
+          "link": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T15:44:08Z",
           "source": "Yahoo Finance",
           "symbol": "AAPL"
         },
         {
-          "title": "Nvidia Regains Nearly $1 Trillion in Value -- Apple Still Holds the Top Spot",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-regains-nearly-1-trillion-120207012.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T12:02:07Z",
+          "title": "Tech Keeps Eating Hollywood As Netflix Buys Historic Seinfeld Lot",
+          "link": "https://finance.yahoo.com/m/34be458f-965e-30c4-8fb7-e730267a65a9/tech-keeps-eating-hollywood.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T23:00:28Z",
           "source": "Yahoo Finance",
           "symbol": "AAPL"
         }
@@ -1082,27 +1086,31 @@
         {
           "date": "2026-11-23",
           "close": 492.5
+        },
+        {
+          "date": "2026-11-24",
+          "close": 496.13
         }
       ],
       "news": [
         {
-          "title": "Microsoft Stock Jumps In Nvidia-Fueled Tech Surge; Is Microsoft A Buy Now?",
-          "link": "https://finance.yahoo.com/m/47e21d96-b242-3f68-9ea6-fbc095bafba1/microsoft-stock-jumps-in.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T13:01:35Z",
+          "title": "Anthropic falls below IPO price as Nvidia gives back gains",
+          "link": "https://finance.yahoo.com/video/anthropic-falls-below-ipo-price-as-nvidia-gives-back-gains-214558309.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T21:45:58Z",
           "source": "Yahoo Finance",
           "symbol": "MSFT"
         },
         {
-          "title": "RAAPID Recognized in the 2026 Microsoft Partner of the Year Awards for Microsoft for Startups",
-          "link": "https://finance.yahoo.com/technology/ai/articles/raapid-recognized-2026-microsoft-partner-130000464.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T13:00:00Z",
+          "title": "Microsoft declares a code red in the middle of a 'Patchpocalypse'",
+          "link": "https://finance.yahoo.com/markets/article/microsoft-declares-a-code-red-in-the-middle-of-a-patchpocalypse-193740712.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T19:37:40Z",
           "source": "Yahoo Finance",
           "symbol": "MSFT"
         },
         {
-          "title": "Cloud AI Update - Audi Integrates Cutting-Edge AI for In-Car Microsoft Access",
-          "link": "https://finance.yahoo.com/technology/ai/articles/cloud-ai-audi-integrates-cutting-123730181.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T12:37:30Z",
+          "title": "Driven Tech Completes Acquisitions of ADEX and TekBay, Accelerating Enterprise AI Strategy",
+          "link": "https://finance.yahoo.com/technology/ai/articles/driven-tech-completes-acquisitions-adex-231000507.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T23:10:00Z",
           "source": "Yahoo Finance",
           "symbol": "MSFT"
         }
@@ -1622,27 +1630,31 @@
         {
           "date": "2026-11-23",
           "close": 165.05
+        },
+        {
+          "date": "2026-11-24",
+          "close": 155.38
         }
       ],
       "news": [
         {
-          "title": "Huang's return at Nvidia puts spotlight on chipmaker's board",
-          "link": "https://www.cbsnews.com/news/nvidia-board-reinstates-ceo-jensen-huang/?.tsrc=rss",
-          "publishedAt": "2026-11-24T13:35:58Z",
+          "title": "COHR Stock Swings After Nvidia-Led AI Rally: $15M Insider Buy Draws Attention",
+          "link": "https://stocktwits.com/news-articles/markets/equity/cohr-stock-swings-after-nvidia-led-ai-rally-15-m-insider-buy-draws-attention/cNbHcl8R9lg?.tsrc=rss",
+          "publishedAt": "2026-11-25T04:40:37Z",
           "source": "Yahoo Finance",
           "symbol": "NVDA"
         },
         {
-          "title": "Nasdaq Futures Fall as Questions Linger Over AI Trade",
-          "link": "https://www.wsj.com/finance/stocks/nasdaq-futures-fall-as-questions-linger-over-ai-trade-68ba6d71?.tsrc=rss",
-          "publishedAt": "2026-11-24T13:28:00Z",
+          "title": "Jim Cramer resets Nvidia stock target as Jensen Huang returns as CEO",
+          "link": "https://www.thestreet.com/investing/stocks/jim-cramer-nvidia-stock-target-jensen-huang?.tsrc=rss",
+          "publishedAt": "2026-11-25T04:33:00Z",
           "source": "Yahoo Finance",
           "symbol": "NVDA"
         },
         {
-          "title": "Nvidia Fuels Crypto Relief Rally as SUI and HBAR Jump 6%",
-          "link": "https://www.ccn.com/news/crypto/nvidia-crypto-relief-rally-sui-hbar/?.tsrc=rss",
-          "publishedAt": "2026-11-24T13:27:15Z",
+          "title": "Le Monde details suspected Nvidia chip diversion network through Southeast Asia",
+          "link": "https://finance.yahoo.com/technology/ai/articles/le-monde-details-suspected-nvidia-042239633.html?.tsrc=rss",
+          "publishedAt": "2026-11-25T04:22:39Z",
           "source": "Yahoo Finance",
           "symbol": "NVDA"
         }
@@ -2162,27 +2174,31 @@
         {
           "date": "2026-11-23",
           "close": 282.1
+        },
+        {
+          "date": "2026-11-24",
+          "close": 279.05
         }
       ],
       "news": [
         {
-          "title": "Google and Meta face massive fines for addictive features",
-          "link": "https://www.independent.co.uk/tech/google-meta-fine-internet-safety-australia-b3090456.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T10:10:30Z",
+          "title": "Your $300,000 in XLC Holds $130,206 in Just Meta and Alphabet",
+          "link": "https://247wallst.com/investing/etf/2026/11/24/your-300000-in-xlc-holds-130206-in-just-meta-and-alphabet/?.tsrc=rss",
+          "publishedAt": "2026-11-25T01:04:06Z",
           "source": "Yahoo Finance",
           "symbol": "GOOGL"
         },
         {
-          "title": "Fortune Announces Speakers and Partners for Brainstorm AI 2026 in San Francisco Dec. 7 and 8",
-          "link": "https://finance.yahoo.com/technology/ai/articles/fortune-announces-speakers-partners-brainstorm-130000069.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T13:00:00Z",
+          "title": "5 Sleeper Blue-Chip Stock Picks for Steady Long-Term Gains",
+          "link": "https://www.kiplinger.com/investing/blue-chip-stocks/sleeper-blue-chip-stock-picks-for-steady-long-term-gains?.tsrc=rss",
+          "publishedAt": "2026-11-25T00:52:33Z",
           "source": "Yahoo Finance",
           "symbol": "GOOGL"
         },
         {
-          "title": "Cloud AI Update - Audi Integrates Cutting-Edge AI for In-Car Microsoft Access",
-          "link": "https://finance.yahoo.com/technology/ai/articles/cloud-ai-audi-integrates-cutting-123730181.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T12:37:30Z",
+          "title": "Stephanie Link Says Marvell Could Earn $30 a Share by 2031. Is She Right?",
+          "link": "https://247wallst.com/investing/2026/11/24/stephanie-link-says-marvell-could-earn-30-a-share-by-2031-is-she-right/?.tsrc=rss",
+          "publishedAt": "2026-11-24T22:07:53Z",
           "source": "Yahoo Finance",
           "symbol": "GOOGL"
         }
@@ -2702,27 +2718,31 @@
         {
           "date": "2026-11-23",
           "close": 255.39
+        },
+        {
+          "date": "2026-11-24",
+          "close": 252.29
         }
       ],
       "news": [
         {
-          "title": "Amazon To Pull Unauthorized Victoria's Secret Listings On Thanksgiving",
-          "link": "https://www.mediapost.com/publications/article/419642/amazon-to-pull-unauthorized-victorias-secret-list.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T13:00:00Z",
+          "title": "Anthropic falls below IPO price as Nvidia gives back gains",
+          "link": "https://finance.yahoo.com/video/anthropic-falls-below-ipo-price-as-nvidia-gives-back-gains-214558309.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T21:45:58Z",
           "source": "Yahoo Finance",
           "symbol": "AMZN"
         },
         {
-          "title": "ZonPrep Announces Las Vegas Facility, Expanding Its Amazon Supply Chain Network West",
-          "link": "https://finance.yahoo.com/small-business/articles/zonprep-announces-las-vegas-facility-122000834.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T12:20:00Z",
+          "title": "Amazon ‘Trying to Trick’ You With Black Friday Offers That Aren’t Really Deals, Says Elizabeth Warren: E-Commerce Giant Pushes Back",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-trying-trick-black-friday-025557873.html?.tsrc=rss",
+          "publishedAt": "2026-11-25T02:55:57Z",
           "source": "Yahoo Finance",
           "symbol": "AMZN"
         },
         {
-          "title": "Anthropic’s Frenemy Squeeze: Pledging Up to $49B to Microsoft While Building Its Own Landlord Escape Hatch",
-          "link": "https://247wallst.com/investing/2026/11/24/anthropics-frenemy-squeeze-pledging-up-to-49b-to-microsoft-while-building-its-own-landlord-escape-hatch/?.tsrc=rss",
-          "publishedAt": "2026-11-24T12:15:31Z",
+          "title": "Amazon customers may qualify for $309.5M settlement. See how",
+          "link": "https://www.usatoday.com/story/money/2026/11/24/amazon-settlement-deadline-is-approaching-who-qualifies/92947347007/?.tsrc=rss",
+          "publishedAt": "2026-11-24T22:32:44Z",
           "source": "Yahoo Finance",
           "symbol": "AMZN"
         }
@@ -3242,27 +3262,31 @@
         {
           "date": "2026-11-23",
           "close": 597.6
+        },
+        {
+          "date": "2026-11-24",
+          "close": 589.82
         }
       ],
       "news": [
         {
-          "title": "Meta's $60 Billion AI Funding Plan Faces Delay Amid Shareholder Lawsuit",
-          "link": "https://finance.yahoo.com/technology/ai/articles/metas-60-billion-ai-funding-121008904.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T12:10:08Z",
+          "title": "Your $300,000 in XLC Holds $130,206 in Just Meta and Alphabet",
+          "link": "https://247wallst.com/investing/etf/2026/11/24/your-300000-in-xlc-holds-130206-in-just-meta-and-alphabet/?.tsrc=rss",
+          "publishedAt": "2026-11-25T01:04:06Z",
           "source": "Yahoo Finance",
           "symbol": "META"
         },
         {
-          "title": "META Stock Is Down 24% From Peak: JPMorgan Sees ‘Attractive Buying Opportunity’ — But 2027 Spending, Capex Remain An Overhang",
-          "link": "https://stocktwits.com/news-articles/markets/equity/meta-stock-is-down-24-from-peak-jp-morgan-sees-attractive-buying-opportunity-but-2027-spending-capex-remain-an-overhang/cNbsIWZR9ki?.tsrc=rss",
-          "publishedAt": "2026-11-24T12:08:52Z",
+          "title": "Could Meta Actually Climb 30%? Or Is J.P. Morgan Totally Wrong?",
+          "link": "https://www.tikr.com/blog/could-meta-actually-climb-30-or-is-j-p-morgan-totally-wrong?ref=yahoofinance&tlnk=yf-261124-24hpvhqr&.tsrc=rss",
+          "publishedAt": "2026-11-24T21:15:57Z",
           "source": "Yahoo Finance",
           "symbol": "META"
         },
         {
-          "title": "DXL launches AI product discovery on Meta Muse via Commercetools",
-          "link": "https://www.retail-insight-network.com/news/dxl-ai-product-discovery-meta-muse-commercetools/?.tsrc=rss",
-          "publishedAt": "2026-11-24T11:46:23Z",
+          "title": "David Abrams’ Meta Platforms, Inc. (META) Bet Is Backed by Strong Cash Flow and AI Growth",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/david-abrams-meta-platforms-inc-190633349.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T19:06:33Z",
           "source": "Yahoo Finance",
           "symbol": "META"
         }
@@ -3782,27 +3806,31 @@
         {
           "date": "2026-11-23",
           "close": 385.46
+        },
+        {
+          "date": "2026-11-24",
+          "close": 384.68
         }
       ],
       "news": [
         {
-          "title": "What Made Tesla Stock Jump On Monday?",
-          "link": "https://www.trefis.com/stock/tsla/articles/628598/what-made-tesla-stock-jump-on-monday/2026-11-24?.tsrc=rss",
-          "publishedAt": "2026-11-24T13:12:42Z",
+          "title": "Tesla's $3.5 trillion merger talks have a surprising catch",
+          "link": "https://www.thestreet.com/investing/teslas-3-5-trillion-merger-talks-have-a-surprising-catch?.tsrc=rss",
+          "publishedAt": "2026-11-25T03:33:00Z",
           "source": "Yahoo Finance",
           "symbol": "TSLA"
         },
         {
-          "title": "Musk Targets Starlink in All Tesla Models “Towards the End of Next Year.” China Is the Catch",
-          "link": "https://www.tikr.com/blog/musk-targets-starlink-in-all-tesla-models-towards-the-end-of-next-year-china-is-the-catch?ref=yahoofinance&tlnk=yf-261124-6mvwx5h6&.tsrc=rss",
-          "publishedAt": "2026-11-24T12:20:33Z",
+          "title": "Jensen Huang's Return Could Make a Tesla/SpaceX Merger More Likely",
+          "link": "https://www.fool.com/investing/2026/11/24/jensen-huang-s-return-could-make-a-tesla-spacex-merger-more-likely/?.tsrc=rss",
+          "publishedAt": "2026-11-25T02:50:02Z",
           "source": "Yahoo Finance",
           "symbol": "TSLA"
         },
         {
-          "title": "Tesla, SpaceX Name Five Directors for Potential $3.5 Trillion Merger",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-spacex-name-five-directors-120918069.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T12:09:18Z",
+          "title": "TSLA Stock Slips Overnight: Dell And HP See No Quick Relief From The AI-Driven Chip Crunch Behind Tesla’s 25% Memory Cut",
+          "link": "https://stocktwits.com/news-articles/markets/equity/tsla-stock-dell-hp-no-quick-relief-ai-chip-crunch-tesla-memory-cut/cNbuC6fR9ld?.tsrc=rss",
+          "publishedAt": "2026-11-25T02:26:26Z",
           "source": "Yahoo Finance",
           "symbol": "TSLA"
         }
@@ -4322,27 +4350,31 @@
         {
           "date": "2026-11-23",
           "close": 453.46
+        },
+        {
+          "date": "2026-11-24",
+          "close": 413.27
         }
       ],
       "news": [
         {
-          "title": "Jensen Huang is back at Nvidia. Should AMD be worried?",
-          "link": "https://finance.yahoo.com/markets/stocks/article/jensen-huang-is-back-at-nvidia-should-amd-be-worried-130012666.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T13:00:12Z",
+          "title": "Anthropic falls below IPO price as Nvidia gives back gains",
+          "link": "https://finance.yahoo.com/video/anthropic-falls-below-ipo-price-as-nvidia-gives-back-gains-214558309.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T21:45:58Z",
           "source": "Yahoo Finance",
           "symbol": "AMD"
         },
         {
-          "title": "Stock Market Today: Tech Futures Sell Off After Big Market Surge; AMD, Anthropic, Nvidia Dive (Live Coverage)",
-          "link": "https://finance.yahoo.com/m/4aa4ff31-269f-346e-80c4-e681510af7ae/stock-market-today%3A-tech.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T13:07:59Z",
+          "title": "Jim Cramer and Tom Lee are Buying More AI Stocks. Are They Right?",
+          "link": "https://beincrypto.com/jim-cramer-tom-lee-ai-stock-call/?.tsrc=rss",
+          "publishedAt": "2026-11-25T00:53:43Z",
           "source": "Yahoo Finance",
           "symbol": "AMD"
         },
         {
-          "title": "Billionaire Philippe Laffont of Coatue Management Sent AMD Shares Packing and Loaded Up on This Hot AI IPO Instead",
-          "link": "https://www.fool.com/investing/2026/11/24/billionaire-philippe-laffont-coatue-sent-amd-shares-packing-loaded-up-hot-ai-ipo-instead/?.tsrc=rss",
-          "publishedAt": "2026-11-24T12:26:02Z",
+          "title": "Why AMD Stock Fell Today",
+          "link": "https://www.fool.com/investing/2026/11/24/why-amd-stock-fell-today/?.tsrc=rss",
+          "publishedAt": "2026-11-24T23:25:02Z",
           "source": "Yahoo Finance",
           "symbol": "AMD"
         }
@@ -4862,27 +4894,31 @@
         {
           "date": "2026-11-23",
           "close": 59.66
+        },
+        {
+          "date": "2026-11-24",
+          "close": 54.8
         }
       ],
       "news": [
         {
-          "title": "Intel Has Plummeted 30% Over 30 Days: This Pro Analyst Reiterated His Buy Status, Predicting 133% Gains",
-          "link": "https://247wallst.com/investing/2026/11/24/intel-has-plummeted-30-over-30-days-this-pro-analyst-reiterated-his-buy-status-predicting-133-gains/?.tsrc=rss",
-          "publishedAt": "2026-11-24T12:15:01Z",
+          "title": "Why Intel Stock Fell Today",
+          "link": "https://www.fool.com/investing/2026/11/24/why-intel-stock-fell-today/?.tsrc=rss",
+          "publishedAt": "2026-11-24T23:16:01Z",
           "source": "Yahoo Finance",
           "symbol": "INTC"
         },
         {
-          "title": "Intel Gains From Strong Operating Margin Growth: Will it Last?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/intel-gains-strong-operating-margin-121100195.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T12:11:00Z",
+          "title": "Intel And 2 More AI Stocks To Watch",
+          "link": "https://finance.yahoo.com/technology/ai/articles/intel-2-more-ai-stocks-221918630.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T22:19:18Z",
           "source": "Yahoo Finance",
           "symbol": "INTC"
         },
         {
-          "title": "Intel Is Up 73% in a Year Despite Its October Crash. CEO Lip-Bu Tan: “I Just Cannot Supply Enough”",
-          "link": "https://www.tikr.com/blog/intel-is-up-70-in-a-year-despite-its-october-crash-ceo-lip-bu-tan-i-just-cannot-supply-enough?ref=yahoofinance&tlnk=yf-261124-43mcc74v&.tsrc=rss",
-          "publishedAt": "2026-11-24T11:35:46Z",
+          "title": "Top Analyst Reports for Apple, Philip Morris & Intel",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/top-analyst-reports-apple-philip-205300421.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T20:53:00Z",
           "source": "Yahoo Finance",
           "symbol": "INTC"
         }
@@ -5402,27 +5438,31 @@
         {
           "date": "2026-11-23",
           "close": 58.1
+        },
+        {
+          "date": "2026-11-24",
+          "close": 58.87
         }
       ],
       "news": [
         {
-          "title": "Netflix Cuts About 1,000 Jobs and Its Content Chief. YouTube Already Has Twice Its TV Share",
-          "link": "https://www.tikr.com/blog/netflix-cuts-about-1000-jobs-and-its-content-chief-youtube-already-has-twice-its-tv-share?ref=yahoofinance&tlnk=yf-261123-qvgmg437&.tsrc=rss",
-          "publishedAt": "2026-11-23T23:31:46Z",
+          "title": "Stocks give back gains as Anthropic dips below IPO price",
+          "link": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T15:44:08Z",
           "source": "Yahoo Finance",
           "symbol": "NFLX"
         },
         {
-          "title": "How Investors May Respond To Netflix (NFLX) Big Investors Split",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-netflix-nflx-232426716.html?.tsrc=rss",
-          "publishedAt": "2026-11-23T23:24:26Z",
+          "title": "What Could Netflix (NFLX) Gain From Owning The Radford Studio Center?",
+          "link": "https://finance.yahoo.com/media-advertising/articles/could-netflix-nflx-gain-owning-042601498.html?.tsrc=rss",
+          "publishedAt": "2026-11-25T04:26:01Z",
           "source": "Yahoo Finance",
           "symbol": "NFLX"
         },
         {
-          "title": "Bill Ackman Likes Netflix Under $60. Michael Burry Is Waiting for the High $30s. Who’s Right?",
-          "link": "https://www.tikr.com/blog/bill-ackman-likes-netflix-under-60-michael-burry-is-waiting-for-the-high-30s-whos-right?ref=yahoofinance&tlnk=yf-261123-69mq4g5h&.tsrc=rss",
-          "publishedAt": "2026-11-23T19:28:58Z",
+          "title": "NFLX Stock Edges Lower Overnight: Streaming Giant Buys Historic ‘Seinfeld’ Studio Lot In Reported $380M Deal",
+          "link": "https://stocktwits.com/news-articles/markets/equity/nflx-stock-edges-lower-overnight-streaming-giant-buys-historic-seinfeld-studio-lot-in-reported-380-m-deal/cNbu6SoR9l4?.tsrc=rss",
+          "publishedAt": "2026-11-25T02:46:32Z",
           "source": "Yahoo Finance",
           "symbol": "NFLX"
         }
@@ -5942,27 +5982,31 @@
         {
           "date": "2026-11-23",
           "close": 316.66
+        },
+        {
+          "date": "2026-11-24",
+          "close": 317.1
         }
       ],
       "news": [
         {
-          "title": "Jensen Huang is back: Does Washington have a seat in the boardroom?",
-          "link": "https://finance.yahoo.com/video/jensen-huang-is-back-does-washington-have-a-seat-in-the-boardroom-221214249.html?.tsrc=rss",
-          "publishedAt": "2026-11-23T22:12:14Z",
+          "title": "Bitcoin now counts as collateral: From the CFTC to the ECB",
+          "link": "https://finance.yahoo.com/video/bitcoin-now-counts-as-collateral-from-the-cftc-to-the-ecb-173702372.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T17:37:02Z",
           "source": "Yahoo Finance",
           "symbol": "JPM"
         },
         {
-          "title": "JPMorgan Treasury survey shows neutral positioning ahead of PCE data",
-          "link": "https://finance.yahoo.com/markets/options/articles/jpmorgan-treasury-survey-shows-neutral-132259516.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T13:22:59Z",
+          "title": "This Nasdaq ETF Pays a 19% Yield Without Writing a Single Covered Call. Here’s How",
+          "link": "https://247wallst.com/investing/etf/2026/11/24/this-nasdaq-etf-pays-a-19-yield-without-writing-a-single-covered-call-heres-how/?.tsrc=rss",
+          "publishedAt": "2026-11-25T02:02:33Z",
           "source": "Yahoo Finance",
           "symbol": "JPM"
         },
         {
-          "title": "JPMorgan and Bank of America Just Sold Off. One Looks Better for Retirees",
-          "link": "https://247wallst.com/investing/2026/11/24/jpmorgan-and-bank-of-america-just-sold-off-one-looks-better-for-retirees/?.tsrc=rss",
-          "publishedAt": "2026-11-24T13:17:50Z",
+          "title": "A week on, Chase still hasn’t explained its outage",
+          "link": "https://www.americanbanker.com/news/a-week-on-chase-still-hasn-t-explained-its-outage?.tsrc=rss",
+          "publishedAt": "2026-11-24T22:15:02Z",
           "source": "Yahoo Finance",
           "symbol": "JPM"
         }
@@ -6482,27 +6526,31 @@
         {
           "date": "2026-11-23",
           "close": 409.4
+        },
+        {
+          "date": "2026-11-24",
+          "close": 416.78
         }
       ],
       "news": [
         {
-          "title": "Visa (V) Broadens Checkout Options On Its Acceptance Platform",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/visa-v-broadens-checkout-options-111840301.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T11:18:40Z",
+          "title": "iwoca and Visa launch credit card to widen SME funding choice",
+          "link": "https://finance.yahoo.com/small-business/articles/iwoca-visa-launch-credit-card-000100356.html?.tsrc=rss",
+          "publishedAt": "2026-11-25T00:01:00Z",
           "source": "Yahoo Finance",
           "symbol": "V"
         },
         {
-          "title": "ETFs Are Buying Visa (V) on Nov. 20",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-visa-v-nov-110157000.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T11:01:57Z",
+          "title": "Visa, Mastercard Seen Gaining From Expansion of Tokenized Payments, UBS Says",
+          "link": "https://finance.yahoo.com/technology/articles/visa-mastercard-seen-gaining-expansion-180943092.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T18:09:43Z",
           "source": "Yahoo Finance",
           "symbol": "V"
         },
         {
-          "title": "Klarna expands Visa partnership across North America and Europe",
-          "link": "https://www.electronicpaymentsinternational.com/news/klarna-expands-visa-partnership-across-north-america-and-europe/?.tsrc=rss",
-          "publishedAt": "2026-11-24T09:30:07Z",
+          "title": "CME vs. Visa: Which Financial Stock Is a Better Buy for 2027?",
+          "link": "https://www.fool.com/coverage/better-buy/2026/11/24/cme-vs-visa-which-financial-stock-is-a-better-buy-for-2027/?.tsrc=rss",
+          "publishedAt": "2026-11-24T13:48:22Z",
           "source": "Yahoo Finance",
           "symbol": "V"
         }
@@ -7022,27 +7070,31 @@
         {
           "date": "2026-11-23",
           "close": 572.36
+        },
+        {
+          "date": "2026-11-24",
+          "close": 577.21
         }
       ],
       "news": [
         {
-          "title": "What State Street Fin Select Sector SPDR (XLF) Bought: Berkshire Leads on Nov. 20",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-fin-select-sector-110322872.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T11:03:22Z",
+          "title": "Warren Buffett Finished Buying Coca-Cola in August 1994 and Never Bought Another Share. Under Greg Abel, Berkshire Now Collects $2.3 Million a Day From It",
+          "link": "https://247wallst.com/investing/2026/11/24/warren-buffett-finished-buying-coca-cola-in-august-1994-and-never-bought-another-share-under-greg-abel-berkshire-now-collects-2-3-million-a-day-from-it/?.tsrc=rss",
+          "publishedAt": "2026-11-25T02:47:05Z",
           "source": "Yahoo Finance",
           "symbol": "BRK-B"
         },
         {
-          "title": "ETFs Are Buying Berkshire Hathaway (BRK.B) on Friday",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-berkshire-hathaway-brk-110132555.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T11:01:32Z",
+          "title": "Berkshire Hit a Record High While AI Power Stocks Sold Off. Here’s What That Says About Where Energy Money Is Going.",
+          "link": "https://www.fool.com/investing/2026/11/24/berkshire-hit-a-record-high-while-ai-power-stocks-sold-off-heres-what-that-says-about-where-energy-money-is-going/?.tsrc=rss",
+          "publishedAt": "2026-11-25T00:02:02Z",
           "source": "Yahoo Finance",
           "symbol": "BRK-B"
         },
         {
-          "title": "As Tech Stocks Crash, Is Berkshire Hathaway a Safe-Haven Investment?",
-          "link": "https://www.fool.com/investing/2026/11/23/as-tech-stocks-crash-is-berkshire-hathaway-a-safe-haven-investment/?.tsrc=rss",
-          "publishedAt": "2026-11-23T22:19:02Z",
+          "title": "Berkshire Hathaway (BRK.A) Looks Fairly Valued As It Raises Yen Debt",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-brk-looks-fairly-211203870.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T21:12:03Z",
           "source": "Yahoo Finance",
           "symbol": "BRK-B"
         }
@@ -7562,27 +7614,31 @@
         {
           "date": "2026-11-23",
           "close": 270.05
+        },
+        {
+          "date": "2026-11-24",
+          "close": 276.46
         }
       ],
       "news": [
         {
+          "title": "Johnson & Johnson (JNJ) Stock May Still Trade Below Fair Value Despite TREMFYA Trial News",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-stock-may-200856863.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T20:08:56Z",
+          "source": "Yahoo Finance",
+          "symbol": "JNJ"
+        },
+        {
+          "title": "13 Big Funds Bought Johnson & Johnson Last Quarter, While 14 Sold. Who’s Right?",
+          "link": "https://www.tikr.com/blog/13-big-funds-bought-johnson-johnson-last-quarter-while-14-sold-whos-right?ref=yahoofinance&tlnk=yf-261124-fj799gp9&.tsrc=rss",
+          "publishedAt": "2026-11-24T16:59:19Z",
+          "source": "Yahoo Finance",
+          "symbol": "JNJ"
+        },
+        {
           "title": "Can Tremfya, Icotyde and Imaavy Drive J&J's Immunology Turnaround?",
           "link": "https://finance.yahoo.com/healthcare/articles/tremfya-icotyde-imaavy-drive-j-123200215.html?.tsrc=rss",
           "publishedAt": "2026-11-24T12:32:00Z",
-          "source": "Yahoo Finance",
-          "symbol": "JNJ"
-        },
-        {
-          "title": "State Street Health Care SPDR (XLV) Sells Eli Lilly and J&J on Friday",
-          "link": "https://finance.yahoo.com/healthcare/articles/state-street-health-care-spdr-110402940.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T11:04:02Z",
-          "source": "Yahoo Finance",
-          "symbol": "JNJ"
-        },
-        {
-          "title": "Should You Swap Tech For Johnson & Johnson Stock?",
-          "link": "https://www.trefis.com/stock/jnj/articles/627623/should-you-swap-tech-for-johnson-johnson-stock/2026-11-23?.tsrc=rss",
-          "publishedAt": "2026-11-23T22:02:04Z",
           "source": "Yahoo Finance",
           "symbol": "JNJ"
         }
@@ -8102,27 +8158,31 @@
         {
           "date": "2026-11-23",
           "close": 336.08
+        },
+        {
+          "date": "2026-11-24",
+          "close": 341.88
         }
       ],
       "news": [
         {
+          "title": "How Much Could You Lose In UnitedHealth Stock?",
+          "link": "https://www.trefis.com/stock/unh/articles/628281/how-much-could-you-lose-in-unitedhealth-stock/2026-11-24?.tsrc=rss",
+          "publishedAt": "2026-11-24T21:11:59Z",
+          "source": "Yahoo Finance",
+          "symbol": "UNH"
+        },
+        {
+          "title": "The 3 Highest-Yielding Dividend Stocks Among Ken Griffin’s Top Holdings",
+          "link": "https://www.tikr.com/blog/the-3-highest-yielding-dividend-stocks-among-ken-griffins-top-holdings?ref=yahoofinancedividend&tlnk=yf-261124-78rvcpcw&.tsrc=rss",
+          "publishedAt": "2026-11-24T16:59:58Z",
+          "source": "Yahoo Finance",
+          "symbol": "UNH"
+        },
+        {
           "title": "Own Humana Stock? Its Profit Cushion Is The Thinnest",
           "link": "https://www.trefis.com/stock/unh/articles/628256/own-humana-stock-its-profit-cushion-is-the-thinnest/2026-11-24?.tsrc=rss",
           "publishedAt": "2026-11-24T13:03:08Z",
-          "source": "Yahoo Finance",
-          "symbol": "UNH"
-        },
-        {
-          "title": "UnitedHealth Sues Trump’s Medicare Agency Over Star Ratings. Stephanie Link Calls It “Number One on Sale”",
-          "link": "https://www.tikr.com/blog/unitedhealth-sues-trumps-medicare-agency-over-star-ratings-stephanie-link-calls-it-number-one-on-sale?ref=yahoofinance&tlnk=yf-261124-v443284m&.tsrc=rss",
-          "publishedAt": "2026-11-24T09:20:45Z",
-          "source": "Yahoo Finance",
-          "symbol": "UNH"
-        },
-        {
-          "title": "UnitedHealth Sinks 18% in a Week on Washington’s Medicare Advantage Crackdown. Is It “Number One on Sale”?",
-          "link": "https://www.tikr.com/blog/unitedhealth-sinks-18-in-a-week-on-washingtons-medicare-advantage-crackdown-is-it-number-one-on-sale?ref=yahoofinance&tlnk=yf-261124-2vrcc2vh&.tsrc=rss",
-          "publishedAt": "2026-11-23T23:23:28Z",
           "source": "Yahoo Finance",
           "symbol": "UNH"
         }
@@ -8642,27 +8702,31 @@
         {
           "date": "2026-11-23",
           "close": 95.88
+        },
+        {
+          "date": "2026-11-24",
+          "close": 97.62
         }
       ],
       "news": [
         {
-          "title": "These 3 Stocks Have Raised Their Dividends Annually for at Least 49 Years. Should you Buy Them?",
-          "link": "https://www.fool.com/investing/2026/11/24/these-3-stocks-have-raised-their-dividends-annually-for-at-least-49-years-should-you-buy-them/?.tsrc=rss",
-          "publishedAt": "2026-11-24T11:18:02Z",
+          "title": "Anthropic falls below IPO price as Nvidia gives back gains",
+          "link": "https://finance.yahoo.com/video/anthropic-falls-below-ipo-price-as-nvidia-gives-back-gains-214558309.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T21:45:58Z",
           "source": "Yahoo Finance",
           "symbol": "KO"
         },
         {
-          "title": "BofA spots opportunities in these nine consumer staples stocks for 2027",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/bofa-spots-opportunities-nine-consumer-030406689.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T03:04:06Z",
+          "title": "Warren Buffett Finished Buying Coca-Cola in August 1994 and Never Bought Another Share. Under Greg Abel, Berkshire Now Collects $2.3 Million a Day From It",
+          "link": "https://247wallst.com/investing/2026/11/24/warren-buffett-finished-buying-coca-cola-in-august-1994-and-never-bought-another-share-under-greg-abel-berkshire-now-collects-2-3-million-a-day-from-it/?.tsrc=rss",
+          "publishedAt": "2026-11-25T02:47:05Z",
           "source": "Yahoo Finance",
           "symbol": "KO"
         },
         {
-          "title": "The Coca-Cola Company Names David Elkins as Incoming Chief Financial Officer",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-company-names-david-213000723.html?.tsrc=rss",
-          "publishedAt": "2026-11-23T21:30:00Z",
+          "title": "Prediction: Here's What $10,000 in Coca-Cola Could Pay You in Dividends by 2036",
+          "link": "https://www.fool.com/investing/2026/11/24/prediction-heres-what-10000-in-coca-cola-could-pay-you-in-dividends-by-2036/?.tsrc=rss",
+          "publishedAt": "2026-11-24T22:33:02Z",
           "source": "Yahoo Finance",
           "symbol": "KO"
         }
@@ -9182,27 +9246,31 @@
         {
           "date": "2026-11-23",
           "close": 129.58
+        },
+        {
+          "date": "2026-11-24",
+          "close": 132.31
         }
       ],
       "news": [
         {
-          "title": "Walmart Raised Its Outlook and the Stock Fell Anyway. Here’s the New Price Target",
-          "link": "https://247wallst.com/investing/2026/11/24/walmart-raised-its-outlook-and-the-stock-fell-anyway-heres-the-new-price-target/?.tsrc=rss",
-          "publishedAt": "2026-11-24T13:17:42Z",
+          "title": "Stocks give back gains as Anthropic dips below IPO price",
+          "link": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T15:44:08Z",
           "source": "Yahoo Finance",
           "symbol": "WMT"
         },
         {
-          "title": "Walmart Leadership to Participate in Upcoming Investor Events",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/walmart-leadership-participate-upcoming-investor-130000815.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T13:00:00Z",
+          "title": "Walmart’s Robot Warehouse Partner Symbotic Just Had Its First Profitable Year",
+          "link": "https://247wallst.com/investing/2026/11/24/walmarts-robot-warehouse-partner-symbotic-just-had-its-first-profitable-year/?.tsrc=rss",
+          "publishedAt": "2026-11-24T17:22:17Z",
           "source": "Yahoo Finance",
           "symbol": "WMT"
         },
         {
-          "title": "Walmart Is Near Its High. Guggenheim Sees More Upside",
-          "link": "https://www.tikr.com/blog/walmart-is-near-its-high-guggenheim-sees-more-upside?ref=yahoofinance&tlnk=yf-261124-hv8f3p23&.tsrc=rss",
-          "publishedAt": "2026-11-24T12:58:41Z",
+          "title": "Symbotic Q4 Earnings Call Details Walmart Deal and Revenue Timing",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/symbotic-q4-earnings-call-details-161300983.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T16:13:00Z",
           "source": "Yahoo Finance",
           "symbol": "WMT"
         }
@@ -9722,27 +9790,31 @@
         {
           "date": "2026-11-23",
           "close": 156.9
+        },
+        {
+          "date": "2026-11-24",
+          "close": 158.23
         }
       ],
       "news": [
         {
+          "title": "Your Exxon Dividend Needs Only About $59 Oil",
+          "link": "https://www.trefis.com/stock/xom/articles/628301/your-exxon-dividend-needs-only-about-59-oil/2026-11-24?.tsrc=rss",
+          "publishedAt": "2026-11-24T17:33:16Z",
+          "source": "Yahoo Finance",
+          "symbol": "XOM"
+        },
+        {
+          "title": "'Exxon Got Walloped': $340 Million Legal Blow Paves The Way For More",
+          "link": "https://finance.yahoo.com/m/c2e01d7e-7e84-34bf-85bc-5a563b1d847c/%27exxon-got-walloped%27%3A-%24340.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T17:28:30Z",
+          "source": "Yahoo Finance",
+          "symbol": "XOM"
+        },
+        {
           "title": "ExxonMobil Sinks 14% and Chevron 12% in a Month as Trump Says Iran Wants “to Make a Deal”",
           "link": "https://www.tikr.com/blog/exxonmobil-sinks-14-and-chevron-12-in-a-month-as-trump-says-iran-wants-to-make-a-deal?ref=yahoofinance&tlnk=yf-261124-fw5h76ch&.tsrc=rss",
           "publishedAt": "2026-11-24T10:45:16Z",
-          "source": "Yahoo Finance",
-          "symbol": "XOM"
-        },
-        {
-          "title": "ExxonMobil's $4B Kizomba Redevelopment: Can It Drive Earnings Growth?",
-          "link": "https://finance.yahoo.com/energy/articles/exxonmobils-4b-kizomba-redevelopment-drive-162400004.html?.tsrc=rss",
-          "publishedAt": "2026-11-23T16:24:00Z",
-          "source": "Yahoo Finance",
-          "symbol": "XOM"
-        },
-        {
-          "title": "ExxonMobil vs. Equinor: Which is the Stronger Integrated Player?",
-          "link": "https://finance.yahoo.com/energy/articles/exxonmobil-vs-equinor-stronger-integrated-143900281.html?.tsrc=rss",
-          "publishedAt": "2026-11-23T14:39:00Z",
           "source": "Yahoo Finance",
           "symbol": "XOM"
         }
@@ -10262,31 +10334,27 @@
         {
           "date": "2026-11-23",
           "close": 1335.0
-        },
-        {
-          "date": "2026-11-24",
-          "close": 1339.0
         }
       ],
       "news": [
         {
-          "title": "Vicat shares rise as J.P. Morgan flags European cement pricing potential",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/vicat-shares-rise-j-p-131618301.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T13:16:18Z",
+          "title": "Is Liechtensteinische Landesbank (SWX:LLBN) Already Priced for Strong Capital Returns?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/liechtensteinische-landesbank-swx-llbn-already-042954725.html?.tsrc=rss",
+          "publishedAt": "2026-11-25T04:29:54Z",
           "source": "Yahoo Finance",
           "symbol": "CEZ.PR"
         },
         {
-          "title": "European cement makers poised for price gains as costs climb, J.P. Morgan says",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/european-cement-makers-poised-price-131258529.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T13:12:58Z",
+          "title": "ValueAct Capital Publishes Presentation Detailing Case for Its Proposals to Strengthen the Oversight Capability of Takara Holdings’ Board",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/valueact-capital-publishes-presentation-detailing-030800659.html?.tsrc=rss",
+          "publishedAt": "2026-11-25T03:08:00Z",
           "source": "Yahoo Finance",
           "symbol": "CEZ.PR"
         },
         {
-          "title": "Nexi (BIT:NEXI) Stock May Be Near Fair Value On 65% Slump",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nexi-bit-nexi-stock-may-121614648.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T12:16:14Z",
+          "title": "Is Ebro Foods (BME:EBRO) Still Cheap Enough To Back On Earnings?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ebro-foods-bme-ebro-still-011311479.html?.tsrc=rss",
+          "publishedAt": "2026-11-25T01:13:11Z",
           "source": "Yahoo Finance",
           "symbol": "CEZ.PR"
         }
@@ -10806,13 +10874,16 @@
         {
           "date": "2026-11-23",
           "close": 989.0
-        },
-        {
-          "date": "2026-11-24",
-          "close": 1006.0
         }
       ],
       "news": [
+        {
+          "title": "Interim consolidated financial statement of Grigeo Group AB covering 9 months of 2026",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/interim-consolidated-financial-statement-grigeo-160000372.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T16:00:00Z",
+          "source": "Yahoo Finance",
+          "symbol": "KOMB.PR"
+        },
         {
           "title": "Woolrich Opens Milan Flagship, Plans January Milan Runway Show",
           "link": "https://wwd.com/fashion-news/fashion-features/woolrich-milan-flagship-january-runway-show-basicnet-1239462254/?.tsrc=rss",
@@ -10824,13 +10895,6 @@
           "title": "Share Buy-back Programme – Transactions Week 47",
           "link": "https://finance.yahoo.com/markets/stocks/articles/share-buy-back-programme-transactions-072800941.html?.tsrc=rss",
           "publishedAt": "2026-11-23T07:28:00Z",
-          "source": "Yahoo Finance",
-          "symbol": "KOMB.PR"
-        },
-        {
-          "title": "Alten (ENXTPA:ATE) Stock May Trade Below Fair Value On Cash Flow",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/alten-enxtpa-ate-stock-may-021442177.html?.tsrc=rss",
-          "publishedAt": "2026-11-21T02:14:42Z",
           "source": "Yahoo Finance",
           "symbol": "KOMB.PR"
         }
@@ -11350,10 +11414,6 @@
         {
           "date": "2026-11-23",
           "close": 180.4
-        },
-        {
-          "date": "2026-11-24",
-          "close": 181.5
         }
       ],
       "news": [
@@ -11894,27 +11954,31 @@
         {
           "date": "2026-11-23",
           "close": 1383.78
+        },
+        {
+          "date": "2026-11-24",
+          "close": 1336.06
         }
       ],
       "news": [
         {
+          "title": "Nvidia, AMD, Broadcom lead chip stocks lower as AI trade comes under pressure",
+          "link": "https://finance.yahoo.com/markets/article/nvidia-amd-broadcom-lead-chip-stocks-lower-as-ai-trade-comes-under-pressure-141635463.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T14:16:35Z",
+          "source": "Yahoo Finance",
+          "symbol": "ASML"
+        },
+        {
+          "title": "ASML Is the Most Important Company You’ve Never Heard Of. Should You Buy the Stock?",
+          "link": "https://www.fool.com/investing/2026/11/24/asml-is-the-most-important-company-youve-never-heard-of-should-you-buy-the-stock/?.tsrc=rss",
+          "publishedAt": "2026-11-24T18:23:02Z",
+          "source": "Yahoo Finance",
+          "symbol": "ASML"
+        },
+        {
           "title": "ASML Stock What Changed After Nvidia CEO Return",
           "link": "https://finance.yahoo.com/markets/stocks/articles/asml-stock-changed-nvidia-ceo-121558672.html?.tsrc=rss",
           "publishedAt": "2026-11-24T12:15:58Z",
-          "source": "Yahoo Finance",
-          "symbol": "ASML"
-        },
-        {
-          "title": "ASML (ENXTAM:ASML) Stock May Trade At A Premium Following Its 107% Run",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/asml-enxtam-asml-stock-may-111607325.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T11:16:07Z",
-          "source": "Yahoo Finance",
-          "symbol": "ASML"
-        },
-        {
-          "title": "FalcoTrader Announces Expanded Stock Trading Capabilities Across Its Simulated Trading Challenge Platform",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/falcotrader-announces-expanded-stock-trading-094700625.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T09:47:00Z",
           "source": "Yahoo Finance",
           "symbol": "ASML"
         }
@@ -12434,27 +12498,31 @@
         {
           "date": "2026-11-23",
           "close": 203.4
+        },
+        {
+          "date": "2026-11-24",
+          "close": 208.75
         }
       ],
       "news": [
         {
-          "title": "AI productivity gains to slow headcount, SAP CFO predicts",
-          "link": "https://www.cfodive.com/news/ai-productivity-gains-slow-headcount-sap-cfo-predicts/875530/?.tsrc=rss",
-          "publishedAt": "2026-11-23T19:54:33Z",
+          "title": "Will Autonomous Retail Pilot Change SAP's (XTRA:SAP) Narrative",
+          "link": "https://finance.yahoo.com/technology/ai/articles/autonomous-retail-pilot-change-saps-171625672.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T17:16:25Z",
           "source": "Yahoo Finance",
           "symbol": "SAP"
         },
         {
-          "title": "Oversold Indices and Spiking Volatility Leave Markets Searching for Footing",
-          "link": "https://finance.yahoo.com/news/oversold-indices-spiking-volatility-leave-160100573.html?.tsrc=rss",
-          "publishedAt": "2026-11-23T16:01:00Z",
+          "title": "What Is SAP (XTRA:SAP) Signaling With AI Investment And Possible Job Cuts?",
+          "link": "https://finance.yahoo.com/technology/ai/articles/sap-xtra-sap-signaling-ai-161352256.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T16:13:52Z",
           "source": "Yahoo Finance",
           "symbol": "SAP"
         },
         {
-          "title": "Digital Logistics - Global Strategic Business Report 2026: Capitalize on 21.2% CAGR and a US$179.4B Market as IBM, Oracle, SAP, Siemens, and Tech Mahindra Disrupt Supply Chains",
-          "link": "https://finance.yahoo.com/technology/articles/digital-logistics-global-strategic-business-153400223.html?.tsrc=rss",
-          "publishedAt": "2026-11-23T15:34:00Z",
+          "title": "Asia-Pacific Digital Transformation Market: Size, Trends, and Forecast (2026-2034) Featuring Intelligence on Accenture, Google (Alphabet), IBM, Microsoft, Oracle, HPE, SAP, EMC (Dell EMC), Cognex, Adobe and Siemens",
+          "link": "https://finance.yahoo.com/technology/articles/asia-pacific-digital-transformation-market-152900939.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T15:29:00Z",
           "source": "Yahoo Finance",
           "symbol": "SAP"
         }
@@ -12990,10 +13058,6 @@
         {
           "date": "2026-11-23",
           "close": 165.04
-        },
-        {
-          "date": "2026-11-24",
-          "close": 162.14
         }
       ],
       "news": []
@@ -13528,10 +13592,6 @@
         {
           "date": "2026-11-23",
           "close": 718.66
-        },
-        {
-          "date": "2026-11-24",
-          "close": 705.0
         }
       ],
       "news": []
@@ -14066,10 +14126,6 @@
         {
           "date": "2026-11-23",
           "close": 126.64
-        },
-        {
-          "date": "2026-11-24",
-          "close": 124.59
         }
       ],
       "news": []
@@ -14588,9 +14644,20 @@
         {
           "date": "2026-11-23",
           "close": 722.29
+        },
+        {
+          "date": "2026-11-24",
+          "close": 718.78
         }
       ],
       "news": [
+        {
+          "title": "Harbor Arena Structured Income ETF (YLDS): Autocallable Income in an ETF Wrapper",
+          "link": "http://www.etf.com/sections/news/harbor-arena-structured-income-etf-ylds-autocallable-income-etf-wrapper?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+          "publishedAt": "2026-11-24T19:09:58Z",
+          "source": "Yahoo Finance",
+          "symbol": "SPY"
+        },
         {
           "title": "Own Humana Stock? Its Profit Cushion Is The Thinnest",
           "link": "https://www.trefis.com/stock/unh/articles/628256/own-humana-stock-its-profit-cushion-is-the-thinnest/2026-11-24?.tsrc=rss",
@@ -14599,16 +14666,9 @@
           "symbol": "SPY"
         },
         {
-          "title": "What SPDR S&P 500 ETF Trust (SPY) Bought: Apple Leads on Friday",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-trust-110254690.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T11:02:54Z",
-          "source": "Yahoo Finance",
-          "symbol": "SPY"
-        },
-        {
-          "title": "ETF Activity: SPY Pulls In $9.24 Billion on Nov. 20",
-          "link": "https://finance.yahoo.com/markets/options/articles/etf-activity-spy-pulls-9-110012397.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T11:00:12Z",
+          "title": "Is Apple (AAPL) Above Fair Value As ETF Buying Returns?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-above-fair-value-211324050.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T21:13:24Z",
           "source": "Yahoo Finance",
           "symbol": "SPY"
         }
@@ -15128,27 +15188,31 @@
         {
           "date": "2026-11-23",
           "close": 651.03
+        },
+        {
+          "date": "2026-11-24",
+          "close": 638.1
         }
       ],
       "news": [
         {
-          "title": "What INVESCO QQQ Trust (QQQ) Bought: Apple Leads on Friday",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-qqq-trust-qqq-bought-110317120.html?.tsrc=rss",
-          "publishedAt": "2026-11-24T11:03:17Z",
+          "title": "Exchange-Traded Funds, US Equities Mixed After Midday",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-us-equities-181033633.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T18:10:33Z",
           "source": "Yahoo Finance",
           "symbol": "QQQ"
         },
         {
-          "title": "QQQ Paid a $300,000 Holder $1,524 in Dividends Over the Past Year While VYM Paid $7,164",
-          "link": "https://247wallst.com/investing/etf/2026/11/23/qqq-paid-a-300000-holder-1524-in-dividends-over-the-past-year-while-vym-paid-7164/?.tsrc=rss",
-          "publishedAt": "2026-11-24T02:03:39Z",
+          "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Investors Pull Back From AI-Related Stocks",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141922343.html?.tsrc=rss",
+          "publishedAt": "2026-11-24T14:19:22Z",
           "source": "Yahoo Finance",
           "symbol": "QQQ"
         },
         {
-          "title": "QQQ Is Almost Half In 10 Stocks. This Nasdaq ETF Caps Every One at 1%",
-          "link": "https://247wallst.com/investing/etf/2026/11/23/qqq-is-almost-half-in-10-stocks-this-nasdaq-etf-caps-every-one-at-1/?.tsrc=rss",
-          "publishedAt": "2026-11-24T02:01:04Z",
+          "title": "QQQ Just Had Its Biggest Opening Jump Since It Launched in 1999",
+          "link": "https://247wallst.com/investing/2026/11/24/qqq-just-had-its-biggest-opening-jump-since-it-launched-in-1999/?.tsrc=rss",
+          "publishedAt": "2026-11-24T13:37:31Z",
           "source": "Yahoo Finance",
           "symbol": "QQQ"
         }
@@ -15668,6 +15732,10 @@
         {
           "date": "2026-11-23",
           "close": 355.27
+        },
+        {
+          "date": "2026-11-24",
+          "close": 353.84
         }
       ],
       "news": [
@@ -16208,6 +16276,10 @@
         {
           "date": "2026-11-23",
           "close": 34.39
+        },
+        {
+          "date": "2026-11-24",
+          "close": 34.89
         }
       ],
       "news": [
@@ -16748,6 +16820,10 @@
         {
           "date": "2026-11-23",
           "close": 333.02
+        },
+        {
+          "date": "2026-11-24",
+          "close": 325.45
         }
       ],
       "news": [
@@ -17288,27 +17364,31 @@
         {
           "date": "2026-11-23",
           "close": 81.69
+        },
+        {
+          "date": "2026-11-24",
+          "close": 81.49
         }
       ],
       "news": [
         {
-          "title": "How Much Do You Really Need Invested to Replace a $195,000 Salary With Dividends?",
-          "link": "https://247wallst.com/personal-finance/2026/11/23/how-much-do-you-really-need-invested-to-replace-a-195000-salary-with-dividends/?.tsrc=rss",
-          "publishedAt": "2026-11-23T19:55:29Z",
+          "title": "Bessent Warns the Fed Could Be Making a “Policy Mistake” if It Over-Tightens",
+          "link": "https://247wallst.com/investing/2026/11/24/bessent-warns-the-fed-could-be-making-a-policy-mistake-if-it-over-tightens/?.tsrc=rss",
+          "publishedAt": "2026-11-24T16:07:12Z",
           "source": "Yahoo Finance",
           "symbol": "TLT"
         },
         {
-          "title": "SPY And Gold Fell Together. Did Bonds Save 60/40?",
-          "link": "https://www.trefis.com/stock/spy/articles/627558/spy-and-gold-fell-together-did-bonds-save-60-40/2026-11-22?.tsrc=rss",
-          "publishedAt": "2026-11-23T12:05:47Z",
+          "title": "Hedge the Dollar and Treasuries Barely Beat Bunds",
+          "link": "https://www.trefis.com/stock/spx/articles/628625/hedge-the-dollar-and-treasuries-barely-beat-bunds/2026-11-24?.tsrc=rss",
+          "publishedAt": "2026-11-24T15:52:16Z",
           "source": "Yahoo Finance",
           "symbol": "TLT"
         },
         {
-          "title": "The Fed’s Biggest Dove Sees No Clear Path Back to 2% Inflation",
-          "link": "https://247wallst.com/investing/2026/11/20/the-feds-biggest-dove-sees-no-clear-path-back-to-2-inflation/?.tsrc=rss",
-          "publishedAt": "2026-11-20T15:08:39Z",
+          "title": "Bill Ackman Says the Fed Is “About to Make Another Mistake” on Dec. 9",
+          "link": "https://247wallst.com/investing/2026/11/24/bill-ackman-says-the-fed-is-about-to-make-another-mistake-on-dec-9/?.tsrc=rss",
+          "publishedAt": "2026-11-24T15:28:05Z",
           "source": "Yahoo Finance",
           "symbol": "TLT"
         }
